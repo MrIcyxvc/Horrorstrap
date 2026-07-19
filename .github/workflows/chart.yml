@@ -25,6 +25,8 @@ jobs:
       - name: Install Libraries
         run: pip install requests pandas matplotlib scipy numpy
       - name: Run Chart Generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python chart.py
       - name: Save Image to Repository
         run: |
