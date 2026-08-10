@@ -1,16 +1,16 @@
 <div align="center">
 
-  <img
-    src="Bloxstrap/Horrorstrap.ico"
-    width="100"
-    alt="Horrorstrap"
-  />
-
-  <br>
-
-  <span style="font-size: 28px; font-weight: bold;">Horrorstrap</span>
-
-  <br><br>
+  <p>
+    <img
+      src="Bloxstrap/Horrorstrap.ico"
+      width="100"
+      alt="Horrorstrap"
+      style="vertical-align: middle;"
+    />
+    <span style="font-size: 48px; font-weight: bold; vertical-align: middle;">
+      Horrorstrap
+    </span>
+  </p>
 
   <p>
     A modern Roblox bootstrapper focused on
@@ -37,17 +37,11 @@
 
   <br><br>
 
-  <a href="https://github.com/MrIcyxvc/Horrorstrap/releases">
-    Download Horrorstrap
-  </a>
+  <a href="https://github.com/MrIcyxvc/Horrorstrap/releases">Download Horrorstrap</a>
   •
-  <a href="https://github.com/MrIcyxvc/Horrorstrap/issues">
-    Report a Bug
-  </a>
+  <a href="https://github.com/MrIcyxvc/Horrorstrap/issues">Report a Bug</a>
   •
-  <a href="https://github.com/MrIcyxvc/Horrorstrap/discussions">
-    Discussions
-  </a>
+  <a href="https://github.com/MrIcyxvc/Horrorstrap/discussions">Discussions</a>
 
 </div>
 
