@@ -5,9 +5,9 @@
       src="Bloxstrap/Horrorstrap.ico"
       width="100"
       alt="Horrorstrap"
-      style="vertical-align: middle;"
+      style="vertical-align: middle; display: inline-block;"
     />
-    <span style="font-size: 48px; font-weight: bold; vertical-align: middle;">
+    <span style="font-size: 48px; font-weight: bold; vertical-align: middle; display: inline-block; margin-left: 10px;">
       Horrorstrap
     </span>
   </p>
