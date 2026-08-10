@@ -1,7 +1,7 @@
 <div align="center">
 
   <img
-    src="https://canva.link/jxio44ddmuz7hqh"
+    src="https://kommodo.ai/i/Fnbpcr02MhdnxFjtFUyt"
     width="1320"
     alt="Horrorstrap"
   />
