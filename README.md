@@ -2,7 +2,7 @@
 
   <img
     src="Bloxstrap/Horrorstrap.ico"
-    width="1320"
+    width="400"
     alt="Horrorstrap"
   />
 
