@@ -1,111 +1,124 @@
 <div align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/8a327108-1f05-4aa9-b72b-f90a91876338" 
-    width="1320" 
-    height="534" 
+
+  <img
+    src="YOUR_HORRORSTRAP_BANNER_URL"
+    width="1320"
+    alt="Horrorstrap"
   />
+
   <br/><br/>
 
-[![Version][badge-repo-latest]][repo-latest] 
-[![Stars][badge-repo-stars]][repo-stargazer] 
-[![License][badge-repo-license]][repo-license] 
-[![Downloads (Latest)][badge-repo-downloads-latest]][repo-releases] 
-[![Downloads (Total)][badge-repo-downloads-total]][repo-releases]  
+  [![Latest Release][badge-version]][releases]
+  [![Stars][badge-stars]][stargazers]
+  [![License][badge-license]][license]
+  [![Downloads][badge-downloads]][releases]
 
 </div>
 
 > [!CAUTION]
-> The only official places to download Bubblestrap are this GitHub repository and our website https://itzbloxxy.github.io/Bubblestrap-website/
+> **Only download Horrorstrap from the official GitHub repository or official Horrorstrap website.**
+>
+> Do not download Horrorstrap from unofficial websites, videos, or file-sharing links.
 
-> [!NOTE]
-> **Bubblestrap currently supports Windows 10 and later**. Linux support is planned in the future.
-> In the meantime, please use [Sober](https://sober.vinegarhq.org/) for Linux.
+> [!IMPORTANT]
+> Horrorstrap is currently under active development. Some features may change or break between releases.
 
-**Bubblestrap** is a fast, lightweight Roblox bootstrapper. It’s an upgraded version of **Fishstrap**, featuring code rewrites to fix bad code and make it cleaner, faster, and easier on your system.
+<p align="center">
+  <img src="YOUR_HORRORSTRAP_LOGO_URL" width="300" alt="Horrorstrap Logo">
+</p>
 
-It has a better UI, improved features, more features, more customization options, and full language translations.
+Horrorstrap is a third-party Roblox bootstrapper focused on **performance, customization, and additional tools** for Windows.
 
-Download the latest release [here][repo-latest]
+It provides a collection of Roblox-related settings and tweaks through a simple, modern interface.
 
-Found a bug or issue?
-👉 [Submit an issue](https://github.com/ItzBloxxy/BubbleStrap/issues/new/choose)
+> **Windows 10 and later are currently supported.**
 
------
+Having a problem or found a bug?
+
+👉 **[Open an issue](https://github.com/MrIcyxvc/Horrorstrap/issues)**
+
+---
+
+# ❓ Frequently Asked Questions
+
+### Q: Is Horrorstrap safe?
+
+**A:** Horrorstrap is open source, meaning the source code can be inspected by anyone.  
+For your security, always download releases from the official repository.
+
+### Q: Can using Horrorstrap get my Roblox account banned?
+
+**A:** Horrorstrap does not modify Roblox game code or inject code into Roblox experiences. However, Roblox can change its policies at any time, so use third-party software at your own discretion.
+
+### Q: What operating systems are supported?
+
+**A:** Horrorstrap currently targets **Windows 10 and later**.
+
+### Q: Is Horrorstrap free?
+
+**A:** Yes. Horrorstrap is free and open source.
+
+---
 
 # ✨ Features
 
-### Integrations
-- Activity tracking
-- Detailed player logs
-- Detailed server information (Thanks to [RoValra](https://www.rovalra.com/))
-- Don't exit to desktop app
-- Fully customizable Discord Rich Presence
+### 🎮 Roblox
+
+- Roblox bootstrapper
+- Roblox launch options
 - Multi-instance support
-- Set custom integrations (you can have other programs launch with Roblox automatically)
+- Roblox configuration management
+- Fast Roblox launching
+- Custom Roblox settings
 
-### Bootstrapper
-- Prompt to confirm when launching another instance
-- Memory trimmer with threshold and interval
-- Disable RobloxCrashHandler.exe which helps free up some system resources and improve performance
-- Update roblox in the background instead of waiting
-- Auto-update Bubblestrap
-- Cache, logs and Bubblestrap logs cleaner
-- Roblox tray options:
-System Tray Modal
-Minimize to Tray
-- Roblox App theme selector
-- Hide version and production details
-- Toggle launch Roblox on startup
+### ⚡ Performance
 
-### Deployment
-- Toggle Bubblestrap logs
-- Channel changer
-- Skip Roblox Updates
-- Static directory
-- Install previous roblox version
-- Force Roblox reinstallation
+- FPS tweaks
+- Network / ping tweaks
+- Windows performance tweaks
+- Roblox optimization options
+- Configurable performance settings
 
-### Mods
-- Use custom font
-- Use custom death sound
-- Custom emojis
-- Custom Roblox Icon
-- Custom Roblox Studio icon
-- Old character sounds from 2014
-- Use old avatar editor background used in 2020
-- Customize cursors (ShiftLock, Arrow, ArrowFar, IBeam)
-- Cursor sets (import & export)
+### 🛠️ Customization
 
-### Other
-- FFlag settings and improved FFlag editor
-- Global Settings page
-- Framerate cap unlocking
-- Custom Bubblestrap game invite links (DEEPLINK)
-- Roblox Studio Support
-- Full translations unlike other bootstrappers
-- No analytics at all
+- Custom themes
+- Dark UI
+- Roblox customization
+- Configurable application settings
+- Custom Horrorstrap appearance
 
------
+### 🔧 Tools
 
-<a href="https://www.star-history.com/?repos=ItzBloxxy%2FBubblestrap&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=ItzBloxxy/Bubblestrap&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=ItzBloxxy/Bubblestrap&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=ItzBloxxy/Bubblestrap&type=date&legend=top-left" />
- </picture>
-</a>
+- FFlag configuration
+- FFlag editor
+- Roblox version management
+- Cache management
+- Configuration management
 
-![Download History](downloads.png)
-  
-[repo-latest]:   https://github.com/ItzBloxxy/Bubblestrap/releases/latest
+### 🖥️ Windows
 
-[badge-repo-latest]: https://img.shields.io/github/v/release/ItzBloxxy/Bubblestrap?style=for-the-badge&color=4caf51
-[badge-repo-stars]: https://img.shields.io/github/stars/ItzBloxxy/Bubblestrap?style=for-the-badge&color=ff9800
-[badge-repo-license]: https://img.shields.io/github/license/ItzBloxxy/Bubblestrap?style=for-the-badge&color=2196f3
-[badge-repo-downloads-latest]: https://img.shields.io/github/downloads/ItzBloxxy/Bubblestrap/latest/total?style=for-the-badge&color=e91e63
-[badge-repo-downloads-total]: https://img.shields.io/github/downloads/ItzBloxxy/Bubblestrap/total?style=for-the-badge&color=9c27b0
+- Windows performance tweaks
+- RAM optimization options
+- Storage tweaks
+- USB tweaks
+- Keyboard & mouse tweaks
+- Power configuration
 
-[repo-latest]: https://github.com/ItzBloxxy/Bubblestrap/releases/latest
-[repo-stargazer]: https://github.com/ItzBloxxy/Bubblestrap/stargazers
-[repo-license]: https://github.com/ItzBloxxy/Bubblestrap/blob/master/LICENSE
-[repo-releases]: https://github.com/ItzBloxxy/Bubblestrap/releases
+---
+
+# 📥 Installing
+
+Download the **[latest release][releases]** and run the installer.
+
+After installation, launch **Horrorstrap** from the Start Menu or desktop shortcut.
+
+> [!TIP]
+> We recommend downloading the latest stable release rather than unofficial builds.
+
+### Build from source
+
+Clone the repository:
+
+```powershell
+git clone https://github.com/MrIcyxvc/Horrorstrap.git
+cd Horrorstrap
