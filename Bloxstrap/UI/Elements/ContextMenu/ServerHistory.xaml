@@ -16,10 +16,10 @@
         MinHeight="420"
         Width="580"
         Height="420"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -27,7 +27,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" x:Name="RootTitleBar" Title="{x:Static resources:Strings.ContextMenu_GameHistory_Title}" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" Icon="pack://application:,,,/Bubblestrap.ico" />
+        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" x:Name="RootTitleBar" Title="{x:Static resources:Strings.ContextMenu_GameHistory_Title}" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" Icon="pack://application:,,,/Horrorstrap.ico" />
 
         <TextBlock Grid.Row="1" Margin="16,8,16,0" Text="{x:Static resources:Strings.ContextMenu_GameHistory_Description}" TextWrapping="Wrap" />
 

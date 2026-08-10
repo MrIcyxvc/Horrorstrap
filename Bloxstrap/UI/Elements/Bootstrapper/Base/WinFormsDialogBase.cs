@@ -146,7 +146,14 @@ namespace Bloxstrap.UI.Elements.Bootstrapper.Base
         #endregion
 
         #region IBootstrapperDialog Methods
-        public void ShowBootstrapper() => ShowDialog();
+        public void ShowBootstrapper()
+        {
+            if (System.Windows.Application.Current?.MainWindow is { } mainWindow)
+            {
+                try { StartPosition = FormStartPosition.CenterParent; } catch { }
+            }
+            ShowDialog();
+        }
 
         public virtual void CloseBootstrapper()
         {

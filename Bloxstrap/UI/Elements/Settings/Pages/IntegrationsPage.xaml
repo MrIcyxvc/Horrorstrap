@@ -13,53 +13,59 @@
       Title="IntegrationsPage"
       Scrollable="True">
     <StackPanel Margin="0,0,14,14">
-        <TextBlock Text="{x:Static resources:Strings.Menu_Integrations_Description}" FontSize="14" Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+        <TextBlock Text="{x:Static resources:Strings.Menu_Integrations_Description}" Style="{StaticResource SectionDescription}" />
 
-        <TextBlock Text="{x:Static resources:Strings.Menu_Integrations_ActivityTracking}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
+        <TextBlock Text="{x:Static resources:Strings.Menu_Integrations_ActivityTracking}" Style="{StaticResource SectionHeader}" />
 
-        <controls:OptionControl 
-            Header="{x:Static resources:Strings.Menu_Integrations_EnableActivityTracking_Title}" 
-            Description="{x:Static resources:Strings.Menu_Integrations_EnableActivityTracking_Description}" 
+        <controls:OptionControl
+            Header="{x:Static resources:Strings.Menu_Integrations_EnableActivityTracking_Title}"
+            Description="{x:Static resources:Strings.Menu_Integrations_EnableActivityTracking_Description}"
             HelpLink="https://bloxstraplabs.com/wiki/features/activity-tracking/"
+            Icon="HeartPulse24"
             x:Name="ActivityTrackingOption">
             <ui:ToggleSwitch IsChecked="{Binding ActivityTrackingEnabled, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <controls:OptionControl 
-            Header="{x:Static resources:Strings.Menu_Integrations_QueryServerLocation_Title}" 
+        <controls:OptionControl
+            Header="{x:Static resources:Strings.Menu_Integrations_QueryServerLocation_Title}"
             Description="{Binding Source={x:Static resources:Strings.Menu_Integrations_QueryServerLocation_Description}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://www.rovalra.com'}"
             HelpLink="https://bloxstraplabs.com/wiki/features/server-location-hints/"
+            Icon="Globe24"
             IsEnabled="{Binding InnerContent.IsChecked, ElementName=ActivityTrackingOption, Mode=OneWay}">
             <ui:ToggleSwitch IsChecked="{Binding ShowServerDetailsEnabled, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <controls:OptionControl 
-            Header="{x:Static resources:Strings.Menu_Integrations_DesktopApp_Title}" 
+        <controls:OptionControl
+            Header="{x:Static resources:Strings.Menu_Integrations_DesktopApp_Title}"
             Description="{Binding Source={x:Static resources:Strings.Menu_Integrations_DesktopApp_Description}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://bloxstraplabs.com/wiki/features/dont-exit-to-desktop-app/'}"
-            HelpLink="https://bloxstraplabs.com/wiki/features/dont-exit-to-desktop-app//"
+            HelpLink="https://bloxstraplabs.com/wiki/features/dont-exit-to-desktop-app/"
+            Icon="Desktop24"
             IsEnabled="{Binding InnerContent.IsChecked, ElementName=ActivityTrackingOption, Mode=OneWay}">
             <ui:ToggleSwitch IsChecked="{Binding DisableAppPatchEnabled, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <TextBlock Text="{x:Static resources:Strings.Common_DiscordRichPresence}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
-        <controls:MarkdownTextBlock MarkdownText="{Binding Source={x:Static resources:Strings.Menu_Integrations_RequiresActivityTracking}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://bloxstraplabs.com/wiki/features/discord-rich-presence/'}" TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
-        <controls:OptionControl 
-            Description="{x:Static resources:Strings.Menu_Integrations_ShowBubblestrapRPC_Description}" 
-            Header="{x:Static resources:Strings.Menu_Integrations_ShowBubblestrapRPC_Title}">
-            <ui:ToggleSwitch IsChecked="{Binding ShowUsingBubblestrapRPC, Mode=TwoWay}" />
+        <TextBlock Text="{x:Static resources:Strings.Common_DiscordRichPresence}" Style="{StaticResource SectionHeader}" />
+        <controls:MarkdownTextBlock Margin="0,0,0,8" MarkdownText="{Binding Source={x:Static resources:Strings.Menu_Integrations_RequiresActivityTracking}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://bloxstraplabs.com/wiki/features/discord-rich-presence/'}" TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorSecondaryBrush}" />
+        <controls:OptionControl
+            Description="{x:Static resources:Strings.Menu_Integrations_ShowHorrorstrapRPC_Description}"
+            Header="{x:Static resources:Strings.Menu_Integrations_ShowHorrorstrapRPC_Title}"
+            Icon="Emoji28">
+            <ui:ToggleSwitch IsChecked="{Binding ShowUsingHorrorstrapRPC, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <controls:OptionControl 
-            Header="{x:Static resources:Strings.Menu_Integrations_ShowGameActivity_Title}" 
+        <controls:OptionControl
+            Header="{x:Static resources:Strings.Menu_Integrations_ShowGameActivity_Title}"
             Description="{Binding Source={x:Static resources:Strings.Menu_Integrations_ShowGameActivity_Description}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://bloxstraplabs.com/wiki/help/discord-rich-presence-not-working/'}"
+            Icon="Games24"
             IsEnabled="{Binding InnerContent.IsChecked, ElementName=ActivityTrackingOption, Mode=OneWay}"
             x:Name="DiscordActivityOption">
             <ui:ToggleSwitch IsChecked="{Binding DiscordActivityEnabled, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <controls:OptionControl 
-            Header="{x:Static resources:Strings.Menu_Integrations_AllowActivityJoining_Title}" 
+        <controls:OptionControl
+            Header="{x:Static resources:Strings.Menu_Integrations_AllowActivityJoining_Title}"
             Description="{x:Static resources:Strings.Menu_Integrations_AllowActivityJoining_Description}"
+            Icon="PersonAdd24"
             IsEnabled="{Binding InnerContent.IsChecked, ElementName=DiscordActivityOption, Mode=OneWay}">
             <ui:ToggleSwitch IsChecked="{Binding DiscordActivityJoinEnabled, Mode=TwoWay}" />
         </controls:OptionControl>

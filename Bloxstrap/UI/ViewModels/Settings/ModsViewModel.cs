@@ -109,6 +109,62 @@ namespace Bloxstrap.UI.ViewModels.Settings
                     { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",    "Cursor.From2013.ArrowCursor.png"    },
                     { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png", "Cursor.From2013.ArrowFarCursor.png" }
                 }
+            },
+            {
+                Enums.CursorType.BlackAndWhiteDot, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",    "Cursor.BlackAndWhiteDot.ArrowCursor.png"    },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png", "Cursor.BlackAndWhiteDot.ArrowFarCursor.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\IBeamCursor.png",    "Cursor.BlackAndWhiteDot.IBeamCursor.png"    }
+                }
+            },
+            {
+                Enums.CursorType.PurpleCross, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",    "Cursor.PurpleCross.ArrowCursor.png"    },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png", "Cursor.PurpleCross.ArrowFarCursor.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\IBeamCursor.png",    "Cursor.PurpleCross.IBeamCursor.png"    }
+                }
+            },
+            {
+                Enums.CursorType.CleanCursor, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",         "Cursor.CleanCursor.ArrowCursor.png"         },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursorDecalDrag.png", "Cursor.CleanCursor.ArrowCursorDecalDrag.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png",      "Cursor.CleanCursor.ArrowFarCursor.png"      }
+                }
+            },
+            {
+                Enums.CursorType.DotCursor, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",         "Cursor.DotCursor.ArrowCursor.png"         },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursorDecalDrag.png", "Cursor.DotCursor.ArrowCursorDecalDrag.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png",      "Cursor.DotCursor.ArrowFarCursor.png"      }
+                }
+            },
+            {
+                Enums.CursorType.FPSCursor, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",         "Cursor.FPSCursor.ArrowCursor.png"         },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursorDecalDrag.png", "Cursor.FPSCursor.ArrowCursorDecalDrag.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png",      "Cursor.FPSCursor.ArrowFarCursor.png"      }
+                }
+            },
+            {
+                Enums.CursorType.StoofsCursor, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",         "Cursor.StoofsCursor.ArrowCursor.png"         },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursorDecalDrag.png", "Cursor.StoofsCursor.ArrowCursorDecalDrag.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png",      "Cursor.StoofsCursor.ArrowFarCursor.png"      }
+                }
+            },
+            {
+                Enums.CursorType.WhiteDotCursor, new()
+                {
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursor.png",         "Cursor.WhiteDotCursor.ArrowCursor.png"         },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowCursorDecalDrag.png", "Cursor.WhiteDotCursor.ArrowCursorDecalDrag.png" },
+                    { @"content\textures\Cursors\KeyboardMouse\ArrowFarCursor.png",      "Cursor.WhiteDotCursor.ArrowFarCursor.png"      }
+                }
             }
         });
 
@@ -668,7 +724,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
             try
             {
-                string tempPath = Path.Combine(Path.GetTempPath(), $"BubblestrapRobloxIcon_{setting}.ico");
+                string tempPath = Path.Combine(Path.GetTempPath(), $"{App.ProjectName}RobloxIcon_{setting}.ico");
                 if (!File.Exists(tempPath))
                 {
                     using var icon = mapped.Value.GetIcon();
@@ -697,9 +753,11 @@ namespace Bloxstrap.UI.ViewModels.Settings
         public static void ApplyRobloxIcon()
         {
             string? iconPath = ResolveRobloxIconPath();
+            if (iconPath is null || !File.Exists(iconPath))
+                iconPath = Path.Combine(AppContext.BaseDirectory, "Horrorstrap.ico");
 
             string robloxExe = string.Empty;
-            if (iconPath is null)
+            if (iconPath is null || !File.Exists(iconPath))
             {
                 try { robloxExe = new RobloxPlayerData().ExecutablePath; }
                 catch { }
@@ -707,6 +765,11 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
             string[] candidates =
             [
+                Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),                $"{App.ProjectName}.lnk"),
+                Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonDesktopDirectory), $"{App.ProjectName}.lnk"),
+                Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu),    "Programs", "Roblox", $"{App.ProjectName}.lnk"),
+                Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonStartMenu), "Programs", "Roblox", $"{App.ProjectName}.lnk"),
+                // legacy names
                 Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),                "Roblox Player.lnk"),
                 Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonDesktopDirectory), "Roblox Player.lnk"),
                 Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu),    "Programs", "Roblox", "Roblox Player.lnk"),
@@ -717,7 +780,12 @@ namespace Bloxstrap.UI.ViewModels.Settings
             foreach (string lnk in candidates)
             {
                 if (!File.Exists(lnk)) continue;
-                try { SetShortcutIcon(lnk, iconPath ?? robloxExe); anyChanged = true; }
+                try
+                {
+                    SetShortcutIcon(lnk, iconPath ?? robloxExe);
+                    SetShortcutName(lnk, App.ProjectName);
+                    anyChanged = true;
+                }
                 catch { }
             }
 
@@ -727,13 +795,16 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
         public static void ApplyRobloxWindowIcon(IntPtr robloxHwnd)
         {
-            if (App.Settings.Prop.CustomRobloxIcon == RobloxIcon.Default) return;
-
             string? iconPath = ResolveRobloxIconPath();
-            if (iconPath is null || !File.Exists(iconPath)) return;
+            if (iconPath is null || !File.Exists(iconPath))
+                iconPath = Path.Combine(AppContext.BaseDirectory, "Horrorstrap.ico");
+
+            if (!File.Exists(iconPath)) return;
 
             try
             {
+                NativeMethods.SetWindowText(robloxHwnd, "Horrorstrap");
+
                 int smallSize = NativeMethods.GetSystemMetrics(NativeMethods.SM_CXSMICON);
                 int bigSize = NativeMethods.GetSystemMetrics(NativeMethods.SM_CXICON);
 
@@ -817,10 +888,34 @@ namespace Bloxstrap.UI.ViewModels.Settings
             link.SetIconLocation(iconPath, 0);
             file.Save(lnkPath, true);
         }
+
+        private static void SetShortcutName(string lnkPath, string name)
+        {
+            try
+            {
+                string? dir = Path.GetDirectoryName(lnkPath);
+                if (string.IsNullOrEmpty(dir))
+                    return;
+                string newPath = Path.Combine(dir, $"{name}.lnk");
+                if (newPath == lnkPath)
+                    return;
+                if (File.Exists(newPath))
+                    File.Delete(newPath);
+                File.Move(lnkPath, newPath);
+            }
+            catch { }
+        }
     }
 
     internal static class NativeMethods
     {
+        [DllImport("user32.dll", SetLastError = true)]
+        public static extern bool SystemParametersInfo(uint uiAction, uint uiParam, IntPtr pvParam, uint fWinIni);
+
+        public const uint SPI_SETMOUSE = 0x0004;
+        public const uint SPIF_UPDATEINIFILE = 0x01;
+        public const uint SPIF_SENDCHANGE = 0x02;
+
         public const int SM_CXSMICON = 49;
         public const int SM_CXICON = 11;
         public const int GCLP_HICON = -14;
@@ -861,6 +956,9 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
         [DllImport("user32.dll")]
         public static extern bool DestroyIcon(IntPtr hIcon);
+
+        [DllImport("user32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        public static extern bool SetWindowText(IntPtr hWnd, string lpString);
 
         [StructLayout(LayoutKind.Sequential)]
         public struct RECT { public int Left, Top, Right, Bottom; }

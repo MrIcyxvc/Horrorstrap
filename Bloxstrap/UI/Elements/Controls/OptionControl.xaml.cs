@@ -22,6 +22,9 @@ namespace Bloxstrap.UI.Elements.Controls
         public static readonly DependencyProperty InnerContentProperty =
             DependencyProperty.Register(nameof(InnerContent), typeof(object), typeof(OptionControl));
 
+        public static readonly DependencyProperty IconProperty =
+            DependencyProperty.Register(nameof(Icon), typeof(Wpf.Ui.Common.SymbolRegular), typeof(OptionControl), new PropertyMetadata(Wpf.Ui.Common.SymbolRegular.Empty));
+
         public string Header
         {
             get { return (string)GetValue(HeaderProperty); }
@@ -44,6 +47,12 @@ namespace Bloxstrap.UI.Elements.Controls
         {
             get { return GetValue(InnerContentProperty); }
             set { SetValue(InnerContentProperty, value); }
+        }
+
+        public Wpf.Ui.Common.SymbolRegular Icon
+        {
+            get { return (Wpf.Ui.Common.SymbolRegular)GetValue(IconProperty); }
+            set { SetValue(IconProperty, value); }
         }
 
         public OptionControl()

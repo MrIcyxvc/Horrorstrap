@@ -47,6 +47,11 @@ namespace Bloxstrap
                 App.Logger.WriteLine(LOG_IDENT, "Opening uninstaller");
                 LaunchUninstaller();
             }
+            else if (App.LaunchSettings.InstallFlag.Active)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Opening installer");
+                LaunchInstaller();
+            }
             else if (App.LaunchSettings.MenuFlag.Active)
             {
                 App.Logger.WriteLine(LOG_IDENT, "Opening settings");
@@ -180,9 +185,9 @@ namespace Bloxstrap
             {
                 bool showAlreadyRunningWarning = Process.GetProcessesByName(App.ProjectName).Length > 1;
 
-                if (App.Settings.Prop.ShowUsingBubblestrapRPC && App.BubbleRPC == null)
+                if (App.Settings.Prop.ShowUsingHorrorstrapRPC && App.BubbleRPC == null)
                 {
-                    App.BubbleRPC = new BubblestrapRichPresence();
+                    App.BubbleRPC = new HorrorstraptrapRichPresence();
                 }
 
                 var window = new UI.Elements.Settings.MainWindow(showAlreadyRunningWarning);
@@ -207,9 +212,9 @@ namespace Bloxstrap
 
         public static void LaunchMenu()
         {
-            if (App.Settings.Prop.ShowUsingBubblestrapRPC && App.BubbleRPC == null)
+            if (App.Settings.Prop.ShowUsingHorrorstrapRPC && App.BubbleRPC == null)
             {
-                App.BubbleRPC = new BubblestrapRichPresence();
+                App.BubbleRPC = new HorrorstraptrapRichPresence();
             }
 
             var dialog = new LaunchMenuDialog();
@@ -266,52 +271,94 @@ namespace Bloxstrap
                 dialog.Bootstrapper = App.Bootstrapper;
             }
 
-            Task.Run(App.Bootstrapper.Run).ContinueWith(async t =>
+            var dialogShownAt = DateTime.UtcNow;
+
+            Task.Run(App.Bootstrapper.Run).ContinueWith(t =>
             {
                 App.Logger.WriteLine(LOG_IDENT, "Bootstrapper task has finished");
 
-                if (t.IsFaulted)
+                try
                 {
-                    App.Logger.WriteLine(LOG_IDENT, "An exception occurred when running the bootstrapper");
-
-                    if (t.Exception is not null)
-                        App.FinalizeExceptionHandling(t.Exception);
-                }
-                else if (App.Bootstrapper.IsPlayerLaunch && App.Bootstrapper.AppPid != 0
-                         && App.Settings.Prop.CustomRobloxIcon != Enums.RobloxIcon.Default)
-                {
-                    int pid = App.Bootstrapper.AppPid;
-                    int injected = 0;
-                    for (int attempt = 0; attempt < 10 && injected < 5; attempt++)
+                    if (t.IsFaulted)
                     {
-                        await Task.Delay(1000);
-                        IntPtr foundHwnd = IntPtr.Zero;
-                        NativeMethods.EnumWindows((hwnd, _) =>
-                        {
-                            NativeMethods.GetWindowThreadProcessId(hwnd, out uint foundPid);
-                            if (foundPid == (uint)pid && NativeMethods.IsWindowVisible(hwnd))
-                            {
-                                if (NativeMethods.GetWindowRect(hwnd, out var rect) && (rect.Right - rect.Left) > 100)
-                                {
-                                    foundHwnd = hwnd;
-                                    return false;
-                                }
-                            }
-                            return true;
-                        }, IntPtr.Zero);
+                        App.Logger.WriteLine(LOG_IDENT, "An exception occurred when running the bootstrapper");
 
-                        if (foundHwnd != IntPtr.Zero)
+                        if (t.Exception is not null)
+                            App.FinalizeExceptionHandling(t.Exception);
+                    }
+                    else if (App.Bootstrapper.IsPlayerLaunch && App.Bootstrapper.AppPid != 0)
+                    {
+                        int pid = App.Bootstrapper.AppPid;
+                        int injected = 0;
+                        for (int attempt = 0; attempt < 10 && injected < 5; attempt++)
                         {
-                            UI.ViewModels.Settings.ModsViewModel.ApplyRobloxWindowIcon(foundHwnd);
-                            injected++;
+                            Task.Delay(1000).Wait();
+                            IntPtr foundHwnd = IntPtr.Zero;
+                            NativeMethods.EnumWindows((hwnd, _) =>
+                            {
+                                NativeMethods.GetWindowThreadProcessId(hwnd, out uint foundPid);
+                                if (foundPid == (uint)pid && NativeMethods.IsWindowVisible(hwnd))
+                                {
+                                    if (NativeMethods.GetWindowRect(hwnd, out var rect) && (rect.Right - rect.Left) > 100)
+                                    {
+                                        foundHwnd = hwnd;
+                                        return false;
+                                    }
+                                }
+                                return true;
+                            }, IntPtr.Zero);
+
+                            if (foundHwnd != IntPtr.Zero)
+                            {
+                                UI.ViewModels.Settings.ModsViewModel.ApplyRobloxWindowIcon(foundHwnd);
+                                injected++;
+                            }
                         }
                     }
+
+                    if (App.Bootstrapper is not null && App.Bootstrapper.AppPid != 0 && App.Settings.Prop.EnableRuntimeFlagInjector)
+                    {
+                        Models.RuntimeFlagStore.Load();
+                        Integrations.RuntimeFlagInjector.Inject(App.Bootstrapper.AppPid);
+                    }
                 }
+                catch (Exception ex)
+                {
+                    App.Logger.WriteLine(LOG_IDENT, $"Bootstrapper continuation failed: {ex.Message}");
+                    App.Logger.WriteException(LOG_IDENT, ex);
+                }
+
+                var elapsed = DateTime.UtcNow - dialogShownAt;
+                if (elapsed < TimeSpan.FromSeconds(0.5))
+                    Task.Delay(TimeSpan.FromSeconds(0.5) - elapsed).Wait();
 
                 App.Terminate();
             });
 
-            dialog?.ShowBootstrapper();
+            if (dialog != null)
+            {
+                App.Logger.WriteLine(LOG_IDENT, $"Showing bootstrapper dialog (style: {App.Settings.Prop.BootstrapperStyle})");
+
+                var dispatcher = Application.Current?.Dispatcher;
+                try
+                {
+                    if (dispatcher != null && !dispatcher.CheckAccess())
+                        dispatcher.Invoke(dialog.ShowBootstrapper);
+                    else
+                        dialog.ShowBootstrapper();
+
+                    App.Logger.WriteLine(LOG_IDENT, "Bootstrapper dialog shown");
+                }
+                catch (Exception ex)
+                {
+                    App.Logger.WriteLine(LOG_IDENT, $"Failed to show bootstrapper dialog: {ex.Message}");
+                    App.Logger.WriteException(LOG_IDENT, ex);
+                }
+            }
+            else
+            {
+                App.Logger.WriteLine(LOG_IDENT, "No bootstrapper dialog to show (quiet mode or dialog creation failed)");
+            }
 
             App.Logger.WriteLine(LOG_IDENT, "Exiting");
         }

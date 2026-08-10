@@ -22,6 +22,16 @@
             </StackPanel>
         </ui:CardAction>
 
+        <ui:CardAction Margin="0,8,0,0" Icon="Warning24" Command="{Binding OpenIxpEditorCommand}">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="14" Text="IXP Editor" />
+                    <TextBlock FontSize="14" Text=" (AGAINST TOS)" Foreground="Red" />
+                </StackPanel>
+                <TextBlock Margin="0,2,0,0" FontSize="12" Text="Edit Internal Experience Platform settings. WARNING: May result in account bans!" Padding="0,0,16,0" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+            </StackPanel>
+        </ui:CardAction>
+
         <controls:OptionControl 
             Header="{x:Static resources:Strings.Menu_FastFlags_ManagerEnabled_Title}"
             Description="{x:Static resources:Strings.Menu_FastFlags_ManagerEnabled_Description}">
@@ -29,9 +39,81 @@
         </controls:OptionControl>
 
         <controls:OptionControl 
+            Header="Allow Horrorstrap to manage IXP"
+            Description="Disabling this will prevent anything configured here from being applied to Roblox. WARNING: IXP modifications may violate Roblox Terms of Service. Requires running as administrator.">
+            <ui:ToggleSwitch IsChecked="{Binding EnableRuntimeFlagInjector, Mode=TwoWay}" />
+        </controls:OptionControl>
+
+        <controls:OptionControl 
             Header="{x:Static resources:Strings.Menu_FastFlags_Reset_Title}">
             <ui:ToggleSwitch IsChecked="{Binding ResetConfiguration, Mode=TwoWay}" />
         </controls:OptionControl>
+
+        <Grid Margin="0,16,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Quick Apply Presets" FontSize="20" FontWeight="Medium" />
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Apply pre-configured FastFlag combinations optimized for different performance levels. These presets will overwrite existing FastFlags." FontSize="12" Foreground="{DynamicResource TextFillColorTertiaryBrush}" TextWrapping="Wrap" />
+            <ui:Button Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center" Icon="Desktop24" Content="Auto Detect" Command="{Binding AutoDetectPresetCommand}" />
+
+            <UniformGrid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,12,0,0" Columns="3">
+                <ui:CardAction Margin="0,0,6,0" Command="{Binding ApplyPotatoPresetCommand}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="CheckmarkCircle24" FontSize="24" Margin="0,0,12,0" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock FontSize="14" FontWeight="SemiBold" Text="Potato" />
+                            <TextBlock FontSize="12" Foreground="{DynamicResource TextFillColorTertiaryBrush}" Text="Minimum graphics for low-end PCs" />
+                        </StackPanel>
+                        <ui:SymbolIcon Grid.Column="2" Symbol="ChevronRight24" VerticalAlignment="Center" />
+                    </Grid>
+                </ui:CardAction>
+
+                <ui:CardAction Margin="6,0,6,0" Command="{Binding ApplyLowPresetCommand}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Desktop24" FontSize="24" Margin="0,0,12,0" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock FontSize="14" FontWeight="SemiBold" Text="Low" />
+                            <TextBlock FontSize="12" Foreground="{DynamicResource TextFillColorTertiaryBrush}" Text="Balanced performance" />
+                        </StackPanel>
+                        <ui:SymbolIcon Grid.Column="2" Symbol="ChevronRight24" VerticalAlignment="Center" />
+                    </Grid>
+                </ui:CardAction>
+
+                <ui:CardAction Margin="6,0,0,0" Command="{Binding ApplyUltraPresetCommand}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="ArrowCircleUp24" FontSize="24" Margin="0,0,12,0" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                            <TextBlock FontSize="14" FontWeight="SemiBold" Text="Ultra" />
+                            <TextBlock FontSize="12" Foreground="{DynamicResource TextFillColorTertiaryBrush}" Text="Maximum quality for high-end PCs" />
+                        </StackPanel>
+                        <ui:SymbolIcon Grid.Column="2" Symbol="ChevronRight24" VerticalAlignment="Center" />
+                    </Grid>
+                </ui:CardAction>
+            </UniformGrid>
+        </Grid>
 
         <TextBlock Text="{x:Static resources:Strings.Common_Presets}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
 
@@ -71,6 +153,17 @@
         </ui:CardExpander>
 
         <TextBlock Text="{x:Static resources:Strings.Menu_FastFlags_Presets_Categories_Rendering}" FontSize="16" FontWeight="Medium" Margin="0,16,0,0" />
+        <controls:OptionControl 
+            Header="Grass Movement Factor"
+            Description="Reduces or scales grass movement in Roblox for performance or visual comfort.">
+            <ComboBox Margin="5,0,0,0" Padding="10,5,10,5" Width="200" ItemsSource="{Binding GrassMovementModes.Keys, Mode=OneTime}" SelectedItem="{Binding SelectedGrassMovementMode, Mode=TwoWay}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Path=., Converter={StaticResource EnumNameConverter}}" />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </controls:OptionControl>
         <controls:OptionControl 
             Header="{x:Static resources:Strings.Menu_FastFlags_Presets_MSAA_Title}">
             <ComboBox Margin="5,0,0,0" Padding="10,5,10,5" Width="200" ItemsSource="{Binding MSAALevels.Keys, Mode=OneTime}" Text="{Binding SelectedMSAALevel, Mode=TwoWay}">
@@ -152,5 +245,6 @@
             Description="{x:Static resources:Strings.Menu_FastFlags_Voxelizer_Description}">
             <ui:ToggleSwitch IsChecked="{Binding PauseVoxelizer, Mode=TwoWay}" />
         </controls:OptionControl>
-    </StackPanel>
+
+        </StackPanel>
 </ui:UiPage>

@@ -30,8 +30,33 @@
                             <ColumnDefinition Width="20" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Image Grid.Column="0" Source="pack://application:,,,/Bubblestrap.ico" RenderOptions.BitmapScalingMode="HighQuality" />
+                        <Image Grid.Column="0" Source="pack://application:,,,/Horrorstrap.ico" RenderOptions.BitmapScalingMode="HighQuality" />
                         <TextBlock x:Name="VersionTextBlock" Foreground="{DynamicResource TextFillColorSecondaryBrush}" Grid.Column="1" VerticalAlignment="Center" Margin="6,0,0,0" />
+                    </Grid>
+                </MenuItem.Header>
+            </MenuItem>
+            <Separator />
+            <MenuItem IsEnabled="False">
+                <MenuItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="24" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Clock24"/>
+                        <TextBlock x:Name="SessionTimeTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="Session: 00:00:00" />
+                    </Grid>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem x:Name="GameTimeMenuItem" IsEnabled="False" Visibility="Collapsed">
+                <MenuItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="24" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Timer24"/>
+                        <TextBlock x:Name="GameTimeTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="Game: 00:00:00" />
                     </Grid>
                 </MenuItem.Header>
             </MenuItem>
@@ -46,6 +71,30 @@
                         </Grid.ColumnDefinitions>
                         <ui:SymbolIcon Grid.Column="0" Symbol="ClipboardLink24"/>
                         <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="{x:Static resources:Strings.ContextMenu_CopyDeeplinkInvite}" />
+                    </Grid>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem x:Name="RegionMenuItem" Visibility="Collapsed" Click="RegionMenuItem_Click">
+                <MenuItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="24" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Globe32"/>
+                        <TextBlock x:Name="RegionTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="Region" />
+                    </Grid>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem x:Name="GameInformationMenuItem" Visibility="Collapsed" Click="GameInformationMenuItem_Click">
+                <MenuItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="24" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="Games28"/>
+                        <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="Game Information" />
                     </Grid>
                 </MenuItem.Header>
             </MenuItem>
@@ -73,7 +122,7 @@
                     </Grid>
                 </MenuItem.Header>
             </MenuItem>
-            <MenuItem Click="CloseRobloxMenuItem_Click">
+            <MenuItem x:Name="CloseProcessMenuItem" Click="CloseRobloxMenuItem_Click">
                 <MenuItem.Header>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -81,7 +130,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
                         <ui:SymbolIcon Grid.Column="0" Symbol="WindowHeaderHorizontalOff20"/>
-                        <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="{x:Static resources:Strings.ContextMenu_CloseRoblox}" />
+                        <TextBlock x:Name="CloseProcessTextBlock" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="{x:Static resources:Strings.ContextMenu_CloseRoblox}" />
                     </Grid>
                 </MenuItem.Header>
             </MenuItem>
@@ -94,6 +143,19 @@
                         </Grid.ColumnDefinitions>
                         <ui:SymbolIcon Grid.Column="0" Symbol="DocumentCatchUp20"/>
                         <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="{x:Static resources:Strings.Common_OpenLogFile}" />
+                    </Grid>
+                </MenuItem.Header>
+            </MenuItem>
+            <Separator />
+            <MenuItem Click="CloseWatcherMenuItem_Click">
+                <MenuItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="24" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ui:SymbolIcon Grid.Column="0" Symbol="WindowHeaderHorizontalOff20"/>
+                        <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="4,0,0,0" Text="Close Watcher" />
                     </Grid>
                 </MenuItem.Header>
             </MenuItem>

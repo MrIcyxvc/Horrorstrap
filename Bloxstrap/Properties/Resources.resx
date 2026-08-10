@@ -151,8 +151,8 @@
   <data name="Icon2025NoBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
 	<value>..\Resources\Icon2025NoBg.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconBubblestrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value> ..\Bubblestrap.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IconHorrorstrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Horrorstrap.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconEarly2015" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconEarly2015.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

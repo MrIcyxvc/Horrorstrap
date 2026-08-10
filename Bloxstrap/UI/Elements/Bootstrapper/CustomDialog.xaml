@@ -8,14 +8,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
     xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
-    Title="Bubblestrap"
+    Title="Horrorstrap"
     Width="800"
     Height="450"
     MinWidth="150"
     MinHeight="150"
     MaxWidth="1500"
     MaxHeight="1000"
-    Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+    Background="{DynamicResource ApplicationBackground}"
     ExtendsContentIntoTitleBar="True"
     ResizeMode="NoResize"
     AllowsTransparency="False"
@@ -35,7 +35,7 @@
         </ResourceDictionary>
     </Window.Resources>
 
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -44,7 +44,7 @@
 
             <ui:TitleBar
                 x:Name="RootTitleBar"
-                Title="Bubblestrap"
+                Title="Horrorstrap"
                 Grid.Row="0"
                 Padding="8"
                 Panel.ZIndex="1001"

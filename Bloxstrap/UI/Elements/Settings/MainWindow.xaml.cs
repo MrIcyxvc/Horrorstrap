@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using Wpf.Ui.Common;
+using Wpf.Ui.Controls;
 using Wpf.Ui.Controls.Interfaces;
 using Wpf.Ui.Mvvm.Contracts;
 
@@ -12,6 +13,7 @@ namespace Bloxstrap.UI.Elements.Settings
     public partial class MainWindow : INavigationWindow
     {
         private Models.Persistable.WindowState _state => App.State.Prop.SettingsWindow;
+        private readonly List<NavigationItem> _originalNavItems = new();
 
         public MainWindow(bool showAlreadyRunningWarning)
         {
@@ -22,6 +24,22 @@ namespace Bloxstrap.UI.Elements.Settings
             viewModel.RequestCloseWindowEvent += (_, _) => Close();
 
             InitializeComponent();
+
+            Loaded += (_, _) =>
+            {
+                _originalNavItems.Clear();
+                foreach (NavigationItem item in RootNavigation.Items)
+                    _originalNavItems.Add(item);
+
+                SettingsSearchIndex.Build();
+                SearchBox.ItemsSource = SettingsSearchIndex.Suggestions;
+            };
+
+            PreviewMouseDown += (_, e) =>
+            {
+                if (!SearchBox.IsKeyboardFocusWithin && SearchBox.IsSuggestionListOpen)
+                    SearchBox.IsSuggestionListOpen = false;
+            };
 
             App.Logger.WriteLine("MainWindow", "Initializing settings window");
 
@@ -70,9 +88,12 @@ namespace Bloxstrap.UI.Elements.Settings
 
             if (_state.Left > 0 && _state.Top > 0)
             {
-                this.WindowStartupLocation = WindowStartupLocation.Manual;
                 this.Left = _state.Left;
                 this.Top = _state.Top;
+            }
+            else
+            {
+                this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             }
         }
 
@@ -116,12 +137,24 @@ namespace Bloxstrap.UI.Elements.Settings
 
         private void WpfUiWindow_Closed(object sender, EventArgs e)
         {
-            if (App.LaunchSettings.TestModeFlag.Active)
+            // if settings toggled Test mode on, restart into Player with -testmode, otherwise exit
+            if (App.Settings.Prop.TestMode || App.LaunchSettings.TestModeFlag.Active)
                 LaunchHandler.LaunchRoblox(LaunchMode.Player);
             else
                 App.SoftTerminate();
         }
 
         private void NavigationItem_Click(object sender, RoutedEventArgs e) { }
+
+        private void SearchBox_SuggestionChosen(object sender, RoutedEventArgs e)
+        {
+            string? chosen = SearchBox.Text;
+            if (string.IsNullOrWhiteSpace(chosen))
+                return;
+
+            Type? pageType = SettingsSearchIndex.FindPage(chosen);
+            if (pageType != null)
+                Navigate(pageType);
+        }
     }
 }

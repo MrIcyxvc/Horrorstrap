@@ -9,9 +9,11 @@
         ClassicFluentDialog,
         [EnumName(StaticName = "Roblox (~2025)")]
         TwentyFiveDialog,
-        [EnumName(StaticName = "Bubblestrap")]
+        [EnumName(StaticName = "Horrorstrap")]
         FluentDialog,
         FluentAeroDialog,
+        [EnumName(StaticName = "Byfron (2023)")]
+        ByfronDialog,
         CustomDialog
     }
 }

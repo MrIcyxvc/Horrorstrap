@@ -87,6 +87,85 @@ namespace Bloxstrap
             return null;
         }
 
+        public async Task<string?> GetAuthTicketAsync(long placeId)
+        {
+            const string LOG_IDENT = "CookiesManager::GetAuthTicketAsync";
+
+            if (!Loaded)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Cannot fetch auth ticket: cookies not loaded or access not allowed");
+                return null;
+            }
+
+            string? csrfToken = await GetCsrfTokenAsync();
+            if (string.IsNullOrEmpty(csrfToken))
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to obtain CSRF token for auth ticket request");
+                return null;
+            }
+
+            var request = new HttpRequestMessage()
+            {
+                Method = HttpMethod.Post,
+                RequestUri = new Uri("https://auth.roblox.com/v1/authentication-ticket/")
+            };
+
+            request.Headers.Add("Cookie", $".ROBLOSECURITY={AuthCookie}");
+            request.Headers.Add("X-CSRF-TOKEN", csrfToken);
+            request.Headers.Add("Origin", "https://www.roblox.com");
+            request.Headers.Referrer = new Uri($"https://www.roblox.com/games/{placeId}/");
+            request.Content = new StringContent("{}", Encoding.UTF8, "application/json");
+
+            try
+            {
+                HttpResponseMessage response = await App.HttpClient.SendAsync(request);
+
+                if (response.Headers.TryGetValues("rbx-authentication-ticket", out var values))
+                    return values.FirstOrDefault();
+
+                string body = await response.Content.ReadAsStringAsync();
+                App.Logger.WriteLine(LOG_IDENT, $"Auth ticket request failed: {(int)response.StatusCode} {response.ReasonPhrase} - {body}");
+            }
+            catch (HttpRequestException ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to get authentication ticket");
+                App.Logger.WriteException(LOG_IDENT, ex);
+            }
+
+            return null;
+        }
+
+        private async Task<string?> GetCsrfTokenAsync()
+        {
+            const string LOG_IDENT = "CookiesManager::GetCsrfTokenAsync";
+
+            if (!Loaded)
+                return null;
+
+            var request = new HttpRequestMessage()
+            {
+                Method = HttpMethod.Post,
+                RequestUri = new Uri("https://auth.roblox.com/v1/authentication-ticket/")
+            };
+
+            request.Headers.Add("Cookie", $".ROBLOSECURITY={AuthCookie}");
+
+            try
+            {
+                HttpResponseMessage response = await App.HttpClient.SendAsync(request);
+
+                if (response.Headers.TryGetValues("x-csrf-token", out var values))
+                    return values.FirstOrDefault();
+            }
+            catch (HttpRequestException ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to get CSRF token");
+                App.Logger.WriteException(LOG_IDENT, ex);
+            }
+
+            return null;
+        }
+
         public async Task LoadCookies()
         {
             const string LOG_IDENT = "CookiesManager::LoadCookies";

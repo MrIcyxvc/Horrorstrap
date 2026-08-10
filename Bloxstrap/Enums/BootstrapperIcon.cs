@@ -2,8 +2,8 @@
 {
     public enum BootstrapperIcon
     {
-        [EnumName(StaticName = "Bubblestrap")]
-        IconBubblestrap,
+        [EnumName(StaticName = "Horrorstrap")]
+        IconHorrorstrap,
         [EnumName(StaticName = "2008")]
         Icon2008,
         [EnumName(StaticName = "2011")]

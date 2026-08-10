@@ -53,11 +53,12 @@
             </ui:CardAction>
         </Grid>
 
-        <TextBlock Text="{x:Static resources:Strings.Common_Presets}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
+        <TextBlock Text="{x:Static resources:Strings.Common_Presets}" Style="{StaticResource SectionHeader}" />
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Presets_MouseCursor_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Presets_MouseCursor_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Presets_MouseCursor_Description}"
+            Icon="Cursor24">
             <ComboBox Margin="5,0,0,0" Padding="10,5,10,5" Width="200"
                       ItemsSource="{Binding CursorTypeTask.Selections, Mode=OneTime}"
                       SelectedItem="{Binding CursorTypeSelection, Mode=TwoWay}">
@@ -71,19 +72,22 @@
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Presets_OldAvatarEditor_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Presets_OldAvatarEditor_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Presets_OldAvatarEditor_Description}"
+            Icon="Person24">
             <ui:ToggleSwitch IsChecked="{Binding OldAvatarBackgroundTask.NewState, Mode=TwoWay}" />
         </controls:OptionControl>
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Presets_OldCharacterSounds_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Presets_OldCharacterSounds_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Presets_OldCharacterSounds_Description}"
+            Icon="Speaker224">
             <ui:ToggleSwitch IsChecked="{Binding OldCharacterSoundsTask.NewState, Mode=TwoWay}" />
         </controls:OptionControl>
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Presets_EmojiType_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Presets_EmojiType_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Presets_EmojiType_Description}"
+            Icon="Emoji28">
             <ComboBox Margin="5,0,0,0" Padding="10,5,10,5" Width="220" ItemsSource="{Binding EmojiFontTask.Selections, Mode=OneTime}" Text="{Binding EmojiFontTask.NewState, Mode=TwoWay}">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
@@ -93,11 +97,12 @@
             </ComboBox>
         </controls:OptionControl>
 
-        <TextBlock Text="{x:Static resources:Strings.Common_Miscellaneous}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
+        <TextBlock Text="{x:Static resources:Strings.Common_Miscellaneous}" Style="{StaticResource SectionHeader}" />
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Misc_CustomFont_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Misc_CustomFont_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Misc_CustomFont_Description}"
+            Icon="TextFont24">
             <StackPanel>
                 <ui:Button Icon="DocumentAdd16" Content="{x:Static resources:Strings.Menu_Mods_Misc_CustomFont_Choose}" Command="{Binding ManageCustomFontCommand}" Visibility="{Binding ChooseCustomFontVisibility, Mode=OneWay}" />
                 <ui:Button Icon="Delete16" Content="{x:Static resources:Strings.Menu_Mods_Misc_CustomFont_Remove}" Appearance="Danger" Command="{Binding ManageCustomFontCommand}" Visibility="{Binding DeleteCustomFontVisibility, Mode=OneWay}" />
@@ -106,7 +111,8 @@
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Misc_CustomDeathSound_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Misc_CustomDeathSound_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Misc_CustomDeathSound_Description}"
+            Icon="SoundWaveCircle24">
             <StackPanel>
                 <ui:Button
                     Command="{Binding AddCustomDeathSoundCommand}"
@@ -124,7 +130,8 @@
 
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Mods_Misc_CustomRobloxIcon_Title}"
-            Description="{x:Static resources:Strings.Menu_Mods_Misc_CustomRobloxIcon_Description}">
+            Description="{x:Static resources:Strings.Menu_Mods_Misc_CustomRobloxIcon_Description}"
+            Icon="Image24">
             <StackPanel>
                 <ComboBox Width="200" Padding="10,5,10,5"
                           ItemsSource="{Binding RobloxIcons, Mode=OneWay}"

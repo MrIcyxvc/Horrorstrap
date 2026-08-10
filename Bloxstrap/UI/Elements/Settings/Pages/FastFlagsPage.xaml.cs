@@ -25,6 +25,7 @@ namespace Bloxstrap.UI.Elements.Settings.Pages
             _viewModel = new FastFlagsViewModel();
 
             _viewModel.OpenFlagEditorEvent += OpenFlagEditor;
+            _viewModel.OpenIxpEditorEvent += OpenIxpEditor;
             _viewModel.RequestPageReloadEvent += (_, _) => SetupViewModel();
 
             DataContext = _viewModel;
@@ -35,6 +36,14 @@ namespace Bloxstrap.UI.Elements.Settings.Pages
             if (Window.GetWindow(this) is INavigationWindow window)
             {
                 window.Navigate(typeof(FastFlagEditorPage));
+            }
+        }
+
+        private void OpenIxpEditor(object? sender, EventArgs e)
+        {
+            if (Window.GetWindow(this) is INavigationWindow window)
+            {
+                window.Navigate(typeof(IxpEditorPage));
             }
         }
 

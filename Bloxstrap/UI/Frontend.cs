@@ -63,11 +63,14 @@ namespace Bloxstrap.UI
 
             Directory.CreateDirectory(Paths.CustomThemes);
 
+            if (App.Settings.Prop.SelectedCustomTheme == null)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "No custom theme selected, defaulting to Fluent");
+                return GetBootstrapperDialog(BootstrapperStyle.FluentDialog);
+            }
+
             try
             {
-                if (App.Settings.Prop.SelectedCustomTheme == null)
-                    throw new Exception("No custom theme selected");
-
                 CustomDialog dialog = new CustomDialog();
                 dialog.ApplyCustomTheme(App.Settings.Prop.SelectedCustomTheme);
                 return dialog;
@@ -95,6 +98,7 @@ namespace Bloxstrap.UI
                 BootstrapperStyle.TwentyFiveDialog => new TwentyFiveDialog(),
                 BootstrapperStyle.FluentDialog => new FluentDialog(false),
                 BootstrapperStyle.FluentAeroDialog => new FluentDialog(true),
+                BootstrapperStyle.ByfronDialog => new ByfronDialog(),
                 BootstrapperStyle.CustomDialog => GetCustomBootstrapper(),
                 _ => new FluentDialog(false)
             };
@@ -114,7 +118,7 @@ namespace Bloxstrap.UI
         {
             var notifyIcon = new System.Windows.Forms.NotifyIcon
             {
-                Icon = Properties.Resources.IconBubblestrap,
+                Icon = Properties.Resources.IconHorrorstrap,
                 Text = App.ProjectName,
                 Visible = true
             };

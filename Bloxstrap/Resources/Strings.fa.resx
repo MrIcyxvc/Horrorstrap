@@ -74,7 +74,7 @@
     <value>برای حذف نصب، ابتدا باید بلاکسترپ را نصب کنید.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Bubblestrap فضای کافی برای دانلود و نصب Roblox ندارد. لطفاً مقداری حافظه را آزاد کنید و دوباره تلاش کنید.</value>
+    <value>Horrorstrap فضای کافی برای دانلود و نصب Roblox ندارد. لطفاً مقداری حافظه را آزاد کنید و دوباره تلاش کنید.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>در حال اعمال کردن تغییرات روبلاکس...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap با موفقیت حذف شد</value>
+    <value>Horrorstrap با موفقیت حذف شد</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox در حال اجرا است؛ ولی قبل از حذف نصب Bubblestrap باید بسته شود. آیا میخواهید Roblox را الان بیندید?</value>
+    <value>Roblox در حال اجرا است؛ ولی قبل از حذف نصب Horrorstrap باید بسته شود. آیا میخواهید Roblox را الان بیندید?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>روبلاکس نیاز به استفاده از اجزای Windows Media Foundation میباشد. همانا شما آنرا ندارید؛ و یا ممکن است شما درحال استفاده از نسخه N در Windows باشید. اول آنرا نصب کرده، و بعد روبلاکس را اجرا کنید.</value>
@@ -933,7 +933,7 @@
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
     <value>بلاکسترپ قبلا در این مسیر نصب شده و هنوز در این مسیر وجود دارد، اما نصب کننده نمیتواند فایل اجرایی قدیمی را بازنویسی کند.
-لطفا به طور دستی "Bubblestrap.exe" را از مسیر نصب کننده پاک کنید و یا سیستم خود را خاموش و روشن کنید، و بعد از آن دوباره نصب کننده را اجرا کنید.</value>
+لطفا به طور دستی "Horrorstrap.exe" را از مسیر نصب کننده پاک کنید و یا سیستم خود را خاموش و روشن کنید، و بعد از آن دوباره نصب کننده را اجرا کنید.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>در دسترس نیست</value>
@@ -1010,7 +1010,7 @@
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>صدور</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="App.OSDeprecation.Win7_81" xml:space="preserve">
     <value>روبلاکس دیگر بر روی ویندوز 7 و یا 8.1 پشتیبانی نمیشود. جهت ادامه دادن به بازی در روبلاکس، لطفا به ویندوز 10 یا جدیدتر بروزرسانی کنید.</value>
@@ -1175,7 +1175,7 @@
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>راه‌اندازی بوت‌ استرپرِ دلخواه انجام نشد: {0}.
 به‌طور پیش‌فرض تنظیم می‌شود برروی {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>هیچ تم دلخواهی انتخاب نشده است.</value>
@@ -1263,10 +1263,10 @@
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>غیرفعال کردن پردازشگر از کار افتادن روبلاکس</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>این گزینه را فعال کنید تا هنگام باز بودن برنامه، یک RPC سفارشی Bubblestrap در پروفایل شما نمایش داده شود.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>این گزینه را فعال کنید تا هنگام باز بودن برنامه، یک RPC سفارشی Horrorstrap در پروفایل شما نمایش داده شود.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
     <value>بابل‌استرپ RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
@@ -1306,7 +1306,7 @@
     <value>کانال</value>
   </data>
   <data name="Menu.Channel.Description" xml:space="preserve">
-    <value>تنظیمات استقرار و نصب را برای Roblox و Bubblestrap تغییر دهید.</value>
+    <value>تنظیمات استقرار و نصب را برای Roblox و Horrorstrap تغییر دهید.</value>
   </data>
   <data name="Common.Channel" xml:space="preserve">
     <value>کانال</value>
@@ -1366,7 +1366,7 @@
     <value>هَش نسخه</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>اجبار کنید Bubblestrap نسخه را از هَش مشخص دانلود کند. لطفاً اگر نمی‌دانید این کار چه می‌کند، آن را تغییر ندهید.</value>
+    <value>اجبار کنید Horrorstrap نسخه را از هَش مشخص دانلود کند. لطفاً اگر نمی‌دانید این کار چه می‌کند، آن را تغییر ندهید.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>ذخیره و اجرا</value>
@@ -1395,7 +1395,7 @@
     <value>عمل تغییر خودکار کانال</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox یا Bubblestrap ممکن است سعی کنند کانال دلخواه شما را تغییر دهند.</value>
+    <value>Roblox یا Horrorstrap ممکن است سعی کنند کانال دلخواه شما را تغییر دهند.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>خودکار تغییر دهید</value>
@@ -1423,29 +1423,29 @@
     <value>کانال مشخص‌شده یا وجود ندارد یا خصوصی است.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>وارد کردن تنظیمات Bubblestrap ناموفق بود.
+    <value>وارد کردن تنظیمات Horrorstrap ناموفق بود.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>وارد کردن تنظیمات از Bubblestrap</value>
+    <value>وارد کردن تنظیمات از Horrorstrap</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>نصب Bubblestrap یافت نشد.</value>
+    <value>نصب Horrorstrap یافت نشد.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>اطلاعاتی را جمع‌آوری کنید که بتوان آن را به‌صورت آنلاین بارگذاری کرد تا مشکلی را که با آن مواجه هستید عیب‌یابی کنید.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>پیکربندی Bubblestrap</value>
+    <value>پیکربندی Horrorstrap</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>تمام لاگ‌های Bubblestrap</value>
+    <value>تمام لاگ‌های Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>پاک‌کننده‌تر</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap برای صرفه‌جویی در فضا، داده‌های قدیمی را حذف خواهد کرد.</value>
+    <value>Horrorstrap برای صرفه‌جویی در فضا، داده‌های قدیمی را حذف خواهد کرد.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>هرگز</value>
@@ -1481,19 +1481,19 @@
     <value>فایل‌های لاگ قدیمی حذف خواهند شد.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>گزارش‌های Bubblestrap</value>
+    <value>گزارش‌های Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>لاگ‌های Bubblestrap حذف خواهند شد.</value>
+    <value>لاگ‌های Horrorstrap حذف خواهند شد.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>گزینه‌های مربوط به رفتار خود Bubblestrap را پیکربندی کنید.</value>
+    <value>گزینه‌های مربوط به رفتار خود Horrorstrap را پیکربندی کنید.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>پرچم‌های سریع موقتاً غیرفعال شده‌اند</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>برای اطلاعات بیشتر به سرور دیسکورد Bubblestrap بپیوندید.</value>
+    <value>برای اطلاعات بیشتر به سرور دیسکورد Horrorstrap بپیوندید.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>انتظار برای داده‌ها</value>
@@ -1535,7 +1535,7 @@
     <value>تنظیمات جهانی</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>تنظیمات بازی را از منوی Bubblestrap تنظیم کنید.</value>
+    <value>تنظیمات بازی را از منوی Horrorstrap تنظیم کنید.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>شفافیت</value>
@@ -1583,10 +1583,10 @@
     <value>کیفیت FRM را که Roblox باید استفاده کند، انتخاب کنید.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>اجازه دهید Bubblestrap به حساب کاربری Roblox شما دسترسی داشته باشد.</value>
+    <value>اجازه دهید Horrorstrap به حساب کاربری Roblox شما دسترسی داشته باشد.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>با استفاده از کوکی احراز هویت خود، دسترسی به APIهای Roblox را فراهم کنید. [Bubblestrap به چه چیزهایی دسترسی خواهد داشت؟]({0})</value>
+    <value>با استفاده از کوکی احراز هویت خود، دسترسی به APIهای Roblox را فراهم کنید. [Horrorstrap به چه چیزهایی دسترسی خواهد داشت؟]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>تریمر حافظه</value>
@@ -1859,7 +1859,7 @@
     <value>نسخه Roblox را که قبل از نسخه فعلی زنده بود، دانلود و نصب کنید.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>اینها افرادی هستند که کمک های قابل توجهی به Bubblestrap کرده اند و به تبدیل شدن آن به آنچه هست کمک کرده اند.</value>
+    <value>اینها افرادی هستند که کمک های قابل توجهی به Horrorstrap کرده اند و به تبدیل شدن آن به آنچه هست کمک کرده اند.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>پنهان کردن نام کاربری</value>

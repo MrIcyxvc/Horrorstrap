@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>„Bubblestrap“ nepavyko automatiškai atnaujinti į {0} versiją. Atnaujinkite ją rankiniu būdu atsisiųsdami ir paleisdami iš svetainės.</value>
+    <value>„Horrorstrap“ nepavyko automatiškai atnaujinti į {0} versiją. Atnaujinkite ją rankiniu būdu atsisiųsdami ir paleisdami iš svetainės.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>„Roblox“ šiuo metu paleista, o paleidus kitą serverį jis bus uždarytas. Ar tikrai norite tęsti paleidimą?</value>
@@ -68,13 +68,13 @@
     <value>„Roblox“ šiuo metu gali būti neveikiantis. Žiūrėkite {0} dėl daugiau informacijos.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Ryšio užmegzti nepavyko, o tai greičiausiai reiškia prastą interneto ryšį arba užkardos blokavimą. Jei ryšys veikia gerai, įsitikinkite, kad jūsų antivirusinė programa neblokuoja „Bubblestrap“.</value>
+    <value>Ryšio užmegzti nepavyko, o tai greičiausiai reiškia prastą interneto ryšį arba užkardos blokavimą. Jei ryšys veikia gerai, įsitikinkite, kad jūsų antivirusinė programa neblokuoja „Horrorstrap“.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Prieš išdiegdami „Bubblestrap“, pirmiausia turite įdiegti „Bubblestrap“.</value>
+    <value>Prieš išdiegdami „Horrorstrap“, pirmiausia turite įdiegti „Horrorstrap“.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>„Bubblestrap“ neturi pakankamai vietos diske, kad galėtų atsisiųsti ir įdiegti „Roblox“. Atlaisvinkite šiek tiek vietos diske ir bandykite dar kartą.</value>
+    <value>„Horrorstrap“ neturi pakankamai vietos diske, kad galėtų atsisiųsti ir įdiegti „Roblox“. Atlaisvinkite šiek tiek vietos diske ir bandykite dar kartą.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Taikomos „Roblox“ modifikacijos...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>„Bubblestrap“ buvo sėkmingai išdiegtas</value>
+    <value>„Horrorstrap“ buvo sėkmingai išdiegtas</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>„Roblox“ šiuo metu paleista, bet prieš išdiegiant „Bubblestrap“ turi būti uždarytas. Ar norėtumėte dabar uždaryti „Roblox“?</value>
+    <value>„Roblox“ šiuo metu paleista, bet prieš išdiegiant „Horrorstrap“ turi būti uždarytas. Ar norėtumėte dabar uždaryti „Roblox“?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>„Roblox“ reikia naudoti „Windows Media Foundation“ komponentus. Atrodo, kad jų trūksta, greičiausiai dėl to, kad naudojate „Windows“ N laidą. Pirmiausia juos įdiekite, tada paleiskite „Roblox“.</value>
@@ -217,21 +217,21 @@ Spustelėkite norėdami gauti daugiau informacijos.</value>
     <value>Ryšio klaida</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>„Bubblestrap“ nepavyksta prisijungti prie {0}.</value>
+    <value>„Horrorstrap“ nepavyksta prisijungti prie {0}.</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Kopijuoti žurnalo turinį</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Įvyko išimtis paleidžiant „Bubblestrap“</value>
+    <value>Įvyko išimtis paleidžiant „Horrorstrap“</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
-    <value>Pirmiausia patikrinkite [„Bubblestrap“ viki]({0}), kad sužinotumėte, ar ši problema jau išspręsta.
+    <value>Pirmiausia patikrinkite [„Horrorstrap“ viki]({0}), kad sužinotumėte, ar ši problema jau išspręsta.
 Jei ne, praneškite apie šią išimtį per [„GitHub“ problemą]({1}) kartu su sukurto žurnalo failo kopija.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>„Bubblestrap“ išimtis</value>
+    <value>„Horrorstrap“ išimtis</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Pasirinktinis</value>
@@ -243,10 +243,10 @@ Jei ne, praneškite apie šią išimtį per [„GitHub“ problemą]({1}) kartu 
     <value>2015 m. pabaiga</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>„Bubblestrap“ (klasikinis)</value>
+    <value>„Horrorstrap“ (klasikinis)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>„Bubblestrap“ (stiklinis)</value>
+    <value>„Horrorstrap“ (stiklinis)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>„Legacy“ (2008-2011 m.)</value>
@@ -300,10 +300,10 @@ Jei ne, praneškite apie šią išimtį per [„GitHub“ problemą]({1}) kartu 
     <value>Šviesi</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>„Bubblestrap“ buvo atnaujintas į v{0}.</value>
+    <value>„Horrorstrap“ buvo atnaujintas į v{0}.</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Paleista „Bubblestrap“ versija skiriasi nuo šiuo metu įdiegtos versijos.
+    <value>Paleista „Horrorstrap“ versija skiriasi nuo šiuo metu įdiegtos versijos.
 Ar norėtumėte atnaujinti šiuo metu įdiegtą versiją?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
@@ -356,7 +356,7 @@ Ar norėtumėte atnaujinti šiuo metu įdiegtą versiją?</value>
     <value>Atkreipkite dėmesį, kad ne visi pakeitimai bus taikomi iš karto, kol neuždarysite visų šiuo metu atidarytų „Roblox“ serverių.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>„Bubblestrap“ jau paleista</value>
+    <value>„Horrorstrap“ jau paleista</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Galite padaryti jį kitaip, retro ar net kaip „Roblox“.</value>
@@ -383,7 +383,7 @@ Ar norėtumėte atnaujinti šiuo metu įdiegtą versiją?</value>
     <value>Pavadinimas</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Konfigūruokite, kaip turėtų atrodyti „Bubblestrap“.</value>
+    <value>Konfigūruokite, kaip turėtų atrodyti „Horrorstrap“.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Visuotinė tema</value>
@@ -407,10 +407,10 @@ Ar norėtumėte atnaujinti šiuo metu įdiegtą versiją?</value>
     <value>Išvaizda</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>„Bubblestrap“ automatiškai patikrins ir atnaujins save paleidus „Roblox“.</value>
+    <value>„Horrorstrap“ automatiškai patikrins ir atnaujins save paleidus „Roblox“.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Automatiškai atnaujinti „Bubblestrap“</value>
+    <value>Automatiškai atnaujinti „Horrorstrap“</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Užkirskite kelią atsitiktiniam esamo žaidimo uždarymui, kad netyčia nebūtų paleistas kitas žaidimas.</value>
@@ -419,7 +419,7 @@ Ar norėtumėte atnaujinti šiuo metu įdiegtą versiją?</value>
     <value>Raginti patvirtinti paleidžiant kitą „Roblox“ serverį</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Konfigūruokite, ką „Bubblestrap“ turėtų daryti paleidžiant „Roblox“.</value>
+    <value>Konfigūruokite, ką „Horrorstrap“ turėtų daryti paleidžiant „Roblox“.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Kitą kartą paleidus „Roblox“ bus įdiegta nauja.</value>
@@ -515,10 +515,10 @@ Ar tikrai norite tęsti?</value>
     <value>Piktogramų failai</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Čia negalima įdiegti „Bubblestrap“. Pasirinkite kitą vietą arba naudokite numatytąją vietą spustelėdami mygtuką Atkurti.</value>
+    <value>Čia negalima įdiegti „Horrorstrap“. Pasirinkite kitą vietą arba naudokite numatytąją vietą spustelėdami mygtuką Atkurti.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Aplankas, į kurį pasirinkote įdiegti „Bubblestrap“, jau egzistuoja ir nėra tuščias. Labai rekomenduojama „Bubblestrap“ įdiegti į atskirą aplanką.
+    <value>Aplankas, į kurį pasirinkote įdiegti „Horrorstrap“, jau egzistuoja ir nėra tuščias. Labai rekomenduojama „Horrorstrap“ įdiegti į atskirą aplanką.
 Siūloma pakeisti šią vietą:
 {0}
 Ar norite pakeisti į siūlomą vietą?
@@ -529,7 +529,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Turite nustatyti diegimo vietą.</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>„Bubblestrap“ neturi rašymo prieigos prie pasirinktos diegimo vietos. Pasirinkite kitą vietą.</value>
+    <value>„Horrorstrap“ neturi rašymo prieigos prie pasirinktos diegimo vietos. Pasirinkite kitą vietą.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Veiklos sekimas</value>
@@ -580,7 +580,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Neišeiti iki darbalaukio programos</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Leidžia „Bubblestrap“ nustatyti, kokį „Roblox“ žaidimą žaidžiate. Tam tikroms funkcijoms to gali prireikti.</value>
+    <value>Leidžia „Horrorstrap“ nustatyti, kokį „Roblox“ žaidimą žaidžiate. Tam tikroms funkcijoms to gali prireikti.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Įjungti veiklos sekimą</value>
@@ -671,7 +671,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Nustatymai išsaugoti.</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>„Bubblestrap“ nustatymai</value>
+    <value>„Horrorstrap“ nustatymai</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Pasirinkite pageidaujamą kalbą</value>
@@ -692,7 +692,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Naudotojo sąsaja ir išdėstymas</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Leisti „Bubblestrap“ tvarkyti „Fast Flags“</value>
+    <value>Leisti „Horrorstrap“ tvarkyti „Fast Flags“</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Išjungus šią funkciją, „Roblox“ nebus taikoma jokia čia sukonfigūruota funkcija.</value>
@@ -701,7 +701,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Glodinimo kokybė (MSAA)</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>„Bubblestrap“ nepavyksta atsisiųsti „Roblox“</value>
+    <value>„Horrorstrap“ nepavyksta atsisiųsti „Roblox“</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>„Roblox“ šiuo metu atsisiųsti negalima. Skaitykite toliau esantį pagalbos puslapį dėl papildomos informacijos: {0}</value>
@@ -722,7 +722,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Elementas „{0}“ netinkamas, nes reikšmė turi būti skaičius.</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Šis paleidimas nebus įrašytas į žurnalą, nes „Bubblestrap“ nepavyksta įrašyti į aplanką adresu „{0}“.</value>
+    <value>Šis paleidimas nebus įrašytas į žurnalą, nes „Horrorstrap“ nepavyksta įrašyti į aplanką adresu „{0}“.</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Numatytasis</value>
@@ -737,7 +737,7 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Elementas „{0}“ netinkamas, nes vietos filtras suformatuotas neteisingai.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>„Bubblestrap“ diegyklė</value>
+    <value>„Horrorstrap“ diegyklė</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Sveiki atvykę</value>
@@ -756,16 +756,16 @@ Pasirinkus Ne, šis įspėjimas bus ignoruojamas ir diegimas bus tęsiamas.</val
     <value>Toliau</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Dėkojame, kad atsisiuntėte „Bubblestrap“. 
-Vienintelės oficialios svetainės, iš kurių galima atsisiųsti „Bubblestrap“, yra {0} ir {1}, todėl patikrinkite, ar ją gavote iš oficialaus šaltinio.
-Šis diegimo procesas bus greitas ir paprastas, o įdiegus galėsite konfigūruoti bet kokius „Bubblestrap“ nustatymus.</value>
+    <value>Dėkojame, kad atsisiuntėte „Horrorstrap“. 
+Vienintelės oficialios svetainės, iš kurių galima atsisiųsti „Horrorstrap“, yra {0} ir {1}, todėl patikrinkite, ar ją gavote iš oficialaus šaltinio.
+Šis diegimo procesas bus greitas ir paprastas, o įdiegus galėsite konfigūruoti bet kokius „Horrorstrap“ nustatymus.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Spustelėkite Toliau, kad tęstumėte.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Bandote įdiegti {0} „Bubblestrap“ versiją, bet naujausia versija yra {1}. Ar norėtumėte ją atsisiųsti?</value>
+    <value>Bandote įdiegti {0} „Horrorstrap“ versiją, bet naujausia versija yra {1}. Ar norėtumėte ją atsisiųsti?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Pasirinkite, kur įdiegti</value>
@@ -786,13 +786,13 @@ Vienintelės oficialios svetainės, iš kurių galima atsisiųsti „Bubblestrap
     <value>Pradžios meniu piktograma</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>„Bubblestrap“ sėkmingai įdiegta.
-„Roblox“ dar neįdiegtas, tai įvyks, kai pirmą kartą jį paleisite su „Bubblestrap“. Tačiau prieš tai galbūt norėsite pirmiausia sukonfigūruoti „Bubblestrap“ nustatymus.
-Be to, venkite naudoti „Roblox Player“ nuorodą „Roblox“ paleisti, nes „Bubblestrap“ nebus paleista kartu su „Roblox“. Jei paleidžiant iš svetainės nematote, kad rodomas „Bubblestrap“, tiesiog vieną kartą paleiskite „Roblox“ su „Bubblestrap“ iš darbalaukio, kad tai išspręstumėte.
+    <value>„Horrorstrap“ sėkmingai įdiegta.
+„Roblox“ dar neįdiegtas, tai įvyks, kai pirmą kartą jį paleisite su „Horrorstrap“. Tačiau prieš tai galbūt norėsite pirmiausia sukonfigūruoti „Horrorstrap“ nustatymus.
+Be to, venkite naudoti „Roblox Player“ nuorodą „Roblox“ paleisti, nes „Horrorstrap“ nebus paleista kartu su „Roblox“. Jei paleidžiant iš svetainės nematote, kad rodomas „Horrorstrap“, tiesiog vieną kartą paleiskite „Roblox“ su „Horrorstrap“ iš darbalaukio, kad tai išspręstumėte.
 Ką norėtumėte daryti?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Konfigūruoti „Bubblestrap“ nustatymus</value>
+    <value>Konfigūruoti „Horrorstrap“ nustatymus</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Derinkite visas siūlomas funkcijas</value>
@@ -804,19 +804,19 @@ Ką norėtumėte daryti?</value>
     <value>Kai viskas bus atlikta, pateksite į darbalaukio programą</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Išdiegti „Bubblestrap“</value>
+    <value>Išdiegti „Horrorstrap“</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Išdiegus bus pašalinta „Bubblestrap“ iš sistemos ir automatiškai perkonfigūruota numatytoji „Roblox“ paleidyklė, jei ji vis dar įdiegta.
+    <value>Išdiegus bus pašalinta „Horrorstrap“ iš sistemos ir automatiškai perkonfigūruota numatytoji „Roblox“ paleidyklė, jei ji vis dar įdiegta.
 Jei išdiegiate arba iš naujo įdiegiate, nes turite problemų su „Roblox“, pirmiausia perskaitykite [šį pagalbos puslapį]({0}).
-Išdiegimo procesas gali nesugebėti visiškai išvalyti, todėl gali tekti rankiniu būdu valyti likusius failus, kuriuose buvo įdiegta „Bubblestrap“.
-„Bubblestrap“ buvo įdiegta vietoje „{1}“.</value>
+Išdiegimo procesas gali nesugebėti visiškai išvalyti, todėl gali tekti rankiniu būdu valyti likusius failus, kuriuose buvo įdiegta „Horrorstrap“.
+„Horrorstrap“ buvo įdiegta vietoje „{1}“.</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Išlaikyti mano nustatymus ir modifikacijas</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Jie bus saugomi ten, kur buvo įdiegta „Bubblestrap“, ir bus automatiškai atkurti įdiegus iš naujo.</value>
+    <value>Jie bus saugomi ten, kur buvo įdiegta „Horrorstrap“, ir bus automatiškai atkurti įdiegus iš naujo.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Išdiegti</value>
@@ -837,18 +837,18 @@ Išdiegimo procesas gali nesugebėti visiškai išvalyti, todėl gali tekti rank
     <value>Šiuo metu neturite įdiegę „WebView2“ vykdyklės. Be jos kai kurios „Roblox“ funkcijos, pavyzdžiui, darbalaukio programa, neveiks tinkamai. Ar norėtumėte ją atsisiųsti dabar?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>„Bubblestrap“ nepavyko sukurti darbalaukio ir pradžios meniu nuorodų. Bandykite juos sukurti vėliau per nustatymus.</value>
+    <value>„Horrorstrap“ nepavyko sukurti darbalaukio ir pradžios meniu nuorodų. Bandykite juos sukurti vėliau per nustatymus.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
-    <value>Pirmiausia patikrinkite [„Bubblestrap“ viki]({0}), kad sužinotumėte, ar ši problema jau išspręsta.
-Jei ne, praneškite apie šią išimtį šios atšakos prižiūrėtojams. NEPRANEŠKITE apie tai „Bubblestrap“ „GitHub“ problemoms, nes tai – neoficialus darinys.</value>
+    <value>Pirmiausia patikrinkite [„Horrorstrap“ viki]({0}), kad sužinotumėte, ar ši problema jau išspręsta.
+Jei ne, praneškite apie šią išimtį šios atšakos prižiūrėtojams. NEPRANEŠKITE apie tai „Horrorstrap“ „GitHub“ problemoms, nes tai – neoficialus darinys.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Tai – bendrosios nuorodos, kurios iškelia daugiapasirinkimų paleidimo meniu. Konkrečių funkcijų nuorodas galima sukurti vėliau nustatymuose.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Konfigūruokite, kaip galima lengvai paleisti „Bubblestrap“.</value>
+    <value>Konfigūruokite, kaip galima lengvai paleisti „Horrorstrap“.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Bendrieji</value>
@@ -885,7 +885,7 @@ Jei ne, praneškite apie šią išimtį šios atšakos prižiūrėtojams. NEPRAN
     <value>Turite neišsaugotų pakeitimų. Ar tikrai norite uždaryti neišsaugojus?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Paleista „Bubblestrap“ versija yra senesnė už šiuo metu įdiegtą versiją.
+    <value>Paleista „Horrorstrap“ versija yra senesnė už šiuo metu įdiegtą versiją.
 Gali kilti problemų ir gali būti pakeisti jūsų nustatymai. Rekomenduojama iš naujo įdiegti.
 Ar tikrai norite tęsti?</value>
   </data>
@@ -897,7 +897,7 @@ Ar tikrai norite tęsti?</value>
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Informacijos apie tai, kodėl taip gali atsitikti ir kaip tai išspręsti, skaitykite [šiame pagalbos straipsnyje]({0}).
-Patikrinkite, ar „Roblox“ veikia su [originalia paleidyklė]({1}). Jei neveikia, vadinasi, tai nėra „Bubblestrap“ problema. Jei veikia, skaitykite pagalbos straipsnį.</value>
+Patikrinkite, ar „Roblox“ veikia su [originalia paleidyklė]({1}). Jei neveikia, vadinasi, tai nėra „Horrorstrap“ problema. Jei veikia, skaitykite pagalbos straipsnį.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Nepavyko įkelti duomenų dėl tinklo klaidos.</value>
@@ -930,11 +930,11 @@ Patikrinkite, ar „Roblox“ veikia su [originalia paleidyklė]({1}). Jei nevei
     <value>Šiam paleidimui „Roblox“ nebus tikrinama, ar nėra atnaujinimų, ir modifikacijų pakeitimai nebus taikomi.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Kadangi „Roblox“ reikia įdiegti arba atnaujinti, „Bubblestrap“ negalima tęsti.</value>
+    <value>Kadangi „Roblox“ reikia įdiegti arba atnaujinti, „Horrorstrap“ negalima tęsti.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>„Bubblestrap“ į šią vietą buvo įdiegta anksčiau ir vis dar yra, bet diegyklė negali perrašyti senos vykdomosios programos. 
-Rankiniu būdu ištrinkite Bubblestrap.exe iš diegimo vietos arba bandykite iš naujo paleisti sistemą, o po to dar kartą bandykite įdiegti.</value>
+    <value>„Horrorstrap“ į šią vietą buvo įdiegta anksčiau ir vis dar yra, bet diegyklė negali perrašyti senos vykdomosios programos. 
+Rankiniu būdu ištrinkite Horrorstrap.exe iš diegimo vietos arba bandykite iš naujo paleisti sistemą, o po to dar kartą bandykite įdiegti.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Nepasiekiama</value>
@@ -946,7 +946,7 @@ Rankiniu būdu ištrinkite Bubblestrap.exe iš diegimo vietos arba bandykite iš
     <value>Konfigūruokite programos parametrus, pavyzdžiui, DPI mastelio keitimo elgseną ir [viso ekrano optimizavimą]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>„Roblox“ kol kas neįdiegta. Prieš bandydami naudoti šią parinktį, bent kartą paleiskite „Roblox“ naudojant „Bubblestrap“.</value>
+    <value>„Roblox“ kol kas neįdiegta. Prieš bandydami naudoti šią parinktį, bent kartą paleiskite „Roblox“ naudojant „Horrorstrap“.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Ar tikrai norite atšaukti diegimą?</value>
@@ -963,10 +963,10 @@ Rankiniu būdu ištrinkite Bubblestrap.exe iš diegimo vietos arba bandykite iš
     <value>Išskleisti „Roblox“ piktogramas į aplanką</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Leidžia naudoti „Bubblestrap“ „Roblox“ piktogramų asortimentą savo nuorodoms. [Žiūrėti, kaip.]({0})</value>
+    <value>Leidžia naudoti „Horrorstrap“ „Roblox“ piktogramų asortimentą savo nuorodoms. [Žiūrėti, kaip.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>„Bubblestrap“ negali įrašyti į „Windows“ registrą. Greičiausiai trukdo antivirusinė programa ir sukelia problemų. Patikrinkite, ar nėra nieko, kas ribotų „Bubblestrap“ veikimą.</value>
+    <value>„Horrorstrap“ negali įrašyti į „Windows“ registrą. Greičiausiai trukdo antivirusinė programa ir sukelia problemų. Patikrinkite, ar nėra nieko, kas ribotų „Horrorstrap“ veikimą.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Iš naujo nustatyti viską į numatytąsias</value>
@@ -1001,7 +1001,7 @@ Ar norėtumėte įjungti bandymo režimą?</value>
     <value>Pasirinktinis</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>„Bubblestrap“ bandė atnaujinti „Roblox“, bet negali, nes „Roblox“ failai vis dar naudojami.
+    <value>„Horrorstrap“ bandė atnaujinti „Roblox“, bet negali, nes „Roblox“ failai vis dar naudojami.
 Uždarykite visas programas, kurios gali naudoti „Roblox“ failus, ir paleiskite iš naujo.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1011,17 +1011,17 @@ Uždarykite visas programas, kurios gali naudoti „Roblox“ failus, ir paleisk
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Eksportuoti</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Greičiausiai kažkas trukdo „Bubblestrap“ prisijungti prie interneto.</value>
+    <value>Greičiausiai kažkas trukdo „Horrorstrap“ prisijungti prie interneto.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>Ryšys nutrūko, o tai gali reikšti prastą interneto ryšį arba užkardos blokavimą.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>Pakeiskite „Roblox“ ir „Bubblestrap“ diegimo ir įdiegimo nustatymus.</value>
+    <value>Pakeiskite „Roblox“ ir „Horrorstrap“ diegimo ir įdiegimo nustatymus.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Kanalas</value>
@@ -1039,7 +1039,7 @@ Uždarykite visas programas, kurios gali naudoti „Roblox“ failus, ir paleisk
     <value>„Roblox“ nebepalaiko „Windows 7“ arba „8.1“. Kad tęstumėte žaisti „Roblox“, atnaujinkite į „Windows 10“ ar naujesnę versiją.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Gaunamas naujausias „Bubblestrap“...</value>
+    <value>Gaunamas naujausias „Horrorstrap“...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Tuščia</value>
@@ -1198,7 +1198,7 @@ Uždarykite visas programas, kurios gali naudoti „Roblox“ failus, ir paleisk
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Nepavyko nustatyti pasirinktinės pakopinės paleidyklės: {0}.
 Nustatomas numatytasis į „{1}“.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Nepasirinkta jokia pasirinktinė tema.</value>
@@ -1265,7 +1265,7 @@ Nustatomas numatytasis į „{1}“.</value>
     <value>Redaguoti</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>Apie „Bubblestrap“</value>
+    <value>Apie „Horrorstrap“</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Veikimo laikas</value>
@@ -1286,11 +1286,11 @@ Veikimo laikas: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Išjungti „Roblox“ avarijų tvarkyklę</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Įjunkite šią funkciją, kad atidarius programą jūsų profilyje būtų rodomas pasirinktinis Bubblestrap Discord RPC.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>Įjunkite šią funkciją, kad atidarius programą jūsų profilyje būtų rodomas pasirinktinis Horrorstrap Discord RPC.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
+    <value>Horrorstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Pasirinkite garsą...</value>
@@ -1374,7 +1374,7 @@ Veikimo laikas: {1}</value>
     <value>Versijos hash</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Priversti Bubblestrap atsisiųsti versiją iš konkretaus hash. Prašome nekeisti, jei nežinote, ką tai reiškia.</value>
+    <value>Priversti Horrorstrap atsisiųsti versiją iš konkretaus hash. Prašome nekeisti, jei nežinote, ką tai reiškia.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Išsaugoti ir paleisti</value>
@@ -1403,7 +1403,7 @@ Ar norite pereiti prie numatytojo kanalo ({1})?</value>
     <value>Automatinis kanalų perjungimas</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox arba Bubblestrap gali bandyti pakeisti jūsų pasirinktą kanalą.</value>
+    <value>Roblox arba Horrorstrap gali bandyti pakeisti jūsų pasirinktą kanalą.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Keisti automatiškai</value>
@@ -1431,29 +1431,29 @@ Ar norite pakeisti pageidaujamą kanalą į {0}?</value>
     <value>Nurodytas kanalas neegzistuoja arba yra privatus.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Nepavyko importuoti „Bubblestrap“ nustatymų.
+    <value>Nepavyko importuoti „Horrorstrap“ nustatymų.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Importuoti nustatymus iš Bubblestrap</value>
+    <value>Importuoti nustatymus iš Horrorstrap</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Bubblestrap įdiegimo nerasta.</value>
+    <value>Horrorstrap įdiegimo nerasta.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Surinkite informaciją, kurią galima įkelti į internetą, kad išspręstumėte turimą problemą.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Bubblestrap konfigūracija</value>
+    <value>Horrorstrap konfigūracija</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Visi Bubblestrap žurnalai</value>
+    <value>Visi Horrorstrap žurnalai</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Valiklis</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap pašalins senus duomenis, kad sutaupytų vietos</value>
+    <value>Horrorstrap pašalins senus duomenis, kad sutaupytų vietos</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Niekada</value>
@@ -1489,19 +1489,19 @@ Ar norite pakeisti pageidaujamą kanalą į {0}?</value>
     <value>Senosios žurnalo failai bus ištrinti.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Bubblestrap žurnalai</value>
+    <value>Horrorstrap žurnalai</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Bubblestrap žurnalai bus ištrinti.</value>
+    <value>Horrorstrap žurnalai bus ištrinti.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Konfigūruokite parinktis, susijusias su pačiu Bubblestrap elgesiu.</value>
+    <value>Konfigūruokite parinktis, susijusias su pačiu Horrorstrap elgesiu.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags buvo laikinai išjungti</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Daugiau informacijos rasite prisijungę prie „Bubblestrap Discord“ serverio.</value>
+    <value>Daugiau informacijos rasite prisijungę prie „Horrorstrap Discord“ serverio.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Laukiama duomenų</value>
@@ -1543,7 +1543,7 @@ Ar norite pakeisti pageidaujamą kanalą į {0}?</value>
     <value>Bendrieji nustatymai</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Nustatykite žaidimo parametrus iš Bubblestrap meniu.</value>
+    <value>Nustatykite žaidimo parametrus iš Horrorstrap meniu.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Skaidrumas</value>
@@ -1591,10 +1591,10 @@ Ar norite pakeisti pageidaujamą kanalą į {0}?</value>
     <value>Pasirinkite FRM kokybę, kurią turėtų naudoti „Roblox“.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Leiskite „Bubblestrap“ prisijungti prie jūsų „Roblox“ paskyros</value>
+    <value>Leiskite „Horrorstrap“ prisijungti prie jūsų „Roblox“ paskyros</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Suteikite prieigą prie „Roblox“ API naudodami savo autentifikavimo slapuką. [Ką „Bubblestrap“ galės pasiekti?]({0})</value>
+    <value>Suteikite prieigą prie „Roblox“ API naudodami savo autentifikavimo slapuką. [Ką „Horrorstrap“ galės pasiekti?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Atminties apkarpymo programa</value>
@@ -1864,7 +1864,7 @@ Vietoj to įdiegsime naujausią versiją.</value>
     <value>Atsisiųskite ir įdiekite „Roblox“ versiją, kuri buvo naudojama prieš dabartinę.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Tai žmonės, kurie įnešė reikšmingą indėlį į „Bubblestrap“ ir padėjo jam tapti tokiu, koks jis yra dabar.</value>
+    <value>Tai žmonės, kurie įnešė reikšmingą indėlį į „Horrorstrap“ ir padėjo jam tapti tokiu, koks jis yra dabar.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>Paslėpti vartotojo vardą</value>

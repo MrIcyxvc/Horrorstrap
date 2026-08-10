@@ -21,24 +21,43 @@ namespace Bloxstrap.UI
 
         public NotifyIconWrapper(Watcher watcher)
         {
-            App.Logger.WriteLine("NotifyIconWrapper::NotifyIconWrapper", "Initializing notification area icon");
+            const string LOG_IDENT = "NotifyIconWrapper::NotifyIconWrapper";
+            App.Logger.WriteLine(LOG_IDENT, "Initializing notification area icon");
 
             _watcher = watcher;
 
-            _notifyIcon = new(new System.ComponentModel.Container())
+            try
             {
-                Icon = Properties.Resources.IconBubblestrap,
-                Text = "Bubblestrap",
-                Visible = true
-            };
+                _notifyIcon = new(new System.ComponentModel.Container())
+                {
+                    Icon = Properties.Resources.IconHorrorstrap,
+                    Text = "Horrorstrap",
+                    Visible = true
+                };
+            }
+            catch (Exception ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to load tray icon");
+                App.Logger.WriteException(LOG_IDENT, ex);
+                throw;
+            }
 
             _notifyIcon.MouseClick += MouseClickEventHandler;
 
             if (_activityWatcher is not null && App.Settings.Prop.ShowServerDetails)
                 _activityWatcher.ShowNotif += ShowNotif;
 
-            _menuContainer = new(_watcher);
-            _menuContainer.Show();
+            try
+            {
+                _menuContainer = new(_watcher);
+                _menuContainer.Show();
+            }
+            catch (Exception ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to create menu container");
+                App.Logger.WriteException(LOG_IDENT, ex);
+                throw;
+            }
         }
 
         #region Context menu

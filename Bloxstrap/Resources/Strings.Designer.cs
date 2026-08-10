@@ -70,7 +70,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About Bubblestrap.
+        ///   Looks up a localized string similar to About Horrorstrap.
         /// </summary>
         public static string About_Title {
             get {
@@ -106,7 +106,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap was unable to automatically update to version {0}. Please update it manually by downloading and running it from the website..
+        ///   Looks up a localized string similar to Horrorstrap was unable to automatically update to version {0}. Please update it manually by downloading and running it from the website..
         /// </summary>
         public static string Bootstrapper_AutoUpdateFailed {
             get {
@@ -174,7 +174,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap tried to upgrade Roblox but can&apos;t because Roblox&apos;s files are still in use.
+        ///   Looks up a localized string similar to Horrorstrap tried to upgrade Roblox but can&apos;t because Roblox&apos;s files are still in use.
         ///
         ///Please close any applications that may be using Roblox&apos;s files, and relaunch..
         /// </summary>
@@ -185,7 +185,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You must first install Bubblestrap before uninstalling..
+        ///   Looks up a localized string similar to You must first install Horrorstrap before uninstalling..
         /// </summary>
         public static string Bootstrapper_FirstRunUninstall {
             get {
@@ -221,7 +221,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap does not have enough disk space to download and install Roblox. Please free up some disk space and try again..
+        ///   Looks up a localized string similar to Horrorstrap does not have enough disk space to download and install Roblox. Please free up some disk space and try again..
         /// </summary>
         public static string Bootstrapper_NotEnoughSpace {
             get {
@@ -311,7 +311,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Getting the latest Bubblestrap....
+        ///   Looks up a localized string similar to Getting the latest Horrorstrap....
         /// </summary>
         public static string Bootstrapper_Status_UpgradingBloxstrap {
             get {
@@ -356,7 +356,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap has successfully uninstalled.
+        ///   Looks up a localized string similar to Horrorstrap has successfully uninstalled.
         /// </summary>
         public static string Bootstrapper_SuccessfullyUninstalled {
             get {
@@ -365,7 +365,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox is currently running, but must be closed before uninstalling Bubblestrap. Would you like to close Roblox now?.
+        ///   Looks up a localized string similar to Roblox is currently running, but must be closed before uninstalling Horrorstrap. Would you like to close Roblox now?.
         /// </summary>
         public static string Bootstrapper_Uninstall_RobloxRunning {
             get {
@@ -833,7 +833,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox has not yet been installed. Please launch Roblox using Bubblestrap at least once before trying to use this option..
+        ///   Looks up a localized string similar to Roblox has not yet been installed. Please launch Roblox using Horrorstrap at least once before trying to use this option..
         /// </summary>
         public static string Common_RobloxNotInstalled {
             get {
@@ -1610,7 +1610,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap was unable to create shortcuts for the Desktop and Start menu. Try creating them later through the settings..
+        ///   Looks up a localized string similar to Horrorstrap was unable to create shortcuts for the Desktop and Start menu. Try creating them later through the settings..
         /// </summary>
         public static string Dialog_CannotCreateShortcuts {
             get {
@@ -1619,7 +1619,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A connection could not be made, which likely indicates a poor internet connection or a firewall block. If your connection is fine, please ensure that your antivirus isn&apos;t blocking Bubblestrap..
+        ///   Looks up a localized string similar to A connection could not be made, which likely indicates a poor internet connection or a firewall block. If your connection is fine, please ensure that your antivirus isn&apos;t blocking Horrorstrap..
         /// </summary>
         public static string Dialog_Connectivity_BadConnection {
             get {
@@ -1655,7 +1655,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Because Roblox needs to be installed or upgraded, Bubblestrap cannot continue..
+        ///   Looks up a localized string similar to Because Roblox needs to be installed or upgraded, Horrorstrap cannot continue..
         /// </summary>
         public static string Dialog_Connectivity_RobloxUpgradeNeeded {
             get {
@@ -1700,7 +1700,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap is unable to connect to {0}.
+        ///   Looks up a localized string similar to Horrorstrap is unable to connect to {0}.
         /// </summary>
         public static string Dialog_Connectivity_UnableToConnect {
             get {
@@ -1709,7 +1709,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap is unable to download Roblox.
+        ///   Looks up a localized string similar to Horrorstrap is unable to download Roblox.
         /// </summary>
         public static string Dialog_Connectivity_UnableToDownload {
             get {
@@ -1736,7 +1736,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An exception occurred while running Bubblestrap.
+        ///   Looks up a localized string similar to An exception occurred while running Horrorstrap.
         /// </summary>
         public static string Dialog_Exception_Info_1 {
             get {
@@ -1776,7 +1776,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap Exception.
+        ///   Looks up a localized string similar to Horrorstrap Exception.
         /// </summary>
         public static string Dialog_Exception_Title {
             get {
@@ -1844,7 +1844,7 @@ namespace Bloxstrap.Resources {
         /// <summary>
         ///   Looks up a localized string similar to For information about why this could be happening and how this can be resolved, please read [this help article]({0}).
         ///
-        ///Check if Roblox works with [the original launcher]({1}). If it doesn&apos;t, then this isn&apos;t a Bubblestrap issue. If it does, then refer to the help article..
+        ///Check if Roblox works with [the original launcher]({1}). If it doesn&apos;t, then this isn&apos;t a Horrorstrap issue. If it does, then refer to the help article..
         /// </summary>
         public static string Dialog_PlayerError_HelpInformation {
             get {
@@ -1853,7 +1853,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap is unable to write to the Windows Registry. An antivirus is likely interfering and causing issues. Please check to make sure there isn&apos;t anything that would restrict Bubblestrap&apos;s operation..
+        ///   Looks up a localized string similar to Horrorstrap is unable to write to the Windows Registry. An antivirus is likely interfering and causing issues. Please check to make sure there isn&apos;t anything that would restrict Horrorstrap&apos;s operation..
         /// </summary>
         public static string Dialog_RegistryWriteError {
             get {
@@ -1880,7 +1880,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap (Classic).
+        ///   Looks up a localized string similar to Horrorstrap (Classic).
         /// </summary>
         public static string Enums_BootstrapperStyle_ClassicFluentDialog {
             get {
@@ -1898,7 +1898,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap (Glass).
+        ///   Looks up a localized string similar to Horrorstrap (Glass).
         /// </summary>
         public static string Enums_BootstrapperStyle_FluentAeroDialog {
             get {
@@ -2150,7 +2150,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap has been upgraded to v{0}.
+        ///   Looks up a localized string similar to Horrorstrap has been upgraded to v{0}.
         /// </summary>
         public static string InstallChecker_Updated {
             get {
@@ -2159,7 +2159,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The version of Bubblestrap you&apos;ve launched is different to the version you currently have installed.
+        ///   Looks up a localized string similar to The version of Horrorstrap you&apos;ve launched is different to the version you currently have installed.
         ///Would you like to upgrade your currently installed version?.
         /// </summary>
         public static string InstallChecker_VersionDifferentThanInstalled {
@@ -2169,7 +2169,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The version of Bubblestrap you&apos;ve launched is older than the version you currently have installed.
+        ///   Looks up a localized string similar to The version of Horrorstrap you&apos;ve launched is older than the version you currently have installed.
         ///Issues may occur and your settings may be altered. A reinstall is recommended.
         ///Are you sure you want to continue?.
         /// </summary>
@@ -2207,7 +2207,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure Bubblestrap&apos;s settings.
+        ///   Looks up a localized string similar to Configure Horrorstrap&apos;s settings.
         /// </summary>
         public static string Installer_Completion_Settings_Title {
             get {
@@ -2216,13 +2216,13 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap has successfully been installed.
+        ///   Looks up a localized string similar to Horrorstrap has successfully been installed.
         ///
-        ///Roblox has not yet been installed, that will happen when you launch it with Bubblestrap for the first time. However, before you do that, you may want to configure Bubblestrap&apos;s settings first.
+        ///Roblox has not yet been installed, that will happen when you launch it with Horrorstrap for the first time. However, before you do that, you may want to configure Horrorstrap&apos;s settings first.
         ///
-        ///Also, avoid using the &quot;Roblox Player&quot; shortcut to launch Roblox, as Bubblestrap won&apos;t launch with Roblox. If you don&apos;t see Bubblestrap show when launching from the website, simply launch Roblox with Bubblestrap once from the desktop to fix it.
+        ///Also, avoid using the &quot;Roblox Player&quot; shortcut to launch Roblox, as Horrorstrap won&apos;t launch with Roblox. If you don&apos;t see Horrorstrap show when launching from the website, simply launch Roblox with Horrorstrap once from the desktop to fix it.
         ///
-        ///What would you like to do?.
+        ///What would you like t [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Installer_Completion_Text {
             get {
@@ -2258,9 +2258,9 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap has been installed to this location before and is still present, however the installer cannot overwrite the old executable. 
+        ///   Looks up a localized string similar to Horrorstrap has been installed to this location before and is still present, however the installer cannot overwrite the old executable. 
         ///
-        ///Please manually delete Bubblestrap.exe from the install location or try restarting your system, and then retry installation afterwards..
+        ///Please manually delete Horrorstrap.exe from the install location or try restarting your system, and then retry installation afterwards..
         /// </summary>
         public static string Installer_Install_CannotOverwrite {
             get {
@@ -2332,7 +2332,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap Installer.
+        ///   Looks up a localized string similar to Horrorstrap Installer.
         /// </summary>
         public static string Installer_Title {
             get {
@@ -2341,11 +2341,11 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thank you for downloading Bubblestrap. 
+        ///   Looks up a localized string similar to Thank you for downloading Horrorstrap. 
         ///
-        ///The only official source to download Bubblestrap from is {0} so please verify that you got it from an official source.
+        ///The only official source to download Horrorstrap from is {0} so please verify that you got it from an official source.
         ///
-        ///This installation process will be quick and simple, and you will be able to configure any of Bubblestrap&apos;s settings after installation..
+        ///This installation process will be quick and simple, and you will be able to configure any of Horrorstrap&apos;s settings after installation..
         /// </summary>
         public static string Installer_Welcome_MainText {
             get {
@@ -2372,7 +2372,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are trying to install version {0} of Bubblestrap, but the latest version available is {1}. Would you like to download it?.
+        ///   Looks up a localized string similar to You are trying to install version {0} of Horrorstrap, but the latest version available is {1}. Would you like to download it?.
         /// </summary>
         public static string Installer_Welcome_UpdateNotice {
             get {
@@ -2453,7 +2453,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No log file will be written for this launch because Bubblestrap is unable to write to the folder at &apos;{0}&apos;.
+        ///   Looks up a localized string similar to No log file will be written for this launch because Horrorstrap is unable to write to the folder at &apos;{0}&apos;.
         /// </summary>
         public static string Logger_NoWriteMode {
             get {
@@ -2480,7 +2480,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to These are the people who have made notable contributions to Bubblestrap, helping make it what it is..
+        ///   Looks up a localized string similar to These are the people who have made notable contributions to Horrorstrap, helping make it what it is..
         /// </summary>
         public static string Menu_About_Contributors_Description {
             get {
@@ -2615,7 +2615,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap is already running.
+        ///   Looks up a localized string similar to Horrorstrap is already running.
         /// </summary>
         public static string Menu_AlreadyRunning_Title {
             get {
@@ -2741,7 +2741,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure how Bubblestrap should look..
+        ///   Looks up a localized string similar to Configure how Horrorstrap should look..
         /// </summary>
         public static string Menu_Appearance_Description {
             get {
@@ -2831,7 +2831,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap will automatically check and update itself when launching Roblox..
+        ///   Looks up a localized string similar to Horrorstrap will automatically check and update itself when launching Roblox..
         /// </summary>
         public static string Menu_Behaviour_AutoUpdate_Description {
             get {
@@ -2840,7 +2840,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Automatically update Bubblestrap.
+        ///   Looks up a localized string similar to Automatically update Horrorstrap.
         /// </summary>
         public static string Menu_Behaviour_AutoUpdate_Title {
             get {
@@ -2912,7 +2912,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure what Bubblestrap should do when launching Roblox..
+        ///   Looks up a localized string similar to Configure what Horrorstrap should do when launching Roblox..
         /// </summary>
         public static string Menu_Behaviour_Description {
             get {
@@ -3155,7 +3155,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure options related to Bubblestrap&apos;s behaviour itself..
+        ///   Looks up a localized string similar to Configure options related to Horrorstrap&apos;s behaviour itself..
         /// </summary>
         public static string Menu_Bloxstrap_Description {
             get {
@@ -3173,7 +3173,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap configuration.
+        ///   Looks up a localized string similar to Horrorstrap configuration.
         /// </summary>
         public static string Menu_Bloxstrap_ExportData_ExportConfig {
             get {
@@ -3182,7 +3182,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to All Bubblestrap logs.
+        ///   Looks up a localized string similar to All Horrorstrap logs.
         /// </summary>
         public static string Menu_Bloxstrap_ExportData_ExportLogs {
             get {
@@ -3191,7 +3191,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Provide access to Roblox APIs using your authentication cookie. [What will Bubblestrap access?]({0}).
+        ///   Looks up a localized string similar to Provide access to Roblox APIs using your authentication cookie. [What will Horrorstrap access?]({0}).
         /// </summary>
         public static string Menu_Bootstrapper_AllowCookieAccess_Description {
             get {
@@ -3200,7 +3200,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allow Bubblestrap to access your Roblox account.
+        ///   Looks up a localized string similar to Allow Horrorstrap to access your Roblox account.
         /// </summary>
         public static string Menu_Bootstrapper_AllowCookieAccess_Title {
             get {
@@ -3245,7 +3245,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap logs will be deleted..
+        ///   Looks up a localized string similar to Horrorstrap logs will be deleted..
         /// </summary>
         public static string Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Description {
             get {
@@ -3254,7 +3254,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap logs.
+        ///   Looks up a localized string similar to Horrorstrap logs.
         /// </summary>
         public static string Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Title {
             get {
@@ -3281,7 +3281,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap will remove old data to save on space.
+        ///   Looks up a localized string similar to Horrorstrap will remove old data to save on space.
         /// </summary>
         public static string Menu_Bootstrapper_CleanUp_Description {
             get {
@@ -3308,7 +3308,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox or Bubblestrap may try to change your preferred channel..
+        ///   Looks up a localized string similar to Roblox or Horrorstrap may try to change your preferred channel..
         /// </summary>
         public static string Menu_Channel_ChangeAction_Description {
             get {
@@ -3344,7 +3344,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change deployment and installation settings for Roblox &amp; Bubblestrap..
+        ///   Looks up a localized string similar to Change deployment and installation settings for Roblox &amp; Horrorstrap..
         /// </summary>
         public static string Menu_Channel_Description {
             get {
@@ -3389,7 +3389,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Force Bubblestrap to download version from specific hash. Please do not change if you have no idea what this does..
+        ///   Looks up a localized string similar to Force Horrorstrap to download version from specific hash. Please do not change if you have no idea what this does..
         /// </summary>
         public static string Menu_Channel_VersionHash_Desription {
             get {
@@ -3714,7 +3714,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allow Bubblestrap to manage Fast Flags.
+        ///   Looks up a localized string similar to Allow Horrorstrap to manage Fast Flags.
         /// </summary>
         public static string Menu_FastFlags_ManagerEnabled_Title {
             get {
@@ -3867,7 +3867,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For more information join Bubblestrap Discord server.
+        ///   Looks up a localized string similar to For more information join Horrorstrap Discord server.
         /// </summary>
         public static string Menu_FastFlagsDisabled_Description {
             get {
@@ -3930,7 +3930,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set in-game settings from Bubblestrap menu..
+        ///   Looks up a localized string similar to Set in-game settings from Horrorstrap menu..
         /// </summary>
         public static string Menu_GBSEditor_Description {
             get {
@@ -4245,7 +4245,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap cannot be installed here. Please choose a different location, or resort to using the default location by clicking the reset button..
+        ///   Looks up a localized string similar to Horrorstrap cannot be installed here. Please choose a different location, or resort to using the default location by clicking the reset button..
         /// </summary>
         public static string Menu_InstallLocation_CantInstall {
             get {
@@ -4254,7 +4254,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The folder you&apos;ve chosen to install Bubblestrap to already exists and is NOT empty. It is strongly recommended for Bubblestrap to be installed to its own independent folder.
+        ///   Looks up a localized string similar to The folder you&apos;ve chosen to install Horrorstrap to already exists and is NOT empty. It is strongly recommended for Horrorstrap to be installed to its own independent folder.
         ///
         ///Changing to the following location is suggested:
         ///{0}
@@ -4278,7 +4278,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap does not have write access to the install location you&apos;ve selected. Please choose another location..
+        ///   Looks up a localized string similar to Horrorstrap does not have write access to the install location you&apos;ve selected. Please choose another location..
         /// </summary>
         public static string Menu_InstallLocation_NoWritePerms {
             get {
@@ -4413,7 +4413,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allows for Bubblestrap to detect what Roblox game you&apos;re playing. Certain features may require this..
+        ///   Looks up a localized string similar to Allows for Horrorstrap to detect what Roblox game you&apos;re playing. Certain features may require this..
         /// </summary>
         public static string Menu_Integrations_EnableActivityTracking_Description {
             get {
@@ -4512,24 +4512,6 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enable this to display a custom Bubblestrap Discord RPC on your profile while the app is open..
-        /// </summary>
-        public static string Menu_Integrations_ShowBubblestrapRPC_Description {
-            get {
-                return ResourceManager.GetString("Menu.Integrations.ShowBubblestrapRPC.Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap RPC.
-        /// </summary>
-        public static string Menu_Integrations_ShowBubblestrapRPC_Title {
-            get {
-                return ResourceManager.GetString("Menu.Integrations.ShowBubblestrapRPC.Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to The Roblox game you&apos;re playing will be shown on your Discord profile. [Not working?]({0}).
         /// </summary>
         public static string Menu_Integrations_ShowGameActivity_Description {
@@ -4544,6 +4526,24 @@ namespace Bloxstrap.Resources {
         public static string Menu_Integrations_ShowGameActivity_Title {
             get {
                 return ResourceManager.GetString("Menu.Integrations.ShowGameActivity.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable this to display a custom Horrorstrap Discord RPC on your profile while the app is open..
+        /// </summary>
+        public static string Menu_Integrations_ShowHorrorstrapRPC_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ShowHorrorstrapRPC.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Horrorstrap RPC.
+        /// </summary>
+        public static string Menu_Integrations_ShowHorrorstrapRPC_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.ShowHorrorstrapRPC.Title", resourceCulture);
             }
         }
         
@@ -5145,7 +5145,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configure how Bubblestrap can be readily launched..
+        ///   Looks up a localized string similar to Configure how Horrorstrap can be readily launched..
         /// </summary>
         public static string Menu_Shortcuts_Description {
             get {
@@ -5154,7 +5154,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allows you to use Bubblestrap&apos;s range of Roblox icons for your shortcuts..
+        ///   Looks up a localized string similar to Allows you to use Horrorstrap&apos;s range of Roblox icons for your shortcuts..
         /// </summary>
         public static string Menu_Shortcuts_ExtractIcons_Description {
             get {
@@ -5230,7 +5230,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bubblestrap Settings.
+        ///   Looks up a localized string similar to Horrorstrap Settings.
         /// </summary>
         public static string Menu_Title {
             get {
@@ -5257,7 +5257,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to They&apos;ll be kept where Bubblestrap was installed, and will automatically be restored on a reinstall..
+        ///   Looks up a localized string similar to They&apos;ll be kept where Horrorstrap was installed, and will automatically be restored on a reinstall..
         /// </summary>
         public static string Uninstaller_KeepData_Description {
             get {
@@ -5275,13 +5275,13 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Uninstalling will remove Bubblestrap from your system, and automatically reconfigure the default Roblox launcher if it&apos;s still installed.
+        ///   Looks up a localized string similar to Uninstalling will remove Horrorstrap from your system, and automatically reconfigure the default Roblox launcher if it&apos;s still installed.
         ///
         ///If you&apos;re uninstalling or reinstalling because you are having issues with Roblox, read [this help page]({0}) first.
         ///
-        ///The uninstall process may not be able to fully clean up itself, so you may need to manually clean up leftover files where Bubblestrap was installed.
+        ///The uninstall process may not be able to fully clean up itself, so you may need to manually clean up leftover files where Horrorstrap was installed.
         ///
-        ///Bubblestrap was installed at &quot;{1}&quot;..
+        ///Horrorstrap was installed at &quot;{1}&quot;..
         /// </summary>
         public static string Uninstaller_Text {
             get {
@@ -5290,7 +5290,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Uninstall Bubblestrap.
+        ///   Looks up a localized string similar to Uninstall Horrorstrap.
         /// </summary>
         public static string Uninstaller_Title {
             get {

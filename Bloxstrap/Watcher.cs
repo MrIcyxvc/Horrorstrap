@@ -49,9 +49,9 @@ namespace Bloxstrap
 
             if (App.Settings.Prop.EnableActivityTracking)
             {
-                ActivityWatcher = new(_watcherData.LogFile);
+                ActivityWatcher = new(_watcherData.IsStudio, _watcherData.LogFile);
 
-                if (App.Settings.Prop.UseDisableAppPatch)
+                if (App.Settings.Prop.UseDisableAppPatch && !_watcherData.IsStudio)
                 {
                     ActivityWatcher.OnAppClose += delegate
                     {
@@ -61,7 +61,7 @@ namespace Bloxstrap
                     };
                 }
 
-                if (App.Settings.Prop.UseDiscordRichPresence && !App.State.Prop.WatcherRunning)
+                if (App.Settings.Prop.UseDiscordRichPresence && !App.State.Prop.WatcherRunning && !_watcherData.IsStudio)
                 {
                     App.Logger.WriteLine(LOG_IDENT, "Running RPC");
                     RichPresence = new DiscordRichPresence(ActivityWatcher);

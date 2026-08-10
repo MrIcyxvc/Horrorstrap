@@ -24,13 +24,30 @@ namespace Bloxstrap
             { "Rendering.FRMQualityOverride", "DFIntDebugFRMQualityLevelOverride" },
             { "Rendering.SkyGray", "FFlagDebugSkyGray" },
 
+            // Quick apply presets
+            { "Rendering.Shadows", "FIntRenderShadowQuality" },
+            { "Rendering.TextureQuality", "DFIntTextureQuality" },
+            { "Rendering.MeshQuality", "DFIntMeshQuality" },
+            { "Rendering.ParticleQuality", "FIntParticleQuality" },
+            { "Rendering.PostFX", "FFlagPostFX" },
+            { "Rendering.AntiAliasing", "FIntAntiAliasing" },
+
             // Rendering engines
             { "Rendering.Mode.DisableD3D11", "FFlagDebugGraphicsDisableDirect3D11" },
             { "Rendering.Mode.D3D11", "FFlagDebugGraphicsPreferD3D11" },
             { "Rendering.Mode.Vulkan", "FFlagDebugGraphicsPreferVulkan" },
             { "Rendering.Grass.Max", "FIntFRMMaxGrassDistance" },
             { "Rendering.Grass.Min", "FIntFRMMinGrassDistance" },
+            { "Rendering.Grass.Movement", "FIntGrassMovementReducedMotionFactor" },
             { "Rendering.PauseVoxelizer", "DFFlagDebugPauseVoxelizer" },
+            { "Rendering.DisablePostFx", "FFlagDebugDisablePostFx" },
+            { "Rendering.ShadowIntensity", "FIntRenderShadowIntensity" },
+
+            // Network
+            { "Network.Heartbeat", "DFIntMinHeartbeatIntervalMs" },
+            { "Network.SendRate", "DFIntMaxBandwidthPerConnection" },
+            { "Network.Throttle", "DFIntMaxNetworkReadWriteQueueSize" },
+            { "Telemetry.Disable", "FFlagEnableTelemetry" },
 
             // Geometry
             { "Geometry.MeshLOD.Static", "DFIntCSGLevelOfDetailSwitchingDistanceStatic" }, // this isnt actually a flag, we use it to determine current value, not the best way of doing that
@@ -38,6 +55,10 @@ namespace Bloxstrap
             { "Geometry.MeshLOD.L12", "DFIntCSGLevelOfDetailSwitchingDistanceL12" },
             { "Geometry.MeshLOD.L23", "DFIntCSGLevelOfDetailSwitchingDistanceL23" },
             { "Geometry.MeshLOD.L34", "DFIntCSGLevelOfDetailSwitchingDistanceL34" },
+            { "Geometry.MaxMeshes", "FIntMaxMeshedPartCount" },
+            { "Geometry.MaxMeshTriangles", "FIntMaxMeshTriangleCount" },
+            { "Geometry.Terrain.TerrainTextureQuality", "FIntTerrainArraySliceSize" },
+            { "Geometry.Decals.Max", "FIntMaxDecalCount" },
 
         };
 

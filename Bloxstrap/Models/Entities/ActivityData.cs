@@ -75,16 +75,29 @@ namespace Bloxstrap.Models.Entities
 
         public string GetInviteDeeplink(bool launchData = true, bool useRobloxUri = false)
         {
-            string baseUrl = useRobloxUri ? "roblox://placeId=" : App.LocalData.Prop.DeeplinkUrl;
-            string deeplink = $"{baseUrl}?placeId={PlaceId}";
+            string deeplink;
 
-            if (ServerType == ServerType.Private)
-                deeplink += "&accessCode=" + AccessCode;
+            if (useRobloxUri)
+            {
+                deeplink = $"roblox://experiences/start?placeId={PlaceId}";
+
+                if (ServerType == ServerType.Private)
+                    deeplink += "&accessCode=" + AccessCode;
+                else
+                    deeplink += "&gameInstanceId=" + JobId;
+            }
             else
-                deeplink += "&gameInstanceId=" + JobId;
+            {
+                deeplink = $"{App.LocalData.Prop.DeeplinkUrl}?placeId={PlaceId}";
 
-            if (launchData && !string.IsNullOrEmpty(RPCLaunchData))
-                deeplink += "&launchData=" + HttpUtility.UrlEncode(RPCLaunchData);
+                if (ServerType == ServerType.Private)
+                    deeplink += "&accessCode=" + AccessCode;
+                else
+                    deeplink += "&gameInstanceId=" + JobId;
+
+                if (launchData && !string.IsNullOrEmpty(RPCLaunchData))
+                    deeplink += "&launchData=" + HttpUtility.UrlEncode(RPCLaunchData);
+            }
 
             return deeplink;
         }

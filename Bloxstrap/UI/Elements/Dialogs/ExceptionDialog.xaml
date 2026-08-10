@@ -13,10 +13,10 @@
         Width="540"
         MinHeight="0"
         SizeToContent="Height"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />

@@ -22,6 +22,23 @@
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
 
+    <base:WpfUiWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Dark.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Horrorstrap.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Red.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Orange.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Yellow.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Green.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Indigo.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/UI/Style/Violet.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </base:WpfUiWindow.Resources>
+
     <base:WpfUiWindow.TaskbarItemInfo>
         <TaskbarItemInfo ProgressState="{Binding Path=TaskbarProgressState}" ProgressValue="{Binding Path=TaskbarProgressValue}" />
     </base:WpfUiWindow.TaskbarItemInfo>

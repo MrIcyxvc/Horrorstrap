@@ -8,6 +8,8 @@ namespace Bloxstrap.UI.ViewModels.Settings
     public class MainWindowViewModel : NotifyPropertyChangedViewModel
     {
         public ICommand OpenAboutCommand => new RelayCommand(OpenAbout);
+        public ICommand OpenWebpageCommand => GlobalViewModel.OpenWebpageCommand;
+        public ICommand OpenLogsFolderCommand => new RelayCommand(OpenLogsFolder);
 
         public ICommand SaveSettingsCommand => new RelayCommand(SaveSettings);
 
@@ -24,7 +26,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
         public bool TestModeEnabled
         {
-            get => App.LaunchSettings.TestModeFlag.Active;
+            get => App.LaunchSettings.TestModeFlag.Active || App.Settings.Prop.TestMode;
             set
             {
                 if (value && !App.State.Prop.TestModeWarningShown)
@@ -38,6 +40,10 @@ namespace Bloxstrap.UI.ViewModels.Settings
                 }
 
                 App.LaunchSettings.TestModeFlag.Active = value;
+                // persist user's choice so it applies on next runs
+                App.Settings.Prop.TestMode = value;
+                App.Settings.Save();
+                App.State.Save();
             }
         }
 
@@ -46,6 +52,16 @@ namespace Bloxstrap.UI.ViewModels.Settings
             App.BubbleRPC?.SetDialog("About");
             new MainWindow().ShowDialog();
             App.BubbleRPC?.ClearDialog();
+        }
+
+        private void OpenLogsFolder()
+        {
+            string logsPath = Paths.Logs;
+
+            if (!Directory.Exists(logsPath))
+                Directory.CreateDirectory(logsPath);
+
+            Utilities.ShellExecute(logsPath);
         }
 
         private void CloseWindow() => RequestCloseWindowEvent?.Invoke(this, EventArgs.Empty);
@@ -75,21 +91,33 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
             RequestSaveNoticeEvent?.Invoke(this, EventArgs.Empty);
         }
+
         public void SaveAndLaunchSettings()
         {
+            const string LOG_IDENT = "MainWindowViewModel::SaveAndLaunchSettings";
+
             SaveSettings();
 
-            if (!App.LaunchSettings.TestModeFlag.Active) // test mode already launches an instance
+            if (App.LaunchSettings.TestModeFlag.Active)
             {
-                // When running under the VS debugger the installed copy (Paths.Application) is a
-                // debug build that will crash silently outside VS.  Use the current process instead.
-                string exePath = System.Diagnostics.Debugger.IsAttached
-                    ? Paths.Process
-                    : Paths.Application;
-                Process.Start(exePath, "-player");
-            }
-            else
                 CloseWindow();
+                return;
+            }
+
+            App.Logger.WriteLine(LOG_IDENT, "Launching Roblox player");
+
+            try
+            {
+                LaunchHandler.LaunchRoblox(LaunchMode.Player);
+                CloseWindow();
+            }
+            catch (Exception ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to launch Roblox");
+                App.Logger.WriteException(LOG_IDENT, ex);
+                Frontend.ShowMessageBox(Strings.Dialog_PlayerError_FailedLaunch, MessageBoxImage.Error);
+            }
         }
+
     }
 }

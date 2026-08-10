@@ -16,17 +16,17 @@
         Width="420"
         SizeToContent="Height"
         ResizeMode="NoResize"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" x:Name="RootTitleBar" Title="{x:Static resources:Strings.ContextMenu_ServerInformation_Title}" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" Icon="pack://application:,,,/Bubblestrap.ico" />
+        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" x:Name="RootTitleBar" Title="{x:Static resources:Strings.ContextMenu_ServerInformation_Title}" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" Icon="pack://application:,,,/Horrorstrap.ico" />
 
         <Grid Grid.Row="1" Margin="16,8,16,16">
             <Grid.RowDefinitions>

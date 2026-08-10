@@ -14,6 +14,8 @@
 
         public LaunchFlag UninstallFlag { get; } = new("uninstall");
 
+        public LaunchFlag InstallFlag { get; } = new("install");
+
         public LaunchFlag NoLaunchFlag { get; } = new("nolaunch");
 
         public LaunchFlag TestModeFlag { get; } = new("testmode");

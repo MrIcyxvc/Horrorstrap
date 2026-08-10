@@ -23,6 +23,8 @@ namespace Bloxstrap.UI.Elements.ContextMenu
 
         private ServerHistory? _gameHistoryWindow;
 
+        private readonly System.Windows.Threading.DispatcherTimer _timer = new();
+
         public MenuContainer(Watcher watcher)
         {
             InitializeComponent();
@@ -39,10 +41,22 @@ namespace Bloxstrap.UI.Elements.ContextMenu
                     GameHistoryMenuItem.Visibility = Visibility.Visible;
             }
 
+            GameInformationMenuItem.Visibility = Visibility.Collapsed;
+            RegionMenuItem.Visibility = Visibility.Collapsed;
+
+            if (_activityWatcher?.IsStudio == true)
+            {
+                CloseProcessTextBlock.Text = "Close Roblox Studio";
+            }
+
             if (_watcher.RichPresence is not null)
                 RichPresenceMenuItem.Visibility = Visibility.Visible;
 
             VersionTextBlock.Text = $"{App.ProjectName} v{string.Join(".", App.Version.Split('.').Take(3))}";
+
+            _timer.Interval = TimeSpan.FromSeconds(1);
+            _timer.Tick += (_, _) => UpdateTimers();
+            _timer.Start();
         }
 
         public void ShowServerInformationWindow()
@@ -73,6 +87,12 @@ namespace Bloxstrap.UI.Elements.ContextMenu
                     InviteDeeplinkMenuItem.Visibility = Visibility.Visible;
 
                 ServerDetailsMenuItem.Visibility = Visibility.Visible;
+                GameInformationMenuItem.Visibility = Visibility.Visible;
+                RegionMenuItem.Visibility = Visibility.Visible;
+                GameTimeMenuItem.Visibility = Visibility.Visible;
+
+                UpdateRegionText();
+                UpdateTimers();
             });
         }
 
@@ -82,9 +102,46 @@ namespace Bloxstrap.UI.Elements.ContextMenu
             {
                 InviteDeeplinkMenuItem.Visibility = Visibility.Collapsed;
                 ServerDetailsMenuItem.Visibility = Visibility.Collapsed;
+                GameInformationMenuItem.Visibility = Visibility.Collapsed;
+                RegionMenuItem.Visibility = Visibility.Collapsed;
+                GameTimeMenuItem.Visibility = Visibility.Collapsed;
 
                 _serverInformationWindow?.Close();
+                UpdateTimers();
             });
+        }
+
+        private void UpdateTimers()
+        {
+            if (_activityWatcher?.SessionStartTime == DateTime.MinValue)
+                return;
+
+            var sessionElapsed = DateTime.Now - _activityWatcher.SessionStartTime;
+            SessionTimeTextBlock.Text = $"Session: {sessionElapsed:hh\\:mm\\:ss}";
+
+            if (_activityWatcher!.InGame && _activityWatcher.Data.PlaceId != 0)
+            {
+                var gameElapsed = DateTime.Now - _activityWatcher.Data.TimeJoined;
+                GameTimeTextBlock.Text = $"Game: {gameElapsed:hh\\:mm\\:ss}";
+            }
+            else
+            {
+                GameTimeTextBlock.Text = "Game: 00:00:00";
+            }
+        }
+
+        private void UpdateRegionText()
+        {
+            if (_activityWatcher?.Data is null)
+                return;
+
+            string? location = null;
+            if (GlobalCache.ServerLocation.TryGetValue(_activityWatcher.Data.MachineAddress, out string? cached))
+                location = cached;
+
+            RegionTextBlock.Text = string.IsNullOrEmpty(location)
+                ? "Region"
+                : $"Region: {location}";
         }
 
         private void Window_Loaded(object? sender, RoutedEventArgs e)
@@ -100,11 +157,15 @@ namespace Bloxstrap.UI.Elements.ContextMenu
             PInvoke.SetWindowLong(hWnd, WINDOW_LONG_PTR_INDEX.GWL_EXSTYLE, exStyle);
         }
 
-        private void Window_Closed(object sender, EventArgs e) => App.Logger.WriteLine("MenuContainer::Window_Closed", "Context menu container closed");
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            _timer.Stop();
+            App.Logger.WriteLine("MenuContainer::Window_Closed", "Context menu container closed");
+        }
 
         private void RichPresenceMenuItem_Click(object sender, RoutedEventArgs e) => _watcher.RichPresence?.SetVisibility(((MenuItem)sender).IsChecked);
 
-        private void InviteDeeplinkMenuItem_Click(object sender, RoutedEventArgs e) => Clipboard.SetDataObject(_activityWatcher?.Data.GetInviteDeeplink());
+        private void InviteDeeplinkMenuItem_Click(object sender, RoutedEventArgs e) => Clipboard.SetDataObject(_activityWatcher?.Data.GetInviteDeeplink(useRobloxUri: true));
 
         private void ServerDetailsMenuItem_Click(object sender, RoutedEventArgs e) => ShowServerInformationWindow();
 
@@ -145,6 +206,33 @@ namespace Bloxstrap.UI.Elements.ContextMenu
                 _gameHistoryWindow.ShowDialog();
             else
                 _gameHistoryWindow.Activate();
+        }
+
+        private void RegionMenuItem_Click(object sender, RoutedEventArgs e) => ShowServerInformationWindow();
+
+        private void GameInformationMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var data = _activityWatcher?.Data;
+            if (data is null || data.UniverseDetails?.Data is null)
+                return;
+
+            var universe = data.UniverseDetails.Data;
+            string info = $"{universe.Name}\nby {universe.Creator.Name}\n\n{universe.Description}";
+            Frontend.ShowMessageBox(info, MessageBoxImage.Information);
+        }
+
+        private void CloseWatcherMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = Frontend.ShowMessageBox(
+                "Are you sure you want to close the Horrorstrap watcher? This will stop Discord Rich Presence and activity tracking.",
+                MessageBoxImage.Warning,
+                MessageBoxButton.YesNo
+            );
+
+            if (result != MessageBoxResult.Yes)
+                return;
+
+            App.Terminate();
         }
     }
 }

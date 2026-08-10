@@ -11,24 +11,24 @@
         xmlns:controls="clr-namespace:Bloxstrap.UI.Elements.Controls"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance dmodels:UninstallerViewModel, IsDesignTimeCreatable=True}"
-        Title="Bubblestrap"
+        Title="Horrorstrap"
         MinWidth="0"
         MinHeight="0"
         Width="480"
         SizeToContent="Height"
         ResizeMode="NoResize"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"         
         WindowBackdropType="Mica"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" Title="Bubblestrap" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" Icon="pack://application:,,,/Bubblestrap.ico" />
+        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" Title="Horrorstrap" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" Icon="pack://application:,,,/Horrorstrap.ico" />
 
         <StackPanel Grid.Row="1" Margin="12">
             <TextBlock FontSize="20" FontWeight="SemiBold" Text="{x:Static resources:Strings.Uninstaller_Title}" />

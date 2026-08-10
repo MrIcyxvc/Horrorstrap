@@ -8,7 +8,7 @@
         xmlns:base="clr-namespace:Bloxstrap.UI.Elements.Base"
         xmlns:controls="clr-namespace:Bloxstrap.UI.Elements.Controls"
         mc:Ignorable="d"
-        Title="Bubblestrap"
+        Title="Horrorstrap"
         d:DesignWidth="480"
         MinWidth="180"
         MaxWidth="480"
@@ -16,10 +16,10 @@
         MinHeight="160"
         SizeToContent="Height"
         ResizeMode="NoResize"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="41*"/>
             <ColumnDefinition Width="82*"/>
@@ -31,7 +31,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ui:TitleBar Grid.ColumnSpan="3" Padding="8" x:Name="RootTitleBar" Title="Bubblestrap" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" VerticalAlignment="Center" />
+        <ui:TitleBar Grid.ColumnSpan="3" Padding="8" x:Name="RootTitleBar" Title="Horrorstrap" ShowMinimize="False" ShowMaximize="False" CanMaximize="False" KeyboardNavigation.TabNavigation="None" VerticalAlignment="Center" />
 
         <Grid Grid.Row="1" Margin="15,15,15,15" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>

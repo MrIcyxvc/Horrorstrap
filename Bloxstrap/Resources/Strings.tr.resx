@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Bubblestrap {0} sürümüne otomatik olarak güncellenemedi. Lütfen Bubblestrap'ı web sitesinden indirip çalıştırarak manuel olarak güncelleyin.</value>
+    <value>Horrorstrap {0} sürümüne otomatik olarak güncellenemedi. Lütfen Horrorstrap'ı web sitesinden indirip çalıştırarak manuel olarak güncelleyin.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Roblox şu anda çalışıyor ve başka bir istemcinin başlatılması onu kapatacaktır. Başlatmak istediğinizden emin misiniz?</value>
@@ -68,13 +68,13 @@
     <value>Roblox'un sunucuları şu an çökmüş olabilir. Daha fazla bilgi için {0} göz atın.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Herhangi bir bağlantı sağlanılamadı, bu da zayıf bir internet bağlantısının veya bir güvenlik duvarı engelinin işareti olabilir. Eğer bağlantınızda bir sorun yoksa, lütfen antivirüs yazılımınızın Bubblestrap'ı engellemediğinden emin olun.</value>
+    <value>Herhangi bir bağlantı sağlanılamadı, bu da zayıf bir internet bağlantısının veya bir güvenlik duvarı engelinin işareti olabilir. Eğer bağlantınızda bir sorun yoksa, lütfen antivirüs yazılımınızın Horrorstrap'ı engellemediğinden emin olun.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Bubblestrap'i silmek için ilk önce kurmalısınız.</value>
+    <value>Horrorstrap'i silmek için ilk önce kurmalısınız.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Bubblestrap, Roblox'u indirmek ve kurmak için yeterli disk alanına sahip değil. Lütfen biraz disk alanı boşaltın ve tekrar deneyin.</value>
+    <value>Horrorstrap, Roblox'u indirmek ve kurmak için yeterli disk alanına sahip değil. Lütfen biraz disk alanı boşaltın ve tekrar deneyin.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Roblox modifikasyonları uygulanıyor...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap başarıyla kaldırıldı</value>
+    <value>Horrorstrap başarıyla kaldırıldı</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox şu an çalışıyor, ancak Bubblestrap'ı kaldırmak için kapalı olması gerekiyor. Roblox'u şimdi kapatmak ister misiniz?</value>
+    <value>Roblox şu an çalışıyor, ancak Horrorstrap'ı kaldırmak için kapalı olması gerekiyor. Roblox'u şimdi kapatmak ister misiniz?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>Büyük ihtimalle Windows'un N sürümünü kullandığınız için Windows Media Foundation bileşenleri eksik olabilir ve bu yüzden Roblox'u açamıyor olabilirsiniz. Lütfen bu bileşenleri kurun ve ardından Roblox'u tekrar başlatın.</value>
@@ -217,21 +217,21 @@ Daha fazla bilgi için tıklayınız</value>
     <value>Bağlantı hatası</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap {0} ile bağlantı kuramıyor</value>
+    <value>Horrorstrap {0} ile bağlantı kuramıyor</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Kayıt içeriğini kopyala</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Bubblestrap çalıştırılırken bir istisna oluştu</value>
+    <value>Horrorstrap çalıştırılırken bir istisna oluştu</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>Bu sorunun halihazırda bir düzeltmeyle giderilip giderilmediğini görmek için önce [Bloxstrap Wiki]({0})'yi kontrol ediniz.
 Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla birlikte [GitHub sorunu]({1}) aracılığıyla bildirin.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Bubblestrap Istisnası</value>
+    <value>Horrorstrap Istisnası</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Özel</value>
@@ -243,10 +243,10 @@ Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla bir
     <value>2015'in Sonları</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klasik)</value>
+    <value>Horrorstrap (Klasik)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Cam)</value>
+    <value>Horrorstrap (Cam)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Eski (2008-2011)</value>
@@ -300,10 +300,10 @@ Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla bir
     <value>Aydınlık</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Bubblestrap v{0} sürümüne güncellendi</value>
+    <value>Horrorstrap v{0} sürümüne güncellendi</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Başlattığınız Bubblestrap sürümü, şuan ki güncel sürümden farklı. Yeni sürüme güncellemek ister misiniz?</value>
+    <value>Başlattığınız Horrorstrap sürümü, şuan ki güncel sürümden farklı. Yeni sürüme güncellemek ister misiniz?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
     <value>Katkıda Bulunanlar</value>
@@ -355,7 +355,7 @@ Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla bir
     <value>Şu anda açık olan tüm Roblox istemcilerini kapatana kadar tüm değişikliklerinizin hemen uygulanmayacağını lütfen unutmayın.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap zaten çalışıyor</value>
+    <value>Horrorstrap zaten çalışıyor</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Farklı, retro veya hatta sadece Roblox gibi görünmesini sağlayabilirsiniz.</value>
@@ -382,7 +382,7 @@ Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla bir
     <value>Başlık</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Bubblestrap'in nasıl görünmesi gerektiğini yapılandırın.</value>
+    <value>Horrorstrap'in nasıl görünmesi gerektiğini yapılandırın.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Global Tema</value>
@@ -406,10 +406,10 @@ Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla bir
     <value>Görünüş</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Bubblestrap, Roblox'u başlattığınızda kendini otomatik olarak kontrol edecek ve güncelleyecektir.</value>
+    <value>Horrorstrap, Roblox'u başlattığınızda kendini otomatik olarak kontrol edecek ve güncelleyecektir.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Bubblestrap'i otomatik olarak güncelle</value>
+    <value>Horrorstrap'i otomatik olarak güncelle</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Mevcut oyununuzun kapanmasını önlemek için başka bir oyunun yanlışlıkla başlatılmasını engelleyin.</value>
@@ -418,7 +418,7 @@ Değilse, lütfen bu sorunu oluşturulan kayıt dosyasının bir kopyasıyla bir
     <value>Başka bir Roblox istemcisi başlatılırken onay iste</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Bubblestrap'ın Roblox'u başlatınca yapması gerektiğini yapılandırın.</value>
+    <value>Horrorstrap'ın Roblox'u başlatınca yapması gerektiğini yapılandırın.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox, sonraki başlangıçta yeniden kurulacak.</value>
@@ -514,10 +514,10 @@ Devam etmek istediğinizden emin misiniz?</value>
     <value>İkon Dosyaları</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Bubblestrap buraya kurulamaz. Lütfen farklı bir konum seçin veya sıfırla düğmesine tıklayarak varsayılan konumu kullanmaya devam edin.</value>
+    <value>Horrorstrap buraya kurulamaz. Lütfen farklı bir konum seçin veya sıfırla düğmesine tıklayarak varsayılan konumu kullanmaya devam edin.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Bubblestrap'i kurmak için seçtiğiniz klasör zaten var ve boş DEĞİL. Bubblestrap'in kendi bağımsız klasörüne kurulması şiddetle tavsiye edilir.
+    <value>Horrorstrap'i kurmak için seçtiğiniz klasör zaten var ve boş DEĞİL. Horrorstrap'in kendi bağımsız klasörüne kurulması şiddetle tavsiye edilir.
 Aşağıdaki konuma değiştirilmesi önerilir:
 {0}
 Önerilen konuma geçmek ister misiniz?
@@ -528,7 +528,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Bir kurulum konumu seçmelisin</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Bubblestrap'in seçtiğiniz kurulum konumuna yazma erişimi yok. Lütfen başka bir konum seçin.</value>
+    <value>Horrorstrap'in seçtiğiniz kurulum konumuna yazma erişimi yok. Lütfen başka bir konum seçin.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Etkinlik takibi</value>
@@ -579,7 +579,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Masaüstü uygulamasına çıkma</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Bubblestrap'in hangi Roblox oyununu oynadığınızı algılamasını sağlar. Bazı özellikler bunu gerektirebilir.</value>
+    <value>Horrorstrap'in hangi Roblox oyununu oynadığınızı algılamasını sağlar. Bazı özellikler bunu gerektirebilir.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Etkinlik takibini etkinleştirin</value>
@@ -670,7 +670,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Ayarlar kaydedildi!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Bubblestrap Ayarları</value>
+    <value>Horrorstrap Ayarları</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Tercih edilen dili seçiniz</value>
@@ -691,7 +691,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Kullanıcı Arayüzü ve Düzeni</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Bubblestrap'in Fast Flag'ları yönetmesine izin verin</value>
+    <value>Horrorstrap'in Fast Flag'ları yönetmesine izin verin</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Bunun yetkisini almak burada ayarlanan herhangi birşeyin Roblox'a uygulamamasını sağlayacak.</value>
@@ -700,7 +700,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Anti-aliasing kalitesi (MSAA)</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap Roblox'u indiremiyor</value>
+    <value>Horrorstrap Roblox'u indiremiyor</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Roblox şu anda indirilemiyor. Daha fazla bilgi için lütfen yardım sayfasını okuyunuz: {0}</value>
@@ -721,7 +721,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Değerin bir sayı olması gerektiğinden '{0}' girişi geçerli değildir</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Bu başlatma için herhangi bir kayıt dosyası yazılmıyacak çünkü Bubblestrap '{0}' konumundaki klasöre yazamıyor</value>
+    <value>Bu başlatma için herhangi bir kayıt dosyası yazılmıyacak çünkü Horrorstrap '{0}' konumundaki klasöre yazamıyor</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Varsayılan</value>
@@ -736,7 +736,7 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>Yer filtresi doğru biçimlendirilmediği için '{0}' girişi geçerli değil.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Bubblestrap Yükleyicisi</value>
+    <value>Horrorstrap Yükleyicisi</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Hoş geldiniz</value>
@@ -755,16 +755,16 @@ Aşağıdaki konuma değiştirilmesi önerilir:
     <value>İleri</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Bubblestrap'ı indirdiğiniz için teşekkürler.
-Bubblestrap'ı indirebileceğiniz tek resmî web siteleri {0} ve {1}'dur, bu yüzden lütfen resmî bir kaynaktan indirdiğinizi doğrulayın.
-Bu yükleme işlemi hızlı ve basit olacaktır, ve yükleme işlemi bittikten sonra Bubblestrap'ın her ayarını yapılandırabileceksiniz.</value>
+    <value>Horrorstrap'ı indirdiğiniz için teşekkürler.
+Horrorstrap'ı indirebileceğiniz tek resmî web siteleri {0} ve {1}'dur, bu yüzden lütfen resmî bir kaynaktan indirdiğinizi doğrulayın.
+Bu yükleme işlemi hızlı ve basit olacaktır, ve yükleme işlemi bittikten sonra Horrorstrap'ın her ayarını yapılandırabileceksiniz.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Devam etmek için lütfen "İleri" butonuna tıklayın.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Bubblestrap'ın {0} sürümünü yüklemeye çalışıyorsunuz, fakat mevcut olan en son sürüm {1}. En son sürümü yüklemek ister misiniz?</value>
+    <value>Horrorstrap'ın {0} sürümünü yüklemeye çalışıyorsunuz, fakat mevcut olan en son sürüm {1}. En son sürümü yüklemek ister misiniz?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Yüklenecek yeri seç</value>
@@ -785,13 +785,13 @@ Bu yükleme işlemi hızlı ve basit olacaktır, ve yükleme işlemi bittikten s
     <value>Başlat Menü simgesi</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Bubblestrap başarıyla yüklendi.
-Roblox henüz yüklenmedi, Bubblestrap'ı ilk defa başlattığınızda yüklenecektir. Ancak, bunu yapmadan önce, Bubblestrap'ın ayarlarını yapılandırmak isteyebilirsiniz.
-Ayrıca, Roblox'u başlatmak için "Roblox Player" kısayolunu kullanmaktan sakının, yoksa Bubblestrap Roblox ile başlatılmayacaktır. Eğer siteden başlattığınızda Bubblestrap'ı göremezseniz, düzeltmek için Roblox'u Bubblestrap ile masaüstünden bir kez başlatmanız yeterlidir.
+    <value>Horrorstrap başarıyla yüklendi.
+Roblox henüz yüklenmedi, Horrorstrap'ı ilk defa başlattığınızda yüklenecektir. Ancak, bunu yapmadan önce, Horrorstrap'ın ayarlarını yapılandırmak isteyebilirsiniz.
+Ayrıca, Roblox'u başlatmak için "Roblox Player" kısayolunu kullanmaktan sakının, yoksa Horrorstrap Roblox ile başlatılmayacaktır. Eğer siteden başlattığınızda Horrorstrap'ı göremezseniz, düzeltmek için Roblox'u Horrorstrap ile masaüstünden bir kez başlatmanız yeterlidir.
 Ne yapmak istersiniz?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Bubblestrap'ın ayarlarını yapılandır</value>
+    <value>Horrorstrap'ın ayarlarını yapılandır</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Sunduğu tüm özelliklerle ince ayar yapın</value>
@@ -803,19 +803,19 @@ Ne yapmak istersiniz?</value>
     <value>Her şey bittikten sonra masaüstü uygulamasına bırakılacaksınız</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Bubblestrap'ı kaldır</value>
+    <value>Horrorstrap'ı kaldır</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Kaldırmak, Bubblestrap'ı sisteminizden kaldıracaktır, ve hâlâ yüklü ise varsayılan Roblox başlatıcısını otomatik olarak yeniden yapılandıracaktır.
+    <value>Kaldırmak, Horrorstrap'ı sisteminizden kaldıracaktır, ve hâlâ yüklü ise varsayılan Roblox başlatıcısını otomatik olarak yeniden yapılandıracaktır.
 Eğer Roblox ile bir sorun yaşadığınızdan dolayı kaldırıyorsanız veya yeniden yüklüyorsanız, ilk önce [bu yardım sayfasını]({0}) okuyun.
-Kaldırma işlemi kendisinin artıklarını tamamen temizleyemeyebilir, bu yüzden Bubblestrap'ın yüklü olduğu yerdeki artık dosyaları manuel olarak temizlemeniz gerekebilir.
-Bubblestrap "{1}" yerine yüklüydü.</value>
+Kaldırma işlemi kendisinin artıklarını tamamen temizleyemeyebilir, bu yüzden Horrorstrap'ın yüklü olduğu yerdeki artık dosyaları manuel olarak temizlemeniz gerekebilir.
+Horrorstrap "{1}" yerine yüklüydü.</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Ayarlarımı ve modlarımı tut</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Bubblestrap'ın yüklü olduğu yerde tutulacak, ve bir yeniden yükleme de otomatik olarak geri yüklenecektir.</value>
+    <value>Horrorstrap'ın yüklü olduğu yerde tutulacak, ve bir yeniden yükleme de otomatik olarak geri yüklenecektir.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Kaldır</value>
@@ -836,18 +836,18 @@ Bubblestrap "{1}" yerine yüklüydü.</value>
     <value>Şuan WebView2 runtime sizde yüklü değil. Masaüstü uygulaması gibi bazı Roblox özellikleri WebView2 runtime olmadan düzgün çalışmayacaktır. WebView2 runtime'yi şimdi indirmek ister misiniz?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Bubblestrap Masaüstü ve Başlat menüsüne kısayollar oluşturamadı. Daha sonra ayarlardan oluşturmayı deneyin.</value>
+    <value>Horrorstrap Masaüstü ve Başlat menüsüne kısayollar oluşturamadı. Daha sonra ayarlardan oluşturmayı deneyin.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
     <value>Bu sorunun daha önce bir düzeltme ile ele alınıp alınmadığını görmek için önce [Bloxstrap Wiki'yi]({0}) kontrol edin.
-Eğer sorun ele alınmadıysa, lütfen bu istisnayı bu versiyonun geliştiricilerine bildirin. Bu istisnayı SAKIN Bubblestrap'ın GitHub issues sayfasına bildirmeyin, çünkü bu bir resmî olmayan yapıdır.</value>
+Eğer sorun ele alınmadıysa, lütfen bu istisnayı bu versiyonun geliştiricilerine bildirin. Bu istisnayı SAKIN Horrorstrap'ın GitHub issues sayfasına bildirmeyin, çünkü bu bir resmî olmayan yapıdır.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Bunlar, çoktan seçmeli bir başlatma menüsü getiren genel kısayollardır. Belirli fonksiyonlar için kısayollar daha sonra ayarlardan oluşturulabilir.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Bubblestrap'ın nasıl kolayca başlatılabileceğini yapılandırın.</value>
+    <value>Horrorstrap'ın nasıl kolayca başlatılabileceğini yapılandırın.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Genel</value>
@@ -884,7 +884,7 @@ Eğer sorun ele alınmadıysa, lütfen bu istisnayı bu versiyonun geliştiricil
     <value>Kaydedilmemiş değişiklikleriniz var. Kaydetmeden kapatmak istediğinizden emin misiniz?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Başlattığınız Bubblestrap sürümü sizde şu an yüklü olan sürümden daha eski. Sorunlar ortaya çıkabilir ve ayarlarınız değişebilir. Bir yeniden yükleme önerilir. Devam etmek istediğinizden emin misiniz?</value>
+    <value>Başlattığınız Horrorstrap sürümü sizde şu an yüklü olan sürümden daha eski. Sorunlar ortaya çıkabilir ve ayarlarınız değişebilir. Bir yeniden yükleme önerilir. Devam etmek istediğinizden emin misiniz?</value>
   </data>
   <data name="Dialog.PlayerError.FailedLaunch" xml:space="preserve">
     <value>Roblox başlatılamadı.</value>
@@ -894,7 +894,7 @@ Eğer sorun ele alınmadıysa, lütfen bu istisnayı bu versiyonun geliştiricil
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Bunun neden yaşandığı ve nasıl çözüleceğine dair bilgi için lütfen [bu yardım makalesini]({0}) okuyun.
-Roblox'un [varsayılan başlatıcı]({1}) ile çalışıp çalışmadığına göz atın. Eğer çalışmıyorsa, o zaman bu bir Bubblestrap sorunu değildir. Eğer çalışıyorsa, lütfen yardım makalesine göz atın.</value>
+Roblox'un [varsayılan başlatıcı]({1}) ile çalışıp çalışmadığına göz atın. Eğer çalışmıyorsa, o zaman bu bir Horrorstrap sorunu değildir. Eğer çalışıyorsa, lütfen yardım makalesine göz atın.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Bir bağlantı sorunu nedeniyle veri yüklenemedi.</value>
@@ -927,11 +927,11 @@ Roblox'un [varsayılan başlatıcı]({1}) ile çalışıp çalışmadığına g�
     <value>Bu başlatma için, Roblox güncellemeler için kontrol edilmeyecek, ve modlara değişiklikler uygulanmayacaktır.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Roblox'un yüklenmesi veya yükseltilmesi gerektiği için Bubblestrap devam edemiyor.</value>
+    <value>Roblox'un yüklenmesi veya yükseltilmesi gerektiği için Horrorstrap devam edemiyor.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Bubblestrap önceden bu yola yüklendi ve hâlâ burada, fakat yükleyici eski çalıştırılabilirin üzerine yazamıyor.
-Lütfen manuel olarak yükleme yolundan Bubblestrap.exe'yi silin veya sisteminizi yeniden başlatmayı deneyin, ve sonra yüklemeyi yeniden deneyin.</value>
+    <value>Horrorstrap önceden bu yola yüklendi ve hâlâ burada, fakat yükleyici eski çalıştırılabilirin üzerine yazamıyor.
+Lütfen manuel olarak yükleme yolundan Horrorstrap.exe'yi silin veya sisteminizi yeniden başlatmayı deneyin, ve sonra yüklemeyi yeniden deneyin.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Mevcut değil</value>
@@ -943,7 +943,7 @@ Lütfen manuel olarak yükleme yolundan Bubblestrap.exe'yi silin veya sisteminiz
     <value>DPI ölçeklendirme ve [tam ekran optimizasyonları]({0}) gibi uygulama parametrelerini yapılandırın.</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Roblox henüz yüklenmedi. Bu seçeneği kullanmaya çalışmadan önce lütfen Roblox'u Bubblestrap'ı kullanarak en az bir kere başlatın.</value>
+    <value>Roblox henüz yüklenmedi. Bu seçeneği kullanmaya çalışmadan önce lütfen Roblox'u Horrorstrap'ı kullanarak en az bir kere başlatın.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Yüklemeyi iptal etmek istediğinizden emin misiniz?</value>
@@ -960,10 +960,10 @@ Lütfen manuel olarak yükleme yolundan Bubblestrap.exe'yi silin veya sisteminiz
     <value>Roblox simgelerini klasöre çıkar</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Kısayollarınız için Bubblestrap'ın çeşitli Roblox simgelerini kullanmanızı sağlar. [Nasıl olduğunu görün.]({0})</value>
+    <value>Kısayollarınız için Horrorstrap'ın çeşitli Roblox simgelerini kullanmanızı sağlar. [Nasıl olduğunu görün.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap Windows Kayıt Defterine yazamıyor. Bir antivirüs yazılımı muhtemelen müdahale ediyor ve sorunlara neden oluyor. Lütfen Bubblestrap'ın operasyonunu sınırlayan bir şeyin olmadığını kontrol edin.</value>
+    <value>Horrorstrap Windows Kayıt Defterine yazamıyor. Bir antivirüs yazılımı muhtemelen müdahale ediyor ve sorunlara neden oluyor. Lütfen Horrorstrap'ın operasyonunu sınırlayan bir şeyin olmadığını kontrol edin.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Her şeyi varsayılanlara sıfırla</value>
@@ -998,7 +998,7 @@ Test modu açmak ister misiniz?</value>
     <value>Özel</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Bubblestrap Roblox'u yükseltmeye çalıştı ancak başaramadı çünkü Roblox'un dosyaları hâlâ kullanımda.
+    <value>Horrorstrap Roblox'u yükseltmeye çalıştı ancak başaramadı çünkü Roblox'un dosyaları hâlâ kullanımda.
 Lütfen Roblox'un dosyalarını kullanabiliyor olan uygulamaları kapatın, ve tekrar başlatın.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1008,17 +1008,17 @@ Lütfen Roblox'un dosyalarını kullanabiliyor olan uygulamaları kapatın, ve t
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Dışa aktar</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Muhtemelen bir şey Bubblestrap'ın internet'e bağlanmasına engel oluyor.</value>
+    <value>Muhtemelen bir şey Horrorstrap'ın internet'e bağlanmasına engel oluyor.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>Bağlantı zaman aşımına uğradı, bu da zayıf bir internet bağlantısının veya bir güvenlik duvarı engelinin işareti olabilir.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>Roblox ve Bubblestrap için dağıtım ve kurulum ayarlarını değiştirin.</value>
+    <value>Roblox ve Horrorstrap için dağıtım ve kurulum ayarlarını değiştirin.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Kanal</value>
@@ -1036,7 +1036,7 @@ Lütfen Roblox'un dosyalarını kullanabiliyor olan uygulamaları kapatın, ve t
     <value>Roblox artık Windows 7 ve 8,1. desteklemiyor. Roblox'u oynamaya devam etmek için Windows 10 veya daha üst versiyona geçiş yapınız.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Bubblestrap'in en yeni sürümü indiriliyor...</value>
+    <value>Horrorstrap'in en yeni sürümü indiriliyor...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Boş</value>
@@ -1195,7 +1195,7 @@ Lütfen Roblox'un dosyalarını kullanabiliyor olan uygulamaları kapatın, ve t
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Özel bootstrapper kurulamadı: {0}.
 Otomatiklen {1}'e alınılıyor.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Özel tema seçilmedi.</value>
@@ -1262,7 +1262,7 @@ Otomatiklen {1}'e alınılıyor.</value>
     <value>Düzenle</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>Bubblestrap Hakkında</value>
+    <value>Horrorstrap Hakkında</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Çalışma süresi</value>
@@ -1283,11 +1283,11 @@ Otomatiklen {1}'e alınılıyor.</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Roblox Çökme İşleyicisini Devre Dışı Bırak</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Uygulama açıkken profilinizde özel Bubblestrap Discord RPC'yi görüntülemek için bunu etkinleştirin.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>Uygulama açıkken profilinizde özel Horrorstrap Discord RPC'yi görüntülemek için bunu etkinleştirin.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
+    <value>Horrorstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Ses seçin...</value>
@@ -1371,7 +1371,7 @@ Otomatiklen {1}'e alınılıyor.</value>
     <value>Sürüm karma değeri</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Bubblestrap'ı belirli bir hash'ten sürümü indirmeye zorlayın. Bunun ne işe yaradığını bilmiyorsanız lütfen değiştirmeyin.</value>
+    <value>Horrorstrap'ı belirli bir hash'ten sürümü indirmeye zorlayın. Bunun ne işe yaradığını bilmiyorsanız lütfen değiştirmeyin.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Kaydet ve Başlat</value>
@@ -1400,7 +1400,7 @@ Varsayılan kanala ({1}) geçmek ister misiniz?</value>
     <value>Otomatik kanal değiştirme işlemi</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox veya Bubblestrap, tercih ettiğiniz kanalı değiştirmeye çalışabilir.</value>
+    <value>Roblox veya Horrorstrap, tercih ettiğiniz kanalı değiştirmeye çalışabilir.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Otomatik olarak değiştir</value>
@@ -1428,32 +1428,32 @@ Tercih ettiğiniz kanalı {0} olarak değiştirmek ister misiniz?</value>
     <value>Belirtilen kanal mevcut değil veya özel bir kanaldır.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Bubblestrap ayarları içe aktarılamadı.
+    <value>Horrorstrap ayarları içe aktarılamadı.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Bubblestrap'tan ayarları içe aktar</value>
+    <value>Horrorstrap'tan ayarları içe aktar</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Bubblestrap kurulumu bulunamadı.</value>
+    <value>Horrorstrap kurulumu bulunamadı.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Bubblestrap'ın davranışıyla ilgili seçenekleri yapılandırın.</value>
+    <value>Horrorstrap'ın davranışıyla ilgili seçenekleri yapılandırın.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Karşılaştığınız sorunu gidermek için çevrimiçi olarak yüklenebilecek bilgileri toplayın.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Bubblestrap yapılandırması</value>
+    <value>Horrorstrap yapılandırması</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Tüm Bubblestrap günlükleri</value>
+    <value>Tüm Horrorstrap günlükleri</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Temizleyici</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap, yer kazanmak için eski verileri siler.</value>
+    <value>Horrorstrap, yer kazanmak için eski verileri siler.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Asla</value>
@@ -1489,16 +1489,16 @@ Tercih ettiğiniz kanalı {0} olarak değiştirmek ister misiniz?</value>
     <value>Eski günlük dosyaları silinecektir.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Bubblestrap günlükleri</value>
+    <value>Horrorstrap günlükleri</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Bubblestrap günlükleri silinecektir.</value>
+    <value>Horrorstrap günlükleri silinecektir.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags geçici olarak devre dışı bırakılmıştır.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Daha fazla bilgi için Bubblestrap Discord sunucusuna katılın.</value>
+    <value>Daha fazla bilgi için Horrorstrap Discord sunucusuna katılın.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Verileri bekliyorum</value>
@@ -1540,7 +1540,7 @@ Tercih ettiğiniz kanalı {0} olarak değiştirmek ister misiniz?</value>
     <value>Genel Ayarlar</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Bubblestrap menüsünden oyun içi ayarları yapın.</value>
+    <value>Horrorstrap menüsünden oyun içi ayarları yapın.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Şeffaflık</value>
@@ -1588,10 +1588,10 @@ Tercih ettiğiniz kanalı {0} olarak değiştirmek ister misiniz?</value>
     <value>Roblox'un kullanması gereken FRM kalitesini seçin.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Bubblestrap'in Roblox hesabına erişmesine izin ver</value>
+    <value>Horrorstrap'in Roblox hesabına erişmesine izin ver</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Kimlik doğrulama çerezini kullanarak Roblox API'lerine erişim sağlayın. [Bubblestrap neye erişecek?]({0})</value>
+    <value>Kimlik doğrulama çerezini kullanarak Roblox API'lerine erişim sağlayın. [Horrorstrap neye erişecek?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Bellek Düzenleyici</value>
@@ -1861,7 +1861,7 @@ Bunun yerine en son sürümü yüklüyorum.</value>
     <value>Mevcut sürümden önceki Roblox sürümünü indirip yükleyin.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Bunlar, Bubblestrap'e önemli katkılarda bulunarak bugünkü haline gelmesine yardımcı olan kişilerdir.</value>
+    <value>Bunlar, Horrorstrap'e önemli katkılarda bulunarak bugünkü haline gelmesine yardımcı olan kişilerdir.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>Kullanıcı adını gizle</value>

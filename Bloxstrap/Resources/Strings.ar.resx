@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>لم يتمكن Bubblestrap من التحديث تلقائيًا إلى الإصدار {0}. يرجى تحديثه يدوياً عن طريق تنزيله وتشغيله من الموقع.</value>
+    <value>لم يتمكن Horrorstrap من التحديث تلقائيًا إلى الإصدار {0}. يرجى تحديثه يدوياً عن طريق تنزيله وتشغيله من الموقع.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Roblox قيد التشغيل حاليًا، وسيؤدي هذا إلى إغلاق النافذة الحالية. هل أنت متأكد أنك تريد مواصلة التشغيل؟</value>
@@ -68,13 +68,13 @@
     <value>قد يكون Roblox معطلاً في الوقت الحالي. راجع {0} لمزيد من المعلومات.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>لا يمكن انشاء اتصال, و هو على الأرجح يشير إلى اتصال إنترنت ضعيف أو حظر من جدار الحماية. إذا كان اتصالك بالإنترنت جيدا, يرجى التحقق من أن مكافح الفيروسات الخاص بك لا يحظر Bubblestrap.</value>
+    <value>لا يمكن انشاء اتصال, و هو على الأرجح يشير إلى اتصال إنترنت ضعيف أو حظر من جدار الحماية. إذا كان اتصالك بالإنترنت جيدا, يرجى التحقق من أن مكافح الفيروسات الخاص بك لا يحظر Horrorstrap.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
     <value>يجب تحميل بلوكس ستراب  قبل حذفه.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>لا يحتوي Bubblestrap على مساحة كافية على القرص لتنزيل Roblox وتثبيته. الرجاء تحرير بعض مساحة القرص والمحاولة مرة أخرى.</value>
+    <value>لا يحتوي Horrorstrap على مساحة كافية على القرص لتنزيل Roblox وتثبيته. الرجاء تحرير بعض مساحة القرص والمحاولة مرة أخرى.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>يتم تطبيق تعديلات Roblox...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>تم إزالة Bubblestrap بنجاح</value>
+    <value>تم إزالة Horrorstrap بنجاح</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox قيد التشغيل حالياً، ولكن يجب إغلاقها قبل إلغاء تثبيت Bubblestrap. هل ترغب في إغلاق Roblox الآن؟</value>
+    <value>Roblox قيد التشغيل حالياً، ولكن يجب إغلاقها قبل إلغاء تثبيت Horrorstrap. هل ترغب في إغلاق Roblox الآن؟</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>تطلب Roblox أستخدام مكونات Windows Media Foundation. المكونات المطلوبة ليست موجودة، في الأغلب لأنك تستخدم نسخة N من Windows. يرجى تنزيلها أولاً، ثم فتح Roblox.</value>
@@ -217,21 +217,21 @@
     <value>خطأ في الاتصال</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap غير قادر على الاتصال ب {0}</value>
+    <value>Horrorstrap غير قادر على الاتصال ب {0}</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>انسخ محتويات السجل</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>حدث استثناء خلال تشغيل Bubblestrap</value>
+    <value>حدث استثناء خلال تشغيل Horrorstrap</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>تحقق من [Bloxstrap Wiki]({0}) أولاً لمعرفة ما إذا كانت هذه المشكلة قد تمت معالجتها بالفعل بإصلاحها.
 إذا لم يكن الأمر كذلك، فيرجى الإبلاغ عن هذا الاستثناء من خلال [مشكلة GitHub]({1}) مع نسخة من ملف السجل الذي تم إنشاؤه.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>استثناء Bubblestrap</value>
+    <value>استثناء Horrorstrap</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>مخصص</value>
@@ -243,10 +243,10 @@
     <value>أواخر 2015</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (كلاسيكية)</value>
+    <value>Horrorstrap (كلاسيكية)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (زجاج)</value>
+    <value>Horrorstrap (زجاج)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>تراثي (2008 - 2011)</value>
@@ -300,10 +300,10 @@
     <value>فاتح</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>تم تحديث Bubblestrap إلى إصدار {0}</value>
+    <value>تم تحديث Horrorstrap إلى إصدار {0}</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>يختلف إصدار Bubblestrap الذي قمت بتشغيله عن الإصدار الذي قمت بتثبيته حاليًا.
+    <value>يختلف إصدار Horrorstrap الذي قمت بتشغيله عن الإصدار الذي قمت بتثبيته حاليًا.
 هل ترغب في تحديث الإصدار المثبت حاليًا؟</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
@@ -356,7 +356,7 @@
     <value>يرجى ملاحظة أنه لن يتم تطبيق جميع تغييراتك على الفور إلى أن تقوم بإغلاق جميع نوافذ Roblox المفتوحة حاليًا.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap قيد التشغيل بالفعل</value>
+    <value>Horrorstrap قيد التشغيل بالفعل</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>يمكنك جعلها تبدو مختلفة أو قديمة أو حتى مثل Roblox تمامًا.</value>
@@ -383,7 +383,7 @@
     <value>العنوان</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>قم بتعديل شكل Bubblestrap.</value>
+    <value>قم بتعديل شكل Horrorstrap.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>المظهر العالمي</value>
@@ -407,10 +407,10 @@
     <value>المظهر</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>سوف يقوم Bubblestrap بالتحقق من نفسه وتحديثه تلقائيًا عند تشغيل Roblox.</value>
+    <value>سوف يقوم Horrorstrap بالتحقق من نفسه وتحديثه تلقائيًا عند تشغيل Roblox.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>تحديث Bubblestrap تلقائياً</value>
+    <value>تحديث Horrorstrap تلقائياً</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>منع إغلاق لعبتك الحالية من تشغيل لُعْبَة أخرى عن طريق الخطأ.</value>
@@ -419,7 +419,7 @@
     <value>مطالبة للتأكيد عند إطلاق مثيل مطالبة للتأكيد عند إطلاق مثيل آخر ل Roblox</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>ضبط ما يجب أن يفعله Bubblestrap عند بدء تشغيل Roblox.</value>
+    <value>ضبط ما يجب أن يفعله Horrorstrap عند بدء تشغيل Roblox.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>سيتم تثبيت Roblox من جديد عند الإطلاق التالي.</value>
@@ -514,10 +514,10 @@
     <value>ملفات الإيقونات</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>لا يمكن تثبيت Bubblestrap هنا. يرجى اختيار موقع مختلف، أو اللجوء إلى استخدام الموقع الأصلي عن طريق النقر على زر إعادة الضبط.</value>
+    <value>لا يمكن تثبيت Horrorstrap هنا. يرجى اختيار موقع مختلف، أو اللجوء إلى استخدام الموقع الأصلي عن طريق النقر على زر إعادة الضبط.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>المجلد الذي اخترته لتثبيت Bubblestrap موجود فعلًا وليس فارغًا. يوصى بشدة بتثبيت Bubblestrap في المجلد المستقل الخاص به.
+    <value>المجلد الذي اخترته لتثبيت Horrorstrap موجود فعلًا وليس فارغًا. يوصى بشدة بتثبيت Horrorstrap في المجلد المستقل الخاص به.
 يقترح التغيير إلى الموقع التالي:
 {0}
 هل ترغب في التغيير إلى الموقع المقترح؟
@@ -528,7 +528,7 @@
     <value>يجب عليك اختيار موقع للتثبيت</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>لا يتمتع Bubblestrap بحق الوصول للكتابة إلى موقع التثبيت الذي حددته. الرجاء اختيار موقع آخر.</value>
+    <value>لا يتمتع Horrorstrap بحق الوصول للكتابة إلى موقع التثبيت الذي حددته. الرجاء اختيار موقع آخر.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>تتبع النشاط</value>
@@ -579,7 +579,7 @@
     <value>عدم الخروج إلى تطبيق Roblox</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>يسمح لـ Bubblestrap باكتشاف لُعْبَة Roblox التي تلعبها. قد تتطلب بعض الميزات ذلك.</value>
+    <value>يسمح لـ Horrorstrap باكتشاف لُعْبَة Roblox التي تلعبها. قد تتطلب بعض الميزات ذلك.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>تفعيل تتبع النشاط</value>
@@ -670,7 +670,7 @@
     <value>تم حفظ الإعدادات!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>إعدادات Bubblestrap</value>
+    <value>إعدادات Horrorstrap</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>اختر اللغة المفضلة</value>
@@ -691,7 +691,7 @@
     <value>واجهة المستخدم والتخطيط</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>السماح لBubblestrap لادارة FastFlags</value>
+    <value>السماح لHorrorstrap لادارة FastFlags</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>إيقاف هذا يمنع تطبيق أي شيء تم تكوينه هنا على Roblox.</value>
@@ -700,7 +700,7 @@
     <value>جودة مكافحة التعرجات (MSAA)</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap غير قادر على تحميل Roblox</value>
+    <value>Horrorstrap غير قادر على تحميل Roblox</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>لا يمكن تنزيل Roblox في هذا الوقت. يرجى قراءة صفحة المساعدة التالية لمزيد من المعلومات: {0}</value>
@@ -721,7 +721,7 @@
     <value>الإدخال ل '{0}' غير صالح لأن القيمة يجب أن تكون رقم</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>لن يتم كتابة أي ملف السجل لهذا التشغيل لأن Bubblestrap غير قادر على الكتابة إلى المجلد الموجود في '{0}'</value>
+    <value>لن يتم كتابة أي ملف السجل لهذا التشغيل لأن Horrorstrap غير قادر على الكتابة إلى المجلد الموجود في '{0}'</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>الأصلي</value>
@@ -736,7 +736,7 @@
     <value>الإدخال لـ '{0}' غير صالح لأن فلتر المكان غير منسق بشكل صحيح.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>مثبت Bubblestrap</value>
+    <value>مثبت Horrorstrap</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>مرحبًا</value>
@@ -755,16 +755,16 @@
     <value>التالي</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>شكرًا لك على تنزيل Bubblestrap.
-المواقع الرسمية التي يمكنك تنزيل Bubblestrap منها هي {0} أو {1}. يرجى التأكد من أنك نزلتها من مصدر رسمي.
-ستكون عملية التثبيت هذه سريعة وبسيطة، وستتمكن من تضبيط أي من إعدادات Bubblestrap بعد التثبيت.</value>
+    <value>شكرًا لك على تنزيل Horrorstrap.
+المواقع الرسمية التي يمكنك تنزيل Horrorstrap منها هي {0} أو {1}. يرجى التأكد من أنك نزلتها من مصدر رسمي.
+ستكون عملية التثبيت هذه سريعة وبسيطة، وستتمكن من تضبيط أي من إعدادات Horrorstrap بعد التثبيت.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>الرجاء النقر فوق 'التالي' للمتابعة.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>أنت تحاول تثبيت الإصدار {0} من Bubblestrap، ولكن أحدث إصدار متاح هو {1}. هل ترغب في تحميله؟</value>
+    <value>أنت تحاول تثبيت الإصدار {0} من Horrorstrap، ولكن أحدث إصدار متاح هو {1}. هل ترغب في تحميله؟</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>اختر مكان التثبيت</value>
@@ -785,13 +785,13 @@
     <value>أيقونة قائمة ابدأ</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>تم تثبيت Bubblestrap.
-لم يتم تثبيت Roblox بعد، وسيحدث ذلك عند تشغيله باستخدام Bubblestrap للمرة الأولى. ومع ذلك، قبل القيام بذلك، قد ترغب في تكوين إعدادات Bubblestrap أولاً.
-تجنب أيضًا استخدام اختصار "Roblox Player" لتشغيل Roblox، حيث لن يتم تشغيل Bubblestrap مع Roblox. إذا لم تشاهد Bubblestrap يظهر عند التشغيل من موقع الويب، فما عليك سوى تشغيل Roblox باستخدام Bubblestrap مرة واحدة من سطح المكتب لإصلاح المشكلة.
+    <value>تم تثبيت Horrorstrap.
+لم يتم تثبيت Roblox بعد، وسيحدث ذلك عند تشغيله باستخدام Horrorstrap للمرة الأولى. ومع ذلك، قبل القيام بذلك، قد ترغب في تكوين إعدادات Horrorstrap أولاً.
+تجنب أيضًا استخدام اختصار "Roblox Player" لتشغيل Roblox، حيث لن يتم تشغيل Horrorstrap مع Roblox. إذا لم تشاهد Horrorstrap يظهر عند التشغيل من موقع الويب، فما عليك سوى تشغيل Roblox باستخدام Horrorstrap مرة واحدة من سطح المكتب لإصلاح المشكلة.
 ماذا تريد أن تفعل؟</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>ضبط إعدادات Bubblestrap</value>
+    <value>ضبط إعدادات Horrorstrap</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>تعديل مع جميع الميزات التي يجب أن يقدمها</value>
@@ -803,19 +803,19 @@
     <value>سيتم إيقافك في تطبيق سطح المكتب بمجرد الانتهاء من كل شيء</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>إلغاء تثبيت Bubblestrap</value>
+    <value>إلغاء تثبيت Horrorstrap</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>سيؤدي إلغاء التثبيت إلى المسح Bubblestrap من نظامك، وإعادة تكوين مشغل Roblox الافتراضي تلقائيًا إذا كان لا يزال مثبتًا.
+    <value>سيؤدي إلغاء التثبيت إلى المسح Horrorstrap من نظامك، وإعادة تكوين مشغل Roblox الافتراضي تلقائيًا إذا كان لا يزال مثبتًا.
 إذا كنت تقوم بإلغاء التثبيت أو إعادة التثبيت لأنك تواجه مشكلات مع Roblox، فاقرأ [صفحة المساعدة هذه]({0}) أولاً.
-قد لا تتمكن عملية إلغاء التثبيت من تنظيف نفسها بالكامل، لذا قد تحتاج إلى تنظيف الملفات المتبقية يدويًا حيث تم تثبيت Bubblestrap.
-تم تثبيت Bubblestrap في "{1}".</value>
+قد لا تتمكن عملية إلغاء التثبيت من تنظيف نفسها بالكامل، لذا قد تحتاج إلى تنظيف الملفات المتبقية يدويًا حيث تم تثبيت Horrorstrap.
+تم تثبيت Horrorstrap في "{1}".</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>احتفظ بإعداداتي و تعديلاتي</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>سيتم إبقائهم حيث تم تثبيت Bubblestrap، وسيتم إعادتهم تلقائيا عند إعادة التثبيت.</value>
+    <value>سيتم إبقائهم حيث تم تثبيت Horrorstrap، وسيتم إعادتهم تلقائيا عند إعادة التثبيت.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>إلغاء التثبيت</value>
@@ -836,18 +836,18 @@
     <value>ليس لديك حاليا وقت تشغيل WebView2. لن تعمل بعض ميزات Roblox بدونها، مثل تطبيق سطح المكتب. هل ترغب في تنزيله الآن؟</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>لم يتمكن Bubblestrap من إنشاء اختصارات لقائمة سطح المكتب وبدء التشغيل. حاول إنشاءها لاحقاً من خلال الإعدادات.</value>
+    <value>لم يتمكن Horrorstrap من إنشاء اختصارات لقائمة سطح المكتب وبدء التشغيل. حاول إنشاءها لاحقاً من خلال الإعدادات.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
     <value>تحقق من [Bloxstrap Wiki]({0}) أولاً لمعرفة ما إذا كانت هذه المشكلة قد عولجت بالفعل مع إصلاح.
-إن لم يكن الأمر كذلك، فيرجى الإبلاغ عن هذا الاستثناء إلى مشرفي هذه الفورك. لا تبلغ عن هذا إلى مشاكل Bubblestrap's GitHub، لأن هذا مبنى غير مسؤول.</value>
+إن لم يكن الأمر كذلك، فيرجى الإبلاغ عن هذا الاستثناء إلى مشرفي هذه الفورك. لا تبلغ عن هذا إلى مشاكل Horrorstrap's GitHub، لأن هذا مبنى غير مسؤول.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>هذه اختصارات عامة تثير قائمة إطلاق متعددة الخيارات. يمكن إنشاء اختصارات لوظائف محددة في وقت لاحق في الإعدادات.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>تعديل كيفية تشغيل Bubblestrap بسهولة.</value>
+    <value>تعديل كيفية تشغيل Horrorstrap بسهولة.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>عام</value>
@@ -884,7 +884,7 @@
     <value>لديك تغييرات غير محفوظة. هل أنت متأكد من أنك تريد الإغلاق دون الحفظ؟</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>الإصدار من Bubblestrap الذي قمت بتشغيله أقدم من الإصدار الذي قمت بتثبيته الأن.
+    <value>الإصدار من Horrorstrap الذي قمت بتشغيله أقدم من الإصدار الذي قمت بتثبيته الأن.
 قد تحدث مشاكل وقد يتم تغيير إعداداتك. يوصى بإعادة التثبيت.
 هل أنت متأكد من أنك تريد المتابعة؟</value>
   </data>
@@ -896,7 +896,7 @@
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>للحصول على معلومات عن السبب الذي من أجله يمكن أن يحدث هذا وكيف يمكن حله، يرجى قراءة [هذه المادة المساعدة]({0}).
-تحقق مما إذا كان Roblox يعمل مع [المشغل الأصلي]({1}). إذا لم يكن الأمر كذلك، فهذا ليس مشكلة Bubblestrap. إذا كان الأمر كذلك، فيرجى الرجوع إلى مقالة المساعدة.</value>
+تحقق مما إذا كان Roblox يعمل مع [المشغل الأصلي]({1}). إذا لم يكن الأمر كذلك، فهذا ليس مشكلة Horrorstrap. إذا كان الأمر كذلك، فيرجى الرجوع إلى مقالة المساعدة.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>تعذر تحميل البيانات بسبب خطأ في الشبكة.</value>
@@ -929,11 +929,11 @@
     <value>لهذا الاطلاق، لن يتم التحقق من Roblox للتحديثات، ولن يتم تطبيق التغييرات على المودات.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>لا يمكن متابعة Bubblestrap, لأن Roblox بحاجة إلى تثبيت أو ترقية.</value>
+    <value>لا يمكن متابعة Horrorstrap, لأن Roblox بحاجة إلى تثبيت أو ترقية.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>تم تثبيت Bubblestrap إلى هذا الموقع من قبل ولا يزال موجودا، ولكن المثبت لا يمكنه الكتابة فوق قابلة التنفيذ القديمة. 
-الرجاء حذف Bubblestrap.exe يدويًا من موقع التثبيت أو محاولة إعادة تشغيل النظام، ثم إعادة محاولة التثبيت بعد ذلك.</value>
+    <value>تم تثبيت Horrorstrap إلى هذا الموقع من قبل ولا يزال موجودا، ولكن المثبت لا يمكنه الكتابة فوق قابلة التنفيذ القديمة. 
+الرجاء حذف Horrorstrap.exe يدويًا من موقع التثبيت أو محاولة إعادة تشغيل النظام، ثم إعادة محاولة التثبيت بعد ذلك.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>غير متوفر</value>
@@ -945,7 +945,7 @@
     <value>تكوين معلمات التطبيق مثل سلوك قياس إدارة شؤون الإعلام و [تحسينات ملء الشاشة]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>لم يتم تثبيت Roblox بعد. الرجاء تشغيل Roblox باستخدام Bubblestrap مرة واحدة في الأقل قبل محاولة استخدام هذا الاختيار.</value>
+    <value>لم يتم تثبيت Roblox بعد. الرجاء تشغيل Roblox باستخدام Horrorstrap مرة واحدة في الأقل قبل محاولة استخدام هذا الاختيار.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>هل أنت متأكد من أنك تريد إلغاء التثبيت؟</value>
@@ -962,10 +962,10 @@
     <value>استخراج أيقونات Roblox للمجلد</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>يسمح لك باستخدام مجموعة أيقونات Bubblestrap من Roblox للاختصارات الخاصة بك. [انظر كيف.]({0})</value>
+    <value>يسمح لك باستخدام مجموعة أيقونات Horrorstrap من Roblox للاختصارات الخاصة بك. [انظر كيف.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap غير قادر على الكتابة إلى سجل ويندوز. من المحتمل أن تتدخل مكافحة الفيروسات وتسبب مشكلات. الرجاء التحقق للتأكد من عدم وجود أي شيء من شأنه أن يقيد عملية Bubblestrap.</value>
+    <value>Horrorstrap غير قادر على الكتابة إلى سجل ويندوز. من المحتمل أن تتدخل مكافحة الفيروسات وتسبب مشكلات. الرجاء التحقق للتأكد من عدم وجود أي شيء من شأنه أن يقيد عملية Horrorstrap.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>إعادة تعيين كل شيء إلى الإعدادات الأصلية</value>
@@ -1000,7 +1000,7 @@
     <value>مخصص</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>حاول Bubblestrap ترقية Roblox ولكن لا يمكن أن يكون لأن ملفات Roblox لا تزال قيد الاستخدام.
+    <value>حاول Horrorstrap ترقية Roblox ولكن لا يمكن أن يكون لأن ملفات Roblox لا تزال قيد الاستخدام.
 الرجاء إغلاق أي تطبيقات قد تستخدم ملفات Roblox، وإعادة التشغيل.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1010,17 +1010,17 @@
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>تصدير</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>من المحتمل أن يمنع Bubblestrap من الاتصال بالإنترنت.</value>
+    <value>من المحتمل أن يمنع Horrorstrap من الاتصال بالإنترنت.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>انتهت مهلة الاتصال، الذي يمكن أن يشير إلى ضعف الاتصال بالإنترنت أو إلى كتلة جدار الحماية.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>تغيير إعدادات النشر والتثبيت لـ Roblox &amp; Bubblestrap.</value>
+    <value>تغيير إعدادات النشر والتثبيت لـ Roblox &amp; Horrorstrap.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>القناة</value>
@@ -1038,7 +1038,7 @@
     <value>لم يعد Roblox يدعم Windows 7 أو 8.1. لمواصلة تشغيل Roblox، يرجى الترقية إلى Windows 10 أو أحدث.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>يتم اخذ اخر نسخه من Bubblestrap...</value>
+    <value>يتم اخذ اخر نسخه من Horrorstrap...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>فارغ</value>
@@ -1196,7 +1196,7 @@
   </data>
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>لم يتم تحديد موضوع مخصص.</value>
@@ -1263,7 +1263,7 @@
     <value>حرّر</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>حول Bubblestrap</value>
+    <value>حول Horrorstrap</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>وقت التشغيل</value>
@@ -1284,11 +1284,11 @@
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>تعطيل معالج أعطال Roblox</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>قم بتمكين هذه الميزة لعرض Bubblestrap Discord RPC مخصص على ملفك الشخصي أثناء فتح التطبيق.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>قم بتمكين هذه الميزة لعرض Horrorstrap Discord RPC مخصص على ملفك الشخصي أثناء فتح التطبيق.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
+    <value>Horrorstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>اختر الصوت...</value>
@@ -1372,7 +1372,7 @@
     <value>تجزئة الإصدار</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>إجبار Bubblestrap على تنزيل الإصدار من هاش معين. يرجى عدم تغيير هذا الإعداد إذا لم تكن على دراية بوظيفته.</value>
+    <value>إجبار Horrorstrap على تنزيل الإصدار من هاش معين. يرجى عدم تغيير هذا الإعداد إذا لم تكن على دراية بوظيفته.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>حفظ وتشغيل</value>
@@ -1401,7 +1401,7 @@
     <value>إجراء التغيير التلقائي للقناة</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>قد يحاول Roblox أو Bubblestrap تغيير القناة المفضلة لديك.</value>
+    <value>قد يحاول Roblox أو Horrorstrap تغيير القناة المفضلة لديك.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>التغيير تلقائيًا</value>
@@ -1429,29 +1429,29 @@
     <value>القناة المحددة إما غير موجودة أو خاصة</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>فشل استيراد إعدادات Bubblestrap.
+    <value>فشل استيراد إعدادات Horrorstrap.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>استيراد الإعدادات من Bubblestrap</value>
+    <value>استيراد الإعدادات من Horrorstrap</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>لم يتم العثور على تثبيت Bubblestrap.</value>
+    <value>لم يتم العثور على تثبيت Horrorstrap.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>اجمع المعلومات التي يمكن تحميلها عبر الإنترنت لحل المشكلة التي تواجهها.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>تكوين Bubblestrap</value>
+    <value>تكوين Horrorstrap</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>جميع سجلات Bubblestrap</value>
+    <value>جميع سجلات Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>منظف</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>سيقوم Bubblestrap بإزالة البيانات القديمة لتوفير مساحة</value>
+    <value>سيقوم Horrorstrap بإزالة البيانات القديمة لتوفير مساحة</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>أبداً</value>
@@ -1487,19 +1487,19 @@
     <value>سيتم حذف ملفات السجل القديمة.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>سجلات Bubblestrap</value>
+    <value>سجلات Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>سيتم حذف سجلات Bubblestrap.</value>
+    <value>سيتم حذف سجلات Horrorstrap.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>تكوين الخيارات المتعلقة بسلوك Bubblestrap نفسه.</value>
+    <value>تكوين الخيارات المتعلقة بسلوك Horrorstrap نفسه.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>تم تعطيل FastFlags مؤقتًا</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>لمزيد من المعلومات، انضم إلى خادم Bubblestrap Discord.</value>
+    <value>لمزيد من المعلومات، انضم إلى خادم Horrorstrap Discord.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>في انتظار البيانات</value>
@@ -1541,7 +1541,7 @@
     <value>الإعدادات العامة</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>اضبط إعدادات اللعبة من قائمة Bubblestrap.</value>
+    <value>اضبط إعدادات اللعبة من قائمة Horrorstrap.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>الشفافية</value>
@@ -1589,10 +1589,10 @@
     <value>اختر جودة FRM التي يجب أن يستخدمها Roblox.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>السماح لـ Bubblestrap بالوصول إلى حساب Roblox الخاص بك</value>
+    <value>السماح لـ Horrorstrap بالوصول إلى حساب Roblox الخاص بك</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>قم بتوفير الوصول إلى واجهات برمجة تطبيقات Roblox باستخدام ملف تعريف الارتباط الخاص بالمصادقة. [ما الذي سيصل إليه Bubblestrap؟]({0})</value>
+    <value>قم بتوفير الوصول إلى واجهات برمجة تطبيقات Roblox باستخدام ملف تعريف الارتباط الخاص بالمصادقة. [ما الذي سيصل إليه Horrorstrap؟]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>مقلم الذاكرة</value>
@@ -1862,7 +1862,7 @@
     <value>قم بتنزيل وتثبيت إصدار Roblox الذي كان متاحًا قبل الإصدار الحالي.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>هؤلاء هم الأشخاص الذين قدموا إسهامات بارزة في Bubblestrap، وساعدوا في جعله ما هو عليه اليوم.</value>
+    <value>هؤلاء هم الأشخاص الذين قدموا إسهامات بارزة في Horrorstrap، وساعدوا في جعله ما هو عليه اليوم.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>إخفاء اسم المستخدم</value>

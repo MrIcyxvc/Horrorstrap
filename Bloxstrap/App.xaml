@@ -39,6 +39,7 @@
             <converters:StringFormatConverter x:Key="StringFormatConverter" />
             <converters:RangeConverter x:Key="RangeConverter" />
             <converters:EnumNameConverter x:Key="EnumNameConverter" />
+            <converters:SymbolToVisibilityConverter x:Key="SymbolToVisibilityConverter" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -75,6 +75,12 @@ namespace Bloxstrap.RobloxInterfaces
 
         public T? Get<T>(string name) => GetAsync<T>(name).GetAwaiter().GetResult();
 
+        public async Task<Dictionary<string, string>> GetAllAsync()
+        {
+            await EnsureFetched();
+            return _flags ?? new Dictionary<string, string>();
+        }
+
         public static ApplicationSettings PCDesktopClient => GetSettings("PCDesktopClient");
         public static ApplicationSettings PCClientBootstrapper => GetSettings("PCClientBootstrapper");
 

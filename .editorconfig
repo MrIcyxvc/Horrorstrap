@@ -1,0 +1,6 @@
+# Generated resx files - suppress XML schema validation warnings
+[*.resx]
+generated_code = true
+
+[*.Designer.cs]
+generated_code = true

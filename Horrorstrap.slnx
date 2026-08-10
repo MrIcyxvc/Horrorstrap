@@ -1,4 +1,4 @@
-<Solution>
+<Solution Name="Horrorstrap">
   <Project Path="Bloxstrap/Bloxstrap.csproj" />
   <Project Path="wpfui/src/Wpf.Ui/Wpf.Ui.csproj" />
   <Properties Name="ExtensibilityGlobals" Scope="PostLoad">

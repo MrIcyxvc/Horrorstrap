@@ -10,12 +10,12 @@ namespace Bloxstrap
 {
     public partial class App : Application
     {
-        public const string ProjectName = "Bubblestrap";
-        public const string ProjectOwner = "ItzBloxxy";
-        public const string ProjectRepository = "ItzBloxxy/Bubblestrap";
-        public const string ProjectDownloadLink = "https://github.com/ItzBloxxy/Bubblestrap/releases";
-        public const string ProjectHelpLink = "https://github.com/bloxstraplabs/bloxstrap/wiki";
-        public const string ProjectSupportLink = "https://github.com/ItzBloxxy/Bubblestrap/issues/new";
+        public const string ProjectName = "Horrorstrap";
+        public const string ProjectOwner = "VL5 Icy";
+        public const string ProjectRepository = "VL5 Icy/Horrorstrap";
+        public const string ProjectDownloadLink = "https://github.com/MrIcyxvc/Horrorstrap/releases";
+        public const string ProjectHelpLink = "https://github.com/MrIcyxvc/Horrorstrap/wiki";
+        public const string ProjectSupportLink = "https://github.com/MrIcyxvc/Horrorstrap/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta.exe";
         public const string RobloxStudioAppName = "RobloxStudioBeta.exe";
@@ -31,7 +31,7 @@ namespace Bloxstrap
 
         public static Bootstrapper? Bootstrapper { get; set; } = null!;
 
-        public BubblestrapRichPresence RichPresence { get; private set; } = null!;
+        public HorrorstraptrapRichPresence RichPresence { get; private set; } = null!;
 
         public static bool IsActionBuild => !string.IsNullOrEmpty(BuildMetadata.CommitRef);
 
@@ -84,8 +84,22 @@ namespace Bloxstrap
         void GlobalExceptionHandler(object sender, DispatcherUnhandledExceptionEventArgs e)
         {
             e.Handled = true;
-            Logger.WriteLine("App::GlobalExceptionHandler", "An exception occurred");
+            Logger.WriteLine("App::GlobalExceptionHandler", "A dispatcher exception occurred");
             FinalizeExceptionHandling(e.Exception);
+        }
+
+        private void TaskScheduler_UnobservedTaskException(object? sender, UnobservedTaskExceptionEventArgs e)
+        {
+            e.SetObserved();
+            Logger.WriteLine("App::TaskScheduler_UnobservedTaskException", "An unobserved task exception occurred");
+            Logger.WriteException("App::TaskScheduler_UnobservedTaskException", e.Exception);
+        }
+
+        private void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            var ex = e.ExceptionObject as Exception ?? new Exception($"Non-exception unhandled exception: {e.ExceptionObject}");
+            Logger.WriteLine("App::CurrentDomain_UnhandledException", "An unhandled exception occurred");
+            Logger.WriteException("App::CurrentDomain_UnhandledException", ex);
         }
 
         public static void FinalizeExceptionHandling(AggregateException ex)
@@ -118,7 +132,7 @@ namespace Bloxstrap
             Terminate(ErrorCode.ERROR_INSTALL_FAILURE);
         }
 
-        public static BubblestrapRichPresence? BubbleRPC
+        public static HorrorstraptrapRichPresence? BubbleRPC
         {
             get => (Current as App)?.RichPresence;
             set
@@ -174,6 +188,10 @@ namespace Bloxstrap
 
             Locale.Initialize();
             base.OnStartup(e);
+
+            DispatcherUnhandledException += GlobalExceptionHandler;
+            TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
+            AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 
             Logger.WriteLine(LOG_IDENT, $"Starting {ProjectName} v{Version}");
 
@@ -236,6 +254,8 @@ namespace Bloxstrap
                 }
             }
 
+
+
             if (fixInstallLocation && installLocation is not null)
             {
                 var installer = new Installer
@@ -282,6 +302,19 @@ namespace Bloxstrap
                 RobloxState.Load();
                 FastFlags.Load();
                 GlobalSettings.Load();
+
+                // migrate old Fishstrap bootstrapper title to Horrorstrap
+                if (Settings.Prop.BootstrapperTitle.Contains("Fishstrap", StringComparison.OrdinalIgnoreCase))
+                {
+                    Logger.WriteLine(LOG_IDENT, $"Migrating bootstrapper title from '{Settings.Prop.BootstrapperTitle}' to '{ProjectName}'");
+                    Settings.Prop.BootstrapperTitle = ProjectName;
+                    Settings.Save();
+                }
+
+                // apply persisted test mode setting to launch settings so watcher/bootstrapper
+                // will honour test mode on subsequent runs
+                if (Settings.Prop.TestMode)
+                    LaunchSettings.TestModeFlag.Active = true;
 
                 if (Settings.Prop.AllowCookieAccess)
                     Task.Run(Cookies.LoadCookies);

@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel;
+using System.Linq;
+using System.Windows;
 using System.Windows.Forms;
 using System.Windows.Shell;
 
@@ -109,7 +111,11 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
         }
 
         #region IBootstrapperDialog Methods
-        public void ShowBootstrapper() => this.ShowDialog();
+        public void ShowBootstrapper()
+        {
+            Owner = System.Windows.Application.Current?.Windows.OfType<Window>().FirstOrDefault(w => w.IsActive);
+            this.ShowDialog();
+        }
 
         public void CloseBootstrapper()
         {

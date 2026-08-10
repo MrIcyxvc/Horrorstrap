@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Bubblestrap nebyl schopen se automaticky aktualizovat na verzi {0}. Prosím aktualizujte ručně stažením a spuštěním z webové stránky.</value>
+    <value>Horrorstrap nebyl schopen se automaticky aktualizovat na verzi {0}. Prosím aktualizujte ručně stažením a spuštěním z webové stránky.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Roblox už běží, a spouštění další objektů se roblox zavře. Opravdu chcete pokračovat se spuštění?</value>
@@ -68,13 +68,13 @@
     <value>Roblox může být právě teď mimo provoz. Další informace viz {0}.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Nelze navázat připojení, což pravděpodobně naznačuje špatné připojení k internetu nebo firewall block. Pokud je připojení v pořádku, ujistěte se, že váš antivirus neblokuje Bubblestrap.</value>
+    <value>Nelze navázat připojení, což pravděpodobně naznačuje špatné připojení k internetu nebo firewall block. Pokud je připojení v pořádku, ujistěte se, že váš antivirus neblokuje Horrorstrap.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>První si musíš nainstalovat Bubblestrap než odinstaluješ.</value>
+    <value>První si musíš nainstalovat Horrorstrap než odinstaluješ.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Bubblestrap nemá dostatek volného místa na disku aby instaloval Roblox. Prosím uvolněte nějaké místo na disku a zkuste to znovu.</value>
+    <value>Horrorstrap nemá dostatek volného místa na disku aby instaloval Roblox. Prosím uvolněte nějaké místo na disku a zkuste to znovu.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Aplikování Roblox modifikací...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap byl úspěšně odinstalován</value>
+    <value>Horrorstrap byl úspěšně odinstalován</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox právě běží, ale musí být zavřen, před tím, než odinstalujete Bubblestrap.
+    <value>Roblox právě běží, ale musí být zavřen, před tím, než odinstalujete Horrorstrap.
 Chtěli nyní zavřít Roblox?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
@@ -218,21 +218,21 @@ Klikněte pro více informací</value>
     <value>Chyba připojení</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap není schopen se připojit k {0}</value>
+    <value>Horrorstrap není schopen se připojit k {0}</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Kopírovat log obsah</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Došlo k výjimce při běžení Bubblestrap</value>
+    <value>Došlo k výjimce při běžení Horrorstrap</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>Nejprve zkontrolujte [Bloxstrap Wiki]({0}), zda byl tento problém již vyřešen opravou.
 Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) spolu s kopií log souboru, který byl vytvořen.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Bubblestrap výjimka</value>
+    <value>Horrorstrap výjimka</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Vlastní</value>
@@ -244,10 +244,10 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Pozdější 2015</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klasický)</value>
+    <value>Horrorstrap (Klasický)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Sklo)</value>
+    <value>Horrorstrap (Sklo)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Legacy (2008 - 2011)</value>
@@ -301,10 +301,10 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Světlý</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Bubblestrap byl aktualizován na v{0}</value>
+    <value>Horrorstrap byl aktualizován na v{0}</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Verze Bubblestrap kterou jste spustili je jiná než tu kterou máte instalovanou. Chcete aktualizovat vaší instalovanou verzi?</value>
+    <value>Verze Horrorstrap kterou jste spustili je jiná než tu kterou máte instalovanou. Chcete aktualizovat vaší instalovanou verzi?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
     <value>Přispěvatelé</value>
@@ -343,7 +343,7 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Nahlásit chybu</value>
   </data>
   <data name="Menu.About.Title" xml:space="preserve">
-    <value>O Bubblestrapu</value>
+    <value>O Horrorstrapu</value>
   </data>
   <data name="Menu.About.Version" xml:space="preserve">
     <value>Verze {0}</value>
@@ -356,7 +356,7 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Prosíme poznamenejte si, že všechny vaše změny se aplikují ihned až zavřete všechny otevřené instance Roblox.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap již běží</value>
+    <value>Horrorstrap již běží</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Můžete tomu změnit vzhled, aby to vypadalo jinak, retro, nebo prostě jako Roblox.</value>
@@ -383,7 +383,7 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Název</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Konfigurovat vzhled Bubblestrap.</value>
+    <value>Konfigurovat vzhled Horrorstrap.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Globální motiv</value>
@@ -407,10 +407,10 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Vzhled</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Bubblestrap automaticky kontroluje a aktualizuje se když se spouští Roblox.</value>
+    <value>Horrorstrap automaticky kontroluje a aktualizuje se když se spouští Roblox.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Automaticky aktualizovat Bubblestrap</value>
+    <value>Automaticky aktualizovat Horrorstrap</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Prevence proti uzavření vaší existující hry při omylnému spuštění další.</value>
@@ -419,7 +419,7 @@ Pokud ne, prosím nahlaste tuto výjimku prostřednictvím [GitHub issue]({1}) s
     <value>Zeptat se k potvrzení při spouštění další instance Roblox</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Konfigurovat co by měl Bubblestrap udělat při spuštění Robloxu.</value>
+    <value>Konfigurovat co by měl Horrorstrap udělat při spuštění Robloxu.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox se přeinstaluje při dalším spuštení.</value>
@@ -515,10 +515,10 @@ Jste si jisti, že chcete pokračovat?</value>
     <value>Ikonové soubory</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Bubblestrap zde nelze nainstalovat. Zvolte prosím jiné umístění nebo se uchylte k použití výchozího umístění kliknutím na tlačítko reset.</value>
+    <value>Horrorstrap zde nelze nainstalovat. Zvolte prosím jiné umístění nebo se uchylte k použití výchozího umístění kliknutím na tlačítko reset.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Složka do které jste se rozhodli nainstalovat Bubblestrap již existuje a NENÍ prázdná. Je důrazně doporučeno aby byl Bubblestrap nainstalován do své vlastní nezávislé složky.
+    <value>Složka do které jste se rozhodli nainstalovat Horrorstrap již existuje a NENÍ prázdná. Je důrazně doporučeno aby byl Horrorstrap nainstalován do své vlastní nezávislé složky.
 Je navrhováno změnit umístění do následujícího umístění:
 {0}
 Chcete změnit umístění do navrhovaného umístění?
@@ -529,7 +529,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Musíš si nastavit lokaci pro instalaci</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Bubblestrap nemá přístup k zápisu do umístění instalace kterou jste vybrali. Vyberte prosím jiné umístění.</value>
+    <value>Horrorstrap nemá přístup k zápisu do umístění instalace kterou jste vybrali. Vyberte prosím jiné umístění.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Trackování aktivity</value>
@@ -580,7 +580,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Neukončovat do menu</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Povoluje Bubblestrap, aby detektoval, jaké hry na Robloxu hraješ. Určité funkce mohou vyžadovat toto.</value>
+    <value>Povoluje Horrorstrap, aby detektoval, jaké hry na Robloxu hraješ. Určité funkce mohou vyžadovat toto.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Povolit trackování aktivity</value>
@@ -671,7 +671,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Nastavení bylo uloženo!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Nastavení Bubblestrap</value>
+    <value>Nastavení Horrorstrap</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Použít preferovaný jazyk</value>
@@ -692,7 +692,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Uživatelské Rozhrání a rozložení</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Dovolit Bubblestrap spravovat Fast Flags</value>
+    <value>Dovolit Horrorstrap spravovat Fast Flags</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Vypnutí tohoto nastavení zakáže použití vlastní konfigurace v Robloxu.</value>
@@ -701,7 +701,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Vyhlazovací kvalita (MSAA)</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap nemůže stáhnout Roblox</value>
+    <value>Horrorstrap nemůže stáhnout Roblox</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Roblox nemůže být v tuto dobu nainstalovaný. Prosím přečtěte si tuto stránku pro pomoc a více informací: {0}</value>
@@ -722,7 +722,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Záznam pro '{0}' není platný, protože hodnota musí být číslo</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Žádný log soubor nebude zapsán pro toto spuštění, protože Bubblestrap nemůže zapisovat do složky v '{0}'</value>
+    <value>Žádný log soubor nebude zapsán pro toto spuštění, protože Horrorstrap nemůže zapisovat do složky v '{0}'</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Výchozí</value>
@@ -737,7 +737,7 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Položka '{0}' není platná, protože "place filter" nemá správný formát.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Instalátor Bubblestrap</value>
+    <value>Instalátor Horrorstrap</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Vítejte</value>
@@ -756,16 +756,16 @@ Při výběru 'Ne' bude toto varování ignorováno a bude pokračovat v instala
     <value>Další</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Děkujeme za stažení Bubblestrap. 
-Jediné oficiální stránky pro stažení Bubblestrap jsou {0} a {1}, takže prosím ověřte, zda jste jej stáhli z oficiálního zdroje.
-Instalační proces bude rychlý a jednoduchý a po instalaci budete moci nakonfigurovat jakékoliv nastavení Bubblestrap.</value>
+    <value>Děkujeme za stažení Horrorstrap. 
+Jediné oficiální stránky pro stažení Horrorstrap jsou {0} a {1}, takže prosím ověřte, zda jste jej stáhli z oficiálního zdroje.
+Instalační proces bude rychlý a jednoduchý a po instalaci budete moci nakonfigurovat jakékoliv nastavení Horrorstrap.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Pro pokračování klikněte na tlačítko 'Další'.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Pokoušíte se nainstalovat verzi {0} Bubblestrap, ale nejnovější dostupná verze je {1}. Chcete ji stáhnout?</value>
+    <value>Pokoušíte se nainstalovat verzi {0} Horrorstrap, ale nejnovější dostupná verze je {1}. Chcete ji stáhnout?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Vyberte, kam chcete nainstalovat</value>
@@ -786,16 +786,16 @@ Instalační proces bude rychlý a jednoduchý a po instalaci budete moci nakonf
     <value>Ikona v Start menu</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Bubblestrap byl úspěšně nainstalován.
-Roblox ještě nebyl nainstalován, k čemuž dojde při prvním spuštění Bubblestrap. Než to uděláte, možná budete chtít nejdříve nakonfigurovat Bubblestrap.
-Nepoužívejte také zkratku "Roblox Player" pro spuštění Robloxu, protože Bubblestrap nebude spuštěn s Robloxem. Pokud se nespustí Bubblestrap při spuštění z webové stránky, jednoduše spusťte Bubblestrap jednou z plochy, abyste to opravili.
+    <value>Horrorstrap byl úspěšně nainstalován.
+Roblox ještě nebyl nainstalován, k čemuž dojde při prvním spuštění Horrorstrap. Než to uděláte, možná budete chtít nejdříve nakonfigurovat Horrorstrap.
+Nepoužívejte také zkratku "Roblox Player" pro spuštění Robloxu, protože Horrorstrap nebude spuštěn s Robloxem. Pokud se nespustí Horrorstrap při spuštění z webové stránky, jednoduše spusťte Horrorstrap jednou z plochy, abyste to opravili.
 Co chcete udělat?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Nakonfigurovat nastavení Bubblestrap</value>
+    <value>Nakonfigurovat nastavení Horrorstrap</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
-    <value>Pohrajte si se všemi funkcemi Bubblestrap</value>
+    <value>Pohrajte si se všemi funkcemi Horrorstrap</value>
   </data>
   <data name="Installer.Completion.Launch.Title" xml:space="preserve">
     <value>Instalovat a spustit Roblox</value>
@@ -804,19 +804,19 @@ Co chcete udělat?</value>
     <value>Hodí vás do desktopové aplikace Robloxu po dokončení</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Odinstalovat Bubblestrap</value>
+    <value>Odinstalovat Horrorstrap</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Odinstalace odstraní Bubblestrap z vašeho systému a automaticky znovu nastaví výchozího spouštěčtě Robloxu, pokud je stále nainstalován.
+    <value>Odinstalace odstraní Horrorstrap z vašeho systému a automaticky znovu nastaví výchozího spouštěčtě Robloxu, pokud je stále nainstalován.
 Pokud odinstalujete nebo přeinstalujete, protože máte problémy s Robloxem, přečtěte si nejprve [tuto stránku pomoci]({0}).
-Odinstalace možná nebude moct odstranit všechny data sama, takže možná budete muset ručně vyčistit zbylé soubory po Bubblestrap.
-Bubblestrap byl nainstalován na "{1}".</value>
+Odinstalace možná nebude moct odstranit všechny data sama, takže možná budete muset ručně vyčistit zbylé soubory po Horrorstrap.
+Horrorstrap byl nainstalován na "{1}".</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Uložit moje nastavení a módy</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Zůstanou uchovány na instalačním místě Bubblestrap, a budou automaticky obnoveny při přeinstalaci.</value>
+    <value>Zůstanou uchovány na instalačním místě Horrorstrap, a budou automaticky obnoveny při přeinstalaci.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Odinstalovat</value>
@@ -837,18 +837,18 @@ Bubblestrap byl nainstalován na "{1}".</value>
     <value>Nemáte momentálně nainstalovaný WebView2 runtime. Různé funkce Robloxu nebudou bez něj fungovat správně, jako například desktopová aplikace. Chcete jej nyní stáhnout?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Bubblestrap nebyl schopen vytvořit zkratky na ploše a v menu Start. Zkuste je vytvořit později v nastavení.</value>
+    <value>Horrorstrap nebyl schopen vytvořit zkratky na ploše a v menu Start. Zkuste je vytvořit později v nastavení.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
-    <value>Nejprve zkontrolujte [Bubblestrapovou Wiki]({0}), jestli náhodou váš problém nebyl již vyřešen.
-Pokud ne, pak prosím nahlaste tento error správcům této forky. NENAHLAŠUJTE tuto chybu do GitHub repozitáře Bubblestrap, protože toto je neoficiální build.</value>
+    <value>Nejprve zkontrolujte [Horrorstrapovou Wiki]({0}), jestli náhodou váš problém nebyl již vyřešen.
+Pokud ne, pak prosím nahlaste tento error správcům této forky. NENAHLAŠUJTE tuto chybu do GitHub repozitáře Horrorstrap, protože toto je neoficiální build.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Tohle jsou obecné zkratky, které zobrazí spouštěcí nabídku s více možnostmi. Zkratky pro konkrétní funkce mohou být vytvořeny později v nastavení.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Nakonfigurujte, jak může být Bubblestrap snadno spuštěn.</value>
+    <value>Nakonfigurujte, jak může být Horrorstrap snadno spuštěn.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Obecný</value>
@@ -885,7 +885,7 @@ Pokud ne, pak prosím nahlaste tento error správcům této forky. NENAHLAŠUJTE
     <value>Máte neuložené změny. Opravdu chcete ukončit bez uložení?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Verze Bubblestrapu, kterou jste spustili, je starší než ta, kterou máte právě nainstalovanou.
+    <value>Verze Horrorstrapu, kterou jste spustili, je starší než ta, kterou máte právě nainstalovanou.
 Mohou nastat problémy a vaše nastavení mohou být změněny. Doporučuje se přeinstalovat.
 Opravdu chcete pokračovat?</value>
   </data>
@@ -897,7 +897,7 @@ Opravdu chcete pokračovat?</value>
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Pro informace o tom, proč k tomu může docházet a jak to lze vyřešit, si přečtěte [tento článek s nápovědou]({0}).
-Zkontrolujte, zda Roblox funguje [s původním spouštěčem]({1}). Pokud nefunguje, problém není způsoben Bubblestrapem. Pokud ano, podívejte se na článek s nápovědou.</value>
+Zkontrolujte, zda Roblox funguje [s původním spouštěčem]({1}). Pokud nefunguje, problém není způsoben Horrorstrapem. Pokud ano, podívejte se na článek s nápovědou.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Nepodařilo se načíst data kvůli chybám internetové sítě.</value>
@@ -930,11 +930,11 @@ Zkontrolujte, zda Roblox funguje [s původním spouštěčem]({1}). Pokud nefung
     <value>Pro toto spuštění nebude Roblox kontrolován pro aktualizace a změny v módech nebudou aplikovány.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Jelikož Roblox musí být nainstalován nebo potřebuje aktualizaci, Bubblestrap nemůže pokračovat.</value>
+    <value>Jelikož Roblox musí být nainstalován nebo potřebuje aktualizaci, Horrorstrap nemůže pokračovat.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Bubblestrap byl nainstalován na toto místo a je stále přítomen, ale instalátor nemůže přepsat starý.exe soubor. 
-Prosím manuálně smažte Bubblestrap.exe z instalačního místa nebo zkuste restartovat systém a poté zkuste instalaci znovu.</value>
+    <value>Horrorstrap byl nainstalován na toto místo a je stále přítomen, ale instalátor nemůže přepsat starý.exe soubor. 
+Prosím manuálně smažte Horrorstrap.exe z instalačního místa nebo zkuste restartovat systém a poté zkuste instalaci znovu.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Není k dispozici</value>
@@ -946,7 +946,7 @@ Prosím manuálně smažte Bubblestrap.exe z instalačního místa nebo zkuste r
     <value>Konfigurace parametrů aplikace, jako je škálování DPI a [optimalizace pro rozlišení celé obrazovky]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Roblox již nebyl nainstalován. Před použitím této možnosti spusťte Bubblestrap alespoň jednou.</value>
+    <value>Roblox již nebyl nainstalován. Před použitím této možnosti spusťte Horrorstrap alespoň jednou.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Opravdu chcete zrušit instalaci?</value>
@@ -963,10 +963,10 @@ Prosím manuálně smažte Bubblestrap.exe z instalačního místa nebo zkuste r
     <value>Extrahovat ikony Robloxu do složky</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Umožňuje používat rozsah Roblox ikon Bubblestrapu pro zástupce. [Podívej se jak na to.]({0})</value>
+    <value>Umožňuje používat rozsah Roblox ikon Horrorstrapu pro zástupce. [Podívej se jak na to.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap není schopen zapisovat do registru Windows. Antivirus pravděpodobně zasahuje a způsobuje problémy. Prosím zkontrolujte, zda nemáte nic, co by omezilo funkci Bubblestrapu.</value>
+    <value>Horrorstrap není schopen zapisovat do registru Windows. Antivirus pravděpodobně zasahuje a způsobuje problémy. Prosím zkontrolujte, zda nemáte nic, co by omezilo funkci Horrorstrapu.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Obnovit vše na výchozí</value>
@@ -1001,7 +1001,7 @@ Chcete zapnout testovací režim?</value>
     <value>Vlastní</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Bubblestrap se pokusil aktualizovat Roblox, ale nemůže, protože soubory Robloxu jsou stále používány.
+    <value>Horrorstrap se pokusil aktualizovat Roblox, ale nemůže, protože soubory Robloxu jsou stále používány.
 Zavřete všechny aplikace, které mohou používat soubory Robloxu, a znovu spusťte.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1011,10 +1011,10 @@ Zavřete všechny aplikace, které mohou používat soubory Robloxu, a znovu spu
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Exportovat</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Něco pravděpodobně brání Bubblestrapu připojení k internetu.</value>
+    <value>Něco pravděpodobně brání Horrorstrapu připojení k internetu.</value>
   </data>
   <data name="App.OSDeprecation.Win7_81" xml:space="preserve">
     <value>Roblox již nepodporuje Windows 7 ani 8.1. Pokud chcete dále hrát Roblox, aktualizujte prosím na Windows 10 nebo novější.</value>
@@ -1176,7 +1176,7 @@ Zavřete všechny aplikace, které mohou používat soubory Robloxu, a znovu spu
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Nepodařilo se zprovoznit vlastní bootstrapper: {0}.
 Používám motiv {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Není vybrán žádný vlastní motiv.</value>
@@ -1243,7 +1243,7 @@ Používám motiv {1}.</value>
     <value>Upravit</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>O Bubblestrapu</value>
+    <value>O Horrorstrapu</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Provozuschopnost</value>
@@ -1264,11 +1264,11 @@ Doba provozu: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Zakázat Roblox Crash Handler</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Povolte tuto funkci, aby se při otevření aplikace ve vašem profilu zobrazoval vlastní Bubblestrap Discord RPC.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>Povolte tuto funkci, aby se při otevření aplikace ve vašem profilu zobrazoval vlastní Horrorstrap Discord RPC.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
+    <value>Horrorstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Vyberte zvuk...</value>
@@ -1307,7 +1307,7 @@ Doba provozu: {1}</value>
     <value>Kanál</value>
   </data>
   <data name="Menu.Channel.Description" xml:space="preserve">
-    <value>Změňte nastavení nasazení a instalace pro Roblox &amp; Bubblestrap.</value>
+    <value>Změňte nastavení nasazení a instalace pro Roblox &amp; Horrorstrap.</value>
   </data>
   <data name="Common.Channel" xml:space="preserve">
     <value>Kanál</value>
@@ -1396,7 +1396,7 @@ Chcete přepnout na výchozí kanál ({1})?</value>
     <value>Automatické přepínání kanálů</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox nebo Bubblestrap se mohou pokusit změnit váš preferovaný kanál.</value>
+    <value>Roblox nebo Horrorstrap se mohou pokusit změnit váš preferovaný kanál.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Změnit automaticky</value>
@@ -1424,35 +1424,35 @@ Chcete změnit preferovaný kanál na {0}?</value>
     <value>Zadaný kanál buď neexistuje, nebo je soukromý.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Import nastavení Bubblestrap se nezdařil.
+    <value>Import nastavení Horrorstrap se nezdařil.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Importovat nastavení z Bubblestrap</value>
+    <value>Importovat nastavení z Horrorstrap</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Instalace Bubblestrap nebyla nalezena.</value>
+    <value>Instalace Horrorstrap nebyla nalezena.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Získání nejnovějšího Bubblestrapu...</value>
+    <value>Získání nejnovějšího Horrorstrapu...</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Nakonfigurujte možnosti související s chováním samotného Bubblestrapu.</value>
+    <value>Nakonfigurujte možnosti související s chováním samotného Horrorstrapu.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Shromážděte informace, které lze nahrát online, abyste vyřešili problém, se kterým se potýkáte.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Konfigurace Bubblestrap</value>
+    <value>Konfigurace Horrorstrap</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Všechny protokoly Bubblestrap</value>
+    <value>Všechny protokoly Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Čistič</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap odstraní stará data, aby ušetřil místo.</value>
+    <value>Horrorstrap odstraní stará data, aby ušetřil místo.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Nikdy</value>
@@ -1488,16 +1488,16 @@ Chcete změnit preferovaný kanál na {0}?</value>
     <value>Staré soubory protokolu budou smazány.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Protokoly Bubblestrap</value>
+    <value>Protokoly Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Protokoly Bubblestrap budou smazány.</value>
+    <value>Protokoly Horrorstrap budou smazány.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags byly dočasně deaktivovány</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Pro více informací se připojte k serveru Bubblestrap Discord.</value>
+    <value>Pro více informací se připojte k serveru Horrorstrap Discord.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Čekání na data</value>
@@ -1539,7 +1539,7 @@ Chcete změnit preferovaný kanál na {0}?</value>
     <value>Globální nastavení</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Nastavte herní nastavení v nabídce Bubblestrap.</value>
+    <value>Nastavte herní nastavení v nabídce Horrorstrap.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Transparentnost</value>
@@ -1587,10 +1587,10 @@ Chcete změnit preferovaný kanál na {0}?</value>
     <value>Vyberte kvalitu FRM, kterou má Roblox používat.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Povolit Bubblestrap přístup k vašemu účtu Roblox</value>
+    <value>Povolit Horrorstrap přístup k vašemu účtu Roblox</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Poskytněte přístup k API Roblox pomocí svého ověřovacího souboru cookie. [K čemu bude mít Bubblestrap přístup?]({0})</value>
+    <value>Poskytněte přístup k API Roblox pomocí svého ověřovacího souboru cookie. [K čemu bude mít Horrorstrap přístup?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Ořezávač paměti</value>
@@ -1860,7 +1860,7 @@ Místo toho se nainstaluje nejnovější verze.</value>
     <value>Stáhněte si a nainstalujte verzi Robloxu, která byla v provozu před tou aktuální.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Toto jsou lidé, kteří významně přispěli k rozvoji Bubblestrapu a pomohli mu stát se tím, čím dnes je.</value>
+    <value>Toto jsou lidé, kteří významně přispěli k rozvoji Horrorstrapu a pomohli mu stát se tím, čím dnes je.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>Skrýt uživatelské jméno</value>

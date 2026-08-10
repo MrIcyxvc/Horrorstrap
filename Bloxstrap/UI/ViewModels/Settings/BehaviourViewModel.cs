@@ -191,15 +191,15 @@
             }
         }
 
-        public bool CleanerBubblestrap
+        public bool CleanerHorrorstrap
         {
-            get => CleanerItems.Contains("BubblestrapLogs");
+            get => CleanerItems.Contains("HorrorstrapLogs");
             set
             {
                 if (value)
-                    CleanerItems.Add("BubblestrapLogs");
+                    CleanerItems.Add("HorrorstrapLogs");
                 else
-                    CleanerItems.Remove("BubblestrapLogs");
+                    CleanerItems.Remove("HorrorstrapLogs");
             }
         }
         public string SelectedAppTheme

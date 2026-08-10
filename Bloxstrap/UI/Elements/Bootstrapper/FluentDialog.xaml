@@ -12,7 +12,7 @@
     Height="280"
     MinHeight="0"
     d:DataContext="{d:DesignInstance vms:FluentDialogViewModel, IsDesignTimeCreatable=True}"
-    Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+    Background="{DynamicResource ApplicationBackground}"
     Closing="UiWindow_Closing"
     ExtendsContentIntoTitleBar="True"
     ResizeMode="NoResize"
@@ -67,7 +67,13 @@
 
             <ProgressBar
                 Grid.Row="2"
+                Width="180"
+                Height="10"
                 Margin="0,0,0,16"
+                HorizontalAlignment="Center"
+                Foreground="#3399FF"
+                Background="#33FFFFFF"
+                BorderThickness="0"
                 IsIndeterminate="{Binding ProgressIndeterminate, Mode=OneWay}"
                 Maximum="{Binding ProgressMaximum, Mode=OneWay}"
                 Value="{Binding ProgressValue, Mode=OneWay}" />

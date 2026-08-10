@@ -1,0 +1,33 @@
+<Window x:Class="Bloxstrap.UI.Elements.Settings.SimpleInputDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="260" Width="450" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" Grid.Row="0">
+            <TextBlock x:Name="KeyLabel" FontWeight="SemiBold" />
+            <TextBox x:Name="KeyTextBox" Margin="0,4,0,8" />
+            <TextBlock x:Name="ValueLabel" FontWeight="SemiBold" />
+            <TextBox x:Name="ValueTextBox" Margin="0,4,0,0" AcceptsReturn="False" />
+            <TextBlock Margin="0,4,0,0" FontSize="11" Foreground="{DynamicResource TextFillColorTertiaryBrush}" TextWrapping="Wrap">
+                <Run>Tip: For multiple flags, enter JSON in the value box:</Run>
+                <LineBreak />
+                <Run FontFamily="Consolas" FontWeight="SemiBold">{"FFlagName":"True", "FIntName":999}</Run>
+                <LineBreak />
+                <Run>For IXP entries you may include the IXP variable in the value:</Run>
+                <LineBreak />
+                <Run FontFamily="Consolas" FontWeight="SemiBold">{"FFlagName":"true;1:Portal.Some.Variable"}</Run>
+            </TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right">
+            <Button Content="OK" Width="80" Margin="0,0,8,0" Click="OkButton_Click" />
+            <Button Content="Cancel" Width="80" Click="CancelButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

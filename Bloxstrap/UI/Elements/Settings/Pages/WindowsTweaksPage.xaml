@@ -1,0 +1,172 @@
+<ui:UiPage x:Class="Bloxstrap.UI.Elements.Settings.Pages.WindowsTweaksPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:controls="clr-namespace:Bloxstrap.UI.Elements.Controls"
+      xmlns:dmodels="clr-namespace:Bloxstrap.UI.ViewModels.Settings"
+      mc:Ignorable="d"
+      d:DataContext="{d:DesignInstance dmodels:WindowsTweaksViewModel, IsDesignTimeCreatable=True}"
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="WindowsTweaksPage"
+      Scrollable="True">
+
+    <StackPanel Margin="0,0,14,14">
+        <ui:CardExpander IsExpanded="False">
+            <ui:CardExpander.Header>
+                <StackPanel>
+                    <TextBlock FontSize="14" Text="Performance Tweaks" />
+                    <TextBlock FontSize="12" Text="Windows performance optimization settings." Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+                </StackPanel>
+            </ui:CardExpander.Header>
+
+            <StackPanel>
+                <controls:OptionControl
+                    Header="Force Roblox high priority"
+                    Description="Sets RobloxPlayerBeta.exe to high priority for better performance."
+                    Icon="ArrowSortUp24">
+                    <ui:ToggleSwitch IsChecked="{Binding ForceRobloxHighPriority, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Enable Ultimate Performance power plan"
+                    Description="Activates Revivedsoul's Ultimate Performance power plan for maximum performance."
+                    Icon="Flash24">
+                    <ui:ToggleSwitch IsChecked="{Binding EnableUltimatePerformancePowerPlan, Mode=TwoWay}" />
+                </controls:OptionControl>
+            </StackPanel>
+        </ui:CardExpander>
+
+        <ui:CardExpander IsExpanded="False" Margin="0,8,0,0">
+            <ui:CardExpander.Header>
+                <StackPanel>
+                    <TextBlock FontSize="14" Text="System Tweaks" />
+                    <TextBlock FontSize="12" Text="System configuration and optimization options." Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+                </StackPanel>
+            </ui:CardExpander.Header>
+
+            <StackPanel>
+                <controls:OptionControl
+                    Header="Disable CPU core parking"
+                    Description="Prevents Windows from parking CPU cores to improve responsiveness."
+                    Icon="Document24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableCpuCoreParking, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable GPU telemetry"
+                    Description="Disables telemetry for NVIDIA and AMD graphics cards."
+                    Icon="Shield24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableGpuTelemetry, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable mouse acceleration"
+                    Description="Turns off Windows enhanced pointer precision for raw mouse input (recommended for consistent aim)."
+                    Icon="Cursor24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableMouseAcceleration, Mode=TwoWay}" />
+                </controls:OptionControl>
+            </StackPanel>
+        </ui:CardExpander>
+
+        <ui:CardExpander IsExpanded="False" Margin="0,8,0,0">
+            <ui:CardExpander.Header>
+                <StackPanel>
+                    <TextBlock FontSize="14" Text="Network Tweaks" />
+                    <TextBlock FontSize="12" Text="Network optimization and DNS configuration." Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+                </StackPanel>
+            </ui:CardExpander.Header>
+
+            <StackPanel>
+                <controls:OptionControl
+                    Header="Optimize network traffic"
+                    Description="Disables TCP auto-tuning and enables RSS/NetDMA for lower latency."
+                    Icon="NetworkCheck24">
+                    <ui:ToggleSwitch IsChecked="{Binding OptimizeNetworkTraffic, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Set Cloudflare DNS (1.1.1.1)"
+                    Description="Changes DNS to Cloudflare for faster resolution and to bypass regional blocks."
+                    Icon="Cloud24">
+                    <ui:ToggleSwitch IsChecked="{Binding UseCloudflareDns, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="TCP/IP optimizations"
+                    Description="Disables TCP auto-tuning and sets custom receive window for lower latency (better for gaming)."
+                    Icon="Settings24">
+                    <ui:ToggleSwitch IsChecked="{Binding TcpIpOptimizations, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Gaming mode context menu"
+                    Description="Adds right-click desktop menu to quickly toggle between gaming (low latency) and downloading (high throughput) modes."
+                    Icon="Games24">
+                    <ui:ToggleSwitch IsChecked="{Binding GamingModeContextMenu, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Reduce network latency"
+                    Description="Lowers the scheduler heartbeat interval to improve input responsiveness."
+                    Icon="ArrowSortUp24">
+                    <ui:ToggleSwitch IsChecked="{Binding ReduceNetworkLatency, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable network throttling"
+                    Description="Removes artificial send/receive rate limits for faster asset loading."
+                    Icon="ArrowTrendingLines24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableNetworkThrottling, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable telemetry"
+                    Description="Turns off Roblox analytics and diagnostic event reporting."
+                    Icon="Shield24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableTelemetry, Mode=TwoWay}" />
+                </controls:OptionControl>
+            </StackPanel>
+        </ui:CardExpander>
+
+        <ui:CardExpander IsExpanded="False" Margin="0,8,0,0">
+            <ui:CardExpander.Header>
+                <StackPanel>
+                    <TextBlock FontSize="14" Text="Privacy Tweaks" />
+                    <TextBlock FontSize="12" Text="Advanced tweaks for increasing privacy." Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+                </StackPanel>
+            </ui:CardExpander.Header>
+
+            <StackPanel>
+                <controls:OptionControl
+                    Header="Disable Windows telemetry"
+                    Description="Turns off diagnostic data collection and feedback frequency."
+                    Icon="Shield24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableWindowsTelemetry, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable advertising ID"
+                    Description="Prevents apps from using your advertising ID for personalized ads."
+                    Icon="Tag24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableAdvertisingId, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable Activity History"
+                    Description="Stops Windows from collecting your activity timeline."
+                    Icon="History24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableActivityHistory, Mode=TwoWay}" />
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Disable location services"
+                    Description="Turns off system-wide access to your device location."
+                    Icon="Location24">
+                    <ui:ToggleSwitch IsChecked="{Binding DisableLocationServices, Mode=TwoWay}" />
+                </controls:OptionControl>
+            </StackPanel>
+        </ui:CardExpander>
+    </StackPanel>
+</ui:UiPage>

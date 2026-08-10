@@ -8,10 +8,10 @@
     xmlns:resources="clr-namespace:Bloxstrap.Resources"
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
     xmlns:vms="clr-namespace:Bloxstrap.UI.ViewModels.Bootstrapper"
-    Width="420"
-    Height="190"
+    Width="520"
+    Height="220"
     MinHeight="0"
-    Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+    Background="{DynamicResource ApplicationBackground}"
     Closing="UiWindow_Closing"
     ExtendsContentIntoTitleBar="True"
     ResizeMode="NoResize"
@@ -23,7 +23,7 @@
         <TaskbarItemInfo ProgressState="{Binding Path=TaskbarProgressState}" ProgressValue="{Binding Path=TaskbarProgressValue}" />
     </Window.TaskbarItemInfo>
 
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />

@@ -6,7 +6,7 @@ namespace Bloxstrap.Extensions
     {
         public static IReadOnlyCollection<BootstrapperIcon> Selections => new BootstrapperIcon[]
         {
-            BootstrapperIcon.IconBubblestrap,
+            BootstrapperIcon.IconHorrorstrap,
             BootstrapperIcon.Icon2025,
             BootstrapperIcon.Icon2025NoBg,
             BootstrapperIcon.Icon2022,
@@ -51,12 +51,12 @@ namespace Bloxstrap.Extensions
                     }
                 }
 
-                return customIcon ?? Properties.Resources.IconBubblestrap;
+                return customIcon ?? Properties.Resources.IconHorrorstrap;
             }
 
             return icon switch
             {
-                BootstrapperIcon.IconBubblestrap => Properties.Resources.IconBubblestrap,
+                BootstrapperIcon.IconHorrorstrap => Properties.Resources.IconHorrorstrap,
                 BootstrapperIcon.Icon2008 => Properties.Resources.Icon2008,
                 BootstrapperIcon.Icon2011 => Properties.Resources.Icon2011,
                 BootstrapperIcon.IconEarly2015 => Properties.Resources.IconEarly2015,
@@ -67,7 +67,7 @@ namespace Bloxstrap.Extensions
                 BootstrapperIcon.Icon2025 => Properties.Resources.Icon2025,
                 BootstrapperIcon.Icon2025NoBg => Properties.Resources.Icon2025NoBg,
                 BootstrapperIcon.IconBloxstrapClassic => Properties.Resources.IconBloxstrapClassic,
-                _ => Properties.Resources.IconBubblestrap
+                _ => Properties.Resources.IconHorrorstrap
             };
         }
     }

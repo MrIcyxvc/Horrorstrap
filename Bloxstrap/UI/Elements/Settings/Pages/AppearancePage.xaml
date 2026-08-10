@@ -6,17 +6,22 @@
       xmlns:models="clr-namespace:Bloxstrap.UI.ViewModels"
       xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
       xmlns:controls="clr-namespace:Bloxstrap.UI.Elements.Controls"
+      xmlns:colorpicker="clr-namespace:ColorPicker;assembly=ColorPicker"
       xmlns:resources="clr-namespace:Bloxstrap.Resources"
       mc:Ignorable="d"
       d:DesignHeight="900" d:DesignWidth="800"
       Title="AppearancePage"
       Scrollable="True">
     <StackPanel Margin="0,0,14,14">
-        <TextBlock Text="{x:Static resources:Strings.Menu_Appearance_Description}" FontSize="14" Foreground="{DynamicResource TextFillColorSecondaryBrush}" Margin="0,0,0,8" />
+        <TextBlock Text="{x:Static resources:Strings.Menu_Appearance_Description}" Style="{StaticResource SectionDescription}" />
+
+        <TextBlock Text="General" Style="{StaticResource SectionHeader}" />
 
         <controls:OptionControl
-            Header="{x:Static resources:Strings.Menu_Appearance_Global_Theme_Title}">
-            <ComboBox Width="200" Padding="10,5,10,5" ItemsSource="{Binding Themes, Mode=OneTime}" Text="{Binding Theme, Mode=TwoWay}">
+            Header="{x:Static resources:Strings.Menu_Appearance_Global_Theme_Title}"
+            Description="Customize Froststrap themes easily with presets or create your own unique look."
+            Icon="Color24">
+            <ComboBox Width="200" Padding="10,5,10,5" ItemsSource="{Binding Themes, Mode=OneTime}" SelectedItem="{Binding Theme, Mode=TwoWay}">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding Path=., Converter={StaticResource EnumNameConverter}}" />
@@ -25,10 +30,99 @@
             </ComboBox>
         </controls:OptionControl>
 
+        <StackPanel Margin="0,8,0,0" Visibility="{Binding IsCustomThemeSelected, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <controls:OptionControl
+                Header="Background Mode:"
+                Icon="ImageShadow24">
+                <ComboBox Width="200" Padding="10,5,10,5" ItemsSource="{Binding BackgroundModes, Mode=OneTime}" SelectedItem="{Binding BackgroundMode, Mode=TwoWay}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path=., Converter={StaticResource EnumNameConverter}}" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </controls:OptionControl>
+
+            <Border BorderThickness="1" BorderBrush="{DynamicResource ControlStrokeColorDefaultBrush}" Margin="0,8,0,8" />
+
+            <StackPanel Visibility="{Binding IsGradientModeSelected, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <TextBlock Margin="0,16,0,8" Text="Gradient Stops:" FontSize="16" FontWeight="SemiBold" />
+
+                <ItemsControl ItemsSource="{Binding GradientStops}" Margin="0,0,0,8">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="0,4,0,4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Offset:" VerticalAlignment="Center" Margin="0,0,8,0" />
+                                <Slider Grid.Column="1" Minimum="0" Maximum="1" Value="{Binding Offset, Mode=TwoWay}" TickFrequency="0.01" IsSnapToTickEnabled="True" VerticalAlignment="Center" />
+                                <TextBlock Grid.Column="2" Text="{Binding Offset, StringFormat={}{0:F2}}" Width="40" VerticalAlignment="Center" Margin="8,0" />
+                                <ui:TextBox Grid.Column="3" Text="{Binding HexColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="100" Margin="4,0" />
+                                <ui:Button Grid.Column="4" Content="Color Picker" Margin="4,0" Click="ColorPickerButton_Click" Tag="{Binding}" />
+                                <ui:Button Grid.Column="5" Content="Remove" Margin="4,0" Appearance="Danger" Command="{Binding DataContext.RemoveGradientStopCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <Grid Margin="0,12,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ui:Button Grid.Column="0" Content="Export Gradient" Margin="0,0,4,0" Command="{Binding ExportGradientCommand}" />
+                    <ui:Button Grid.Column="1" Content="Import Gradient" Margin="4,0" Command="{Binding ImportGradientCommand}" />
+                    <TextBlock Grid.Column="2" Text="Gradient Angle:" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,8,0" />
+                    <ui:TextBox Grid.Column="3" Width="60" Text="{Binding GradientAngle, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <ui:Button Grid.Column="4" Content="Reset to Default" Margin="4,0" Command="{Binding ResetGradientCommand}" />
+                    <ui:Button Grid.Column="5" Content="Add Gradient Color" Margin="4,0" Command="{Binding AddGradientStopCommand}" />
+                </Grid>
+            </StackPanel>
+
+            <StackPanel Visibility="{Binding IsImageModeSelected, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <TextBlock Margin="0,16,0,8" Text="Background Image:" FontSize="16" FontWeight="SemiBold" />
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                    <ui:Button Content="Select Image" Margin="0,0,8,0" Command="{Binding SelectBackgroundImageCommand}" />
+                    <ui:Button Content="Clear Image" Command="{Binding ClearBackgroundImageCommand}" />
+                </StackPanel>
+
+                <controls:OptionControl
+                    Header="Image Stretch:"
+                    Icon="ResizeImage24">
+                    <ComboBox Width="200" Padding="10,5,10,5" ItemsSource="{Binding BackgroundStretches, Mode=OneTime}" SelectedItem="{Binding BackgroundStretch, Mode=TwoWay}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=., Converter={StaticResource EnumNameConverter}}" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </controls:OptionControl>
+
+                <controls:OptionControl
+                    Header="Image Opacity:"
+                    Icon="Blur24">
+                    <Slider Width="200" Minimum="0" Maximum="1" Value="{Binding BackgroundImageOpacity, Mode=TwoWay}" TickFrequency="0.01" IsSnapToTickEnabled="True" />
+                </controls:OptionControl>
+            </StackPanel>
+        </StackPanel>
+
         <controls:OptionControl
             Header="{x:Static resources:Strings.Menu_Appearance_Language_Title}"
-            Description="{x:Static resources:Strings.Menu_Appearance_Language_Description}">
-            <ComboBox Width="200" Padding="10,5,10,5" ItemsSource="{Binding Languages, Mode=OneTime}" Text="{Binding SelectedLanguage, Mode=TwoWay}" />
+            Description="{x:Static resources:Strings.Menu_Appearance_Language_Description}"
+            Icon="LocalLanguage24">
+            <ComboBox Width="200" Padding="10,5,10,5" ItemsSource="{Binding Languages, Mode=OneTime}" SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}" />
         </controls:OptionControl>
 
         <Grid Margin="0,8,0,0">

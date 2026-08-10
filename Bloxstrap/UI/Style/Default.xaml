@@ -153,6 +153,178 @@
         </Setter>
     </Style>
 
+    <Style x:Key="SectionHeader" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,24,0,4" />
+    </Style>
+
+    <Style x:Key="SectionDescription" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColorSecondaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,12" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+
+    <Style x:Key="BlackToggleSwitchStyle" TargetType="{x:Type ui:ToggleSwitch}">
+        <Setter Property="FocusVisualStyle" Value="{DynamicResource DefaultControlFocusVisualStyle}" />
+        <Setter Property="Background" Value="#000000" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColorPrimaryBrush}" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Padding" Value="8,6,0,0" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ui:ToggleSwitch}">
+                    <Grid Background="Transparent">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Width="40" Height="20">
+                            <Rectangle
+                                x:Name="ToggleRectangle"
+                                Width="40"
+                                Height="20"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Fill="Transparent"
+                                RadiusX="10"
+                                RadiusY="10"
+                                Stroke="{DynamicResource ControlStrokeColorTertiaryBrush}"
+                                StrokeThickness="1" />
+                            <Rectangle
+                                x:Name="ActiveToggleRectangle"
+                                Width="40"
+                                Height="20"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Fill="{TemplateBinding Background}"
+                                Opacity="0.0"
+                                RadiusX="10"
+                                RadiusY="10" />
+                            <Ellipse
+                                x:Name="ToggleEllipse"
+                                Width="12"
+                                Height="12"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Fill="{DynamicResource ControlStrokeColorTertiaryBrush}"
+                                RenderTransformOrigin="0.5, 0.5">
+                                <Ellipse.RenderTransform>
+                                    <TranslateTransform X="-9" />
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Ellipse
+                                x:Name="ActiveToggleEllipse"
+                                Width="12"
+                                Height="12"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Fill="White"
+                                Opacity="0.0"
+                                RenderTransformOrigin="0.5, 0.5">
+                                <Ellipse.RenderTransform>
+                                    <TranslateTransform X="-9" />
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                        </Grid>
+                        <ContentPresenter
+                            Grid.Column="1"
+                            Margin="8,0,0,0"
+                            VerticalAlignment="Center"
+                            Content="{TemplateBinding Content}"
+                            ContentStringFormat="{TemplateBinding ContentStringFormat}"
+                            ContentTemplate="{TemplateBinding ContentTemplate}" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ActiveToggleRectangle"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ActiveToggleEllipse"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ToggleEllipse"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ToggleRectangle"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ActiveToggleEllipse"
+                                            Storyboard.TargetProperty="(Ellipse.RenderTransform).(TranslateTransform.X)"
+                                            To="9"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ToggleEllipse"
+                                            Storyboard.TargetProperty="(Ellipse.RenderTransform).(TranslateTransform.X)"
+                                            To="9"
+                                            Duration="0:0:0.167" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ActiveToggleRectangle"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ActiveToggleEllipse"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ToggleEllipse"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ToggleRectangle"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="1.0"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ActiveToggleEllipse"
+                                            Storyboard.TargetProperty="(Ellipse.RenderTransform).(TranslateTransform.X)"
+                                            To="-9"
+                                            Duration="0:0:0.167" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ToggleEllipse"
+                                            Storyboard.TargetProperty="(Ellipse.RenderTransform).(TranslateTransform.X)"
+                                            To="-9"
+                                            Duration="0:0:0.167" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style BasedOn="{StaticResource BlackToggleSwitchStyle}" TargetType="{x:Type ui:ToggleSwitch}" />
+
     <!--  Taken from https://github.com/icsharpcode/AvalonEdit/blob/30cad99ce905412ed5f5e847e3c00e72e69aee77/ICSharpCode.AvalonEdit/TextEditor.xaml  -->
     <Style x:Key="NewTextEditor" TargetType="{x:Type avalonedit:TextEditor}">
         <Setter Property="Foreground" Value="{DynamicResource NewTextEditorForeground}" />

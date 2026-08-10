@@ -28,9 +28,15 @@ namespace Bloxstrap.UI.ViewModels.Bootstrapper
             }
         }
         private string _channelText = string.Empty;
+
+        [Obsolete("Do not use this! This is for the designer only.", true)]
+        public FluentDialogViewModel() : base(null!)
+        {
+        }
+
         public FluentDialogViewModel(IBootstrapperDialog dialog, bool aero, string version) : base(dialog)
         {
-            const int alpha = 128;
+            byte alpha = aero ? (byte)64 : (byte)128;
 
             WindowBackdropType = aero ? BackgroundType.Aero : BackgroundType.Mica;
 

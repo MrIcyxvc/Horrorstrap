@@ -2,7 +2,7 @@
 
 namespace Bloxstrap.Integrations
 {
-    public class BubblestrapRichPresence : IDisposable
+    public class HorrorstraptrapRichPresence : IDisposable
     {
         private readonly DiscordRpcClient _rpcClient;
         private readonly Timestamps _startTimestamps;
@@ -14,11 +14,13 @@ namespace Bloxstrap.Integrations
 
         public bool IsConnected => _rpcClient?.IsInitialized == true;
 
-        public BubblestrapRichPresence()
+        public HorrorstraptrapRichPresence()
         {
-            _rpcClient = new DiscordRpcClient("1451191251956273235")
+            _rpcClient = new DiscordRpcClient("1525965830217531582")
             {
-                SkipIdenticalPresence = true
+                // Disable skipping identical presence while diagnosing button visibility issues
+                // Some Discord clients may ignore Button updates if presence is considered identical.
+                SkipIdenticalPresence = false
             };
 
             _rpcClient.OnReady += OnReady;
@@ -51,7 +53,7 @@ namespace Bloxstrap.Integrations
 
         private void OnReady(object sender, DiscordRPC.Message.ReadyMessage args)
         {
-            App.Logger.WriteLine("BubblestrapRichPresence", $"Connected as {args.User.Username}");
+            App.Logger.WriteLine("HorrorstraptrapRichPresence", $"Connected as {args.User.Username}");
         }
 
         public void SetPage(string pageName)
@@ -107,32 +109,53 @@ namespace Bloxstrap.Integrations
 
             _lastState = state;
 
-            try
-            {
-                var presence = new DiscordRPC.RichPresence
+                try
                 {
-                    Details = "Make your Roblox experience uniquely yours!",
-                    State = state,
-                    Timestamps = _startTimestamps,
-                    Assets = new Assets
+                    var presence = new DiscordRPC.RichPresence
                     {
-                        LargeImageKey = "bubblestrap",
-                        LargeImageText = "Bubblestrap",
-                        SmallImageKey = "checkmark",
-                        SmallImageText = $"v{App.Version}"
-                    },
-                    Buttons = new[]
-                    {
-                        new Button { Label = "Discord", Url = "https://discord.gg/VTKQCSwPvU" }
-                    }
-                };
+                        Details = "Horrorstrap",
+                        State = "FastFlags Settings",
+                        Timestamps = _startTimestamps,
+                        Assets = new Assets
+                        {
+                            LargeImageKey = "horrorstrap",
+                            LargeImageText = $"Horrorstrap v{App.Version}",
+                            SmallImageKey = "checkmark",
+                            SmallImageText = "Horrorstrap"
+                        },
+                        Party = new Party
+                        {
+                            ID = Guid.NewGuid().ToString(),
+                            Size = 1,
+                            Max = 5
+                        },
+                        Buttons = new[]
+                        {
+                            new Button { Label = "Join Discord", Url = "https://discord.gg/Y9TPgwvaQ5" },
+                            new Button { Label = "Website", Url = "https://your-website.com" }
+                        }
+                    };
 
-                _rpcClient.SetPresence(presence);
-            }
-            catch
-            {
-                // Fail Silently
-            }
+                    // Diagnostic logging: record what we're about to send so user can verify
+                    try
+                    {
+                        var btnDesc = presence.Buttons != null
+                            ? string.Join("; ", presence.Buttons.Select(b => $"[{b.Label}: {b.Url}]") )
+                            : "(none)";
+
+                        App.Logger.WriteLine("HorrorstraptrapRichPresence", $"Setting presence. Details='{presence.Details}' State='{presence.State}' Buttons={btnDesc}");
+                    }
+                    catch
+                    {
+                        // Ignore logging failures
+                    }
+
+                    _rpcClient.SetPresence(presence);
+                }
+                catch
+                {
+                    // Fail Silently
+                }
         }
 
         public void Dispose()

@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>Bubblestrap tidak dapat mengemas kini secara automatik ke versi {0}. Sila kemas kini secara manual dengan memuat turun dan menjalankannya dari laman web GitHub.</value>
+    <value>Horrorstrap tidak dapat mengemas kini secara automatik ke versi {0}. Sila kemas kini secara manual dengan memuat turun dan menjalankannya dari laman web GitHub.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>Aplikasi Roblox sedang berjalan, membukanya sekali lagi akan menutup aplikasi tersebut. Adakah anda pasti ingin meneruskannya?</value>
@@ -68,13 +68,13 @@
     <value>Roblox mungkin mengalami masalah sekarang. Lihat {0} untuk maklumat lanjut. Sila cuba sebentar lagi.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Sambungan tidak dapat dibuat, berkemungkinan disebabkan oleh sambungan internet yang lemah atau sekatan oleh tembok api. Jika sambungan internet anda baik, pastikan perisian antivirus anda tidak menyekat Bubblestrap.</value>
+    <value>Sambungan tidak dapat dibuat, berkemungkinan disebabkan oleh sambungan internet yang lemah atau sekatan oleh tembok api. Jika sambungan internet anda baik, pastikan perisian antivirus anda tidak menyekat Horrorstrap.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Anda seharunys memasang Bubblestrap terlebih dahulu sebelum membuangnya.</value>
+    <value>Anda seharunys memasang Horrorstrap terlebih dahulu sebelum membuangnya.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>Bubblestrap tidak mempunyai ruang cakera yang cukup untuk memuat turun dan melakukan pemasangan Roblox. Sila bersihkan ruang cakera dan cuba lagi.</value>
+    <value>Horrorstrap tidak mempunyai ruang cakera yang cukup untuk memuat turun dan melakukan pemasangan Roblox. Sila bersihkan ruang cakera dan cuba lagi.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Roblox sedang mengaplikasi modifikasi...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>Bubblestrap telah berjaya dinyahpasang</value>
+    <value>Horrorstrap telah berjaya dinyahpasang</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>Roblox sedang berjalan dan perlu ditutup sebelum Bubblestrap dapat dinyahpasang. Adakah anda ingin menutup Roblox sekarang?</value>
+    <value>Roblox sedang berjalan dan perlu ditutup sebelum Horrorstrap dapat dinyahpasang. Adakah anda ingin menutup Roblox sekarang?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>Rolox memerlukan komponen Windows Media Foundation. Kelihatan seperti anda tidak memilikinya kerana anda sedang menggunakan Windows versi N. Tolong memuat turun komponen tersebut sebelum membuka aplikasi Roblox.</value>
@@ -217,21 +217,21 @@ Klik untuk maklumat lanjut</value>
     <value>Sambungan ralat</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>Bubblestrap tidak dapat disambungkan ke {0}</value>
+    <value>Horrorstrap tidak dapat disambungkan ke {0}</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Salin kandungan log</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Suatu ralat telah berlaku semasa menjalankan Bubblestrap</value>
+    <value>Suatu ralat telah berlaku semasa menjalankan Horrorstrap</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
-    <value>Semak dahulu [Wiki Bubblestrap]({0}) untuk melihat jika masalah ini telah diselesaikan dengan pembaikan.
+    <value>Semak dahulu [Wiki Horrorstrap]({0}) untuk melihat jika masalah ini telah diselesaikan dengan pembaikan.
 Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama dengan salinan fail log yang telah dibuat.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Ralat pada Bubblestrap</value>
+    <value>Ralat pada Horrorstrap</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Guna ikon sendiri</value>
@@ -243,10 +243,10 @@ Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama den
     <value>Lewat 2015</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klasik)</value>
+    <value>Horrorstrap (Klasik)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Kaca)</value>
+    <value>Horrorstrap (Kaca)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Legasi (2008 - 2011)</value>
@@ -300,10 +300,10 @@ Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama den
     <value>Cerah</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>Bubblestrap telah dinaik taraf ke v{0}</value>
+    <value>Horrorstrap telah dinaik taraf ke v{0}</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>Versi Bubblestrap yang sedang berjalan adalah berbeza daripada versi yang telah dipasang. Adakah anda ingin memperbaharui versi yang telah dipasang?</value>
+    <value>Versi Horrorstrap yang sedang berjalan adalah berbeza daripada versi yang telah dipasang. Adakah anda ingin memperbaharui versi yang telah dipasang?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
     <value>Penyumbang</value>
@@ -355,7 +355,7 @@ Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama den
     <value>Sila ambil perhatian bahawa bukan semua perubahan konfigurasi anda akan diterapkan serta-merta sehingga anda menutup semua instance Roblox yang sedang berjalan.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>Bubblestrap sedang berjalan</value>
+    <value>Horrorstrap sedang berjalan</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>Anda boleh menukar penampilan untuk kelihatan berbeza, sama ada dalam gaya retro atau seperti Roblox yang biasa.</value>
@@ -382,7 +382,7 @@ Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama den
     <value>Nama</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Tetapkan rupa bentuk Bubblestrap.</value>
+    <value>Tetapkan rupa bentuk Horrorstrap.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Tema Global</value>
@@ -406,10 +406,10 @@ Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama den
     <value>Penampilan</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>Bubblestrap akan automatik menyemak dan kemas kini secara sendirinya ketika Roblox dilancarkan.</value>
+    <value>Horrorstrap akan automatik menyemak dan kemas kini secara sendirinya ketika Roblox dilancarkan.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Kemas kini Bubblestrap secara automatik</value>
+    <value>Kemas kini Horrorstrap secara automatik</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Mengelakkan permainan yang sedang anda mainkan daripada tertutup apabila anda tidak sengaja membuka permainan baru.</value>
@@ -418,7 +418,7 @@ Jika belum, sila laporkan masalah tersebut melalui [isu GitHub]({1}) bersama den
     <value>Minta pengesahan sebelum melancarkan instance Roblox yang lain</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Tetapkan apa yang perlu dilakukan oleh Bubblestrap ketika Roblox dilancarkan.</value>
+    <value>Tetapkan apa yang perlu dilakukan oleh Horrorstrap ketika Roblox dilancarkan.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>Roblox akan dipasang semula dalam keadaan baru pada pelancaran seterusnya.</value>
@@ -513,10 +513,10 @@ Maklumat lanjut:
     <value>Fail Ikon</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>Bubblestrap tidak dapat dimuat turun disini. Sila ubah lokasinya atau menggunakan lokasi asal dengan menekan butang tetapan semula.</value>
+    <value>Horrorstrap tidak dapat dimuat turun disini. Sila ubah lokasinya atau menggunakan lokasi asal dengan menekan butang tetapan semula.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>Fail yang anda pilih untuk memasang Bubblestrap sudah wujud dan TIDAK kosong. Sangat disarankan untuk Bubblestrap dipasang ke dalam Fail tersendiri.
+    <value>Fail yang anda pilih untuk memasang Horrorstrap sudah wujud dan TIDAK kosong. Sangat disarankan untuk Horrorstrap dipasang ke dalam Fail tersendiri.
 Dicadangkan untuk menukar ke lokasi berikut:
 {0}
 Adakah anda ingin menukar ke lokasi yang dicadangkan?
@@ -527,7 +527,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Anda perlu menetapkan lokasi muat turun</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>Bubblestrap tidak mempunyai akses untuk muat turun pada lokasi yang anda pilih. Sila pilih lokasi lain.</value>
+    <value>Horrorstrap tidak mempunyai akses untuk muat turun pada lokasi yang anda pilih. Sila pilih lokasi lain.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Penjejak aktiviti</value>
@@ -578,7 +578,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Jangan kembalikan saya ke aplikasi desktop</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Membolehkan untuk Bubblestrap mengesan permainan yang anda sedang mainkan di Roblox. Beberapa ciri lain juga memerlukan fungsi ini.</value>
+    <value>Membolehkan untuk Horrorstrap mengesan permainan yang anda sedang mainkan di Roblox. Beberapa ciri lain juga memerlukan fungsi ini.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Membenarkan aktiviti penjejak</value>
@@ -669,7 +669,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Tetapan Disimpan!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Tetapan Bubblestrap</value>
+    <value>Tetapan Horrorstrap</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Pilih bahasa pilihan</value>
@@ -690,7 +690,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Antaramuka Pengguna dan Susun Atur</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Benarkan Bubblestrap untuk mengurus "Fast Flags"</value>
+    <value>Benarkan Horrorstrap untuk mengurus "Fast Flags"</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Melumpuhkan opsyen ini akan menghalang sebarang konfigurasi disini daripada diterapkan dalam Roblox.</value>
@@ -699,7 +699,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Kualiti anti-aliasing (MSAA)</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>Bubblestrap tidak dapat memuat turun Roblox</value>
+    <value>Horrorstrap tidak dapat memuat turun Roblox</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>Roblox tidak dapat dimuat turun buat masa ini. Sila baca halaman bantuan berikut untuk mendapatkan maklumat lebih lanjut: {0}</value>
@@ -720,7 +720,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Entri untuk '{0}' tidak sah kerana nilai mestilah nombor</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Tiada fail log yang akan ditulis untuk pelancaran ini kerana Bubblestrap tidak dapat menulis ke folder '{0}'</value>
+    <value>Tiada fail log yang akan ditulis untuk pelancaran ini kerana Horrorstrap tidak dapat menulis ke folder '{0}'</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Asal</value>
@@ -735,7 +735,7 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Entri untuk '{0}' tidak sah kerana tidak diformatkan dengan betul.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Pemasangan Bubblestrap</value>
+    <value>Pemasangan Horrorstrap</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Selamat Datang</value>
@@ -754,16 +754,16 @@ Memilih 'Tidak' akan mengabaikan amaran ini dan pemasangan akan diteruskan.</val
     <value>Seterusnya</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Terima kasih kerana memuat turun Bubblestrap.
-Satu-satunya laman web rasmi untuk memuat turun Bubblestrap adalah {0} dan {1}, jadi sila pastikan anda memuat turunnya dari sumber yang rasmi.
-Proses pemasangan ini akan cepat dan mudah, dan anda boleh mengkonfigurasi tetapan Bubblestrap selepas pemasangan ini.</value>
+    <value>Terima kasih kerana memuat turun Horrorstrap.
+Satu-satunya laman web rasmi untuk memuat turun Horrorstrap adalah {0} dan {1}, jadi sila pastikan anda memuat turunnya dari sumber yang rasmi.
+Proses pemasangan ini akan cepat dan mudah, dan anda boleh mengkonfigurasi tetapan Horrorstrap selepas pemasangan ini.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>Sila klik 'Seterusnya' untuk meneruskan.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>Anda cuba memasang Bubblestrap versi {0}, akan tetapi versi terbaru yang tersedia ialah {1}. Adakah anda ingin memuat turunnya?</value>
+    <value>Anda cuba memasang Horrorstrap versi {0}, akan tetapi versi terbaru yang tersedia ialah {1}. Adakah anda ingin memuat turunnya?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Pilih lokasi pemasangan</value>
@@ -784,13 +784,13 @@ Proses pemasangan ini akan cepat dan mudah, dan anda boleh mengkonfigurasi tetap
     <value>Ikon Start Menu</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>Bubblestrap telah berjaya dipasang.
-Roblox masih belum dipasang, dan ia akan dipasang apabila anda melancarkannya dengan Bubblestrap buat kali pertama. Namun, sebelum anda melakukannya, anda mungkin mahu mengkonfigurasi tetapan Bubblestrap terlebih dahulu.
-Selain itu, elakkan menggunakan pintasan "Roblox Player" untuk melancarkan Roblox, kerana Bubblestrap tidak akan dilancarkan bersama. Jika anda tidak melihat Bubblestrap muncul semasa melancarkan dari laman web, anda hanya perlu lancarkan Roblox dengan Bubblestrap sekali dari desktop untuk memperbaikinya.
+    <value>Horrorstrap telah berjaya dipasang.
+Roblox masih belum dipasang, dan ia akan dipasang apabila anda melancarkannya dengan Horrorstrap buat kali pertama. Namun, sebelum anda melakukannya, anda mungkin mahu mengkonfigurasi tetapan Horrorstrap terlebih dahulu.
+Selain itu, elakkan menggunakan pintasan "Roblox Player" untuk melancarkan Roblox, kerana Horrorstrap tidak akan dilancarkan bersama. Jika anda tidak melihat Horrorstrap muncul semasa melancarkan dari laman web, anda hanya perlu lancarkan Roblox dengan Horrorstrap sekali dari desktop untuk memperbaikinya.
 Apa yang anda ingin lakukan?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>Konfigurasi tetapan Bubblestrap's</value>
+    <value>Konfigurasi tetapan Horrorstrap's</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Ubah suai semua ciri yang ditawarkannya</value>
@@ -802,19 +802,19 @@ Apa yang anda ingin lakukan?</value>
     <value>Ia akan membawa anda kembali ke aplikasi desktop setelah semuanya selesai</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Nyahpasang Bubblestrap</value>
+    <value>Nyahpasang Horrorstrap</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Menyahpasang Bubblestrap akan membuang Bubblestrap daripada sistem anda, dan juga secara automatik mengkonfigurasi semula Roblox sebagai pelancar asal, jika ia masih dipasang.
+    <value>Menyahpasang Horrorstrap akan membuang Horrorstrap daripada sistem anda, dan juga secara automatik mengkonfigurasi semula Roblox sebagai pelancar asal, jika ia masih dipasang.
 Jika anda sedang menghapus atau memasang semula kerana mengalami masalah dengan Roblox, sila baca [halaman bantuan]({0}) ini terlebih dahulu.
-Proses penghapusan pemasangan mungkin tidak dapat membersihkan sepenuhnya, jadi anda mungkin perlu membersihkan secara manual fail yang tertinggal di tempat Bubblestrap dipasang.
-Bubblestrap telah dipasang di "{1}".</value>
+Proses penghapusan pemasangan mungkin tidak dapat membersihkan sepenuhnya, jadi anda mungkin perlu membersihkan secara manual fail yang tertinggal di tempat Horrorstrap dipasang.
+Horrorstrap telah dipasang di "{1}".</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Simpan tetapan dan mod saya</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Fail-fail anda akan disimpan di tempat Bubblestrap dipasang, dan akan dipulihkan secara automatik semasa pemasangan semula.</value>
+    <value>Fail-fail anda akan disimpan di tempat Horrorstrap dipasang, dan akan dipulihkan secara automatik semasa pemasangan semula.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Nyahpasang</value>
@@ -835,18 +835,18 @@ Bubblestrap telah dipasang di "{1}".</value>
     <value>Anda tidak mempunyai WebView2 runtime yang terpasang. Beberapa ciri Roblox tidak akan berfungsi dengan baik tanpa itu, seperti aplikasi desktop. Adakah anda ingin memuat turunnya sekarang?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>Bubblestrap tidak dapat membuat pintasan untuk desktop dan menu Start. Sila cuba lagi nanti melalui menu tetapan.</value>
+    <value>Horrorstrap tidak dapat membuat pintasan untuk desktop dan menu Start. Sila cuba lagi nanti melalui menu tetapan.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
-    <value>Semak [Wiki Bubblestrap]({0}) terlebih dahulu untuk melihat jika masalah ini telah diatasi dengan penyelesaian.
-Jika tidak, sila laporkan isu pengecualian ini kepada penyelenggara fork ini. JANGAN laporkan isu ini kepada GitHub Bubblestrap, kerana ini adalah yang versi tidak rasmi.</value>
+    <value>Semak [Wiki Horrorstrap]({0}) terlebih dahulu untuk melihat jika masalah ini telah diatasi dengan penyelesaian.
+Jika tidak, sila laporkan isu pengecualian ini kepada penyelenggara fork ini. JANGAN laporkan isu ini kepada GitHub Horrorstrap, kerana ini adalah yang versi tidak rasmi.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Ini adalah pintasan umum yang akan memaparkan menu pelancaran pelbagai pilihan. Pintasan untuk fungsi yang tertentu boleh dibuat kemudian dalam tetapan.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Menetapkan cara untuk Bubblestrap dilancarkan.</value>
+    <value>Menetapkan cara untuk Horrorstrap dilancarkan.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Umum</value>
@@ -883,7 +883,7 @@ Jika tidak, sila laporkan isu pengecualian ini kepada penyelenggara fork ini. JA
     <value>Anda mempunyai perubahan yang tidak disimpan. Adakah anda pasti ingin menutup tanpa menyimpan?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>Versi Bubblestrap yang anda lancarkan adalah lebih lama daripada versi yang anda pasang sekarang. Masalah mungkin berlaku dan tetapan anda mungkin diubah. Pemasangan semula disyorkan. Adakah anda pasti ingin meneruskan?</value>
+    <value>Versi Horrorstrap yang anda lancarkan adalah lebih lama daripada versi yang anda pasang sekarang. Masalah mungkin berlaku dan tetapan anda mungkin diubah. Pemasangan semula disyorkan. Adakah anda pasti ingin meneruskan?</value>
   </data>
   <data name="Dialog.PlayerError.FailedLaunch" xml:space="preserve">
     <value>Roblox tidak berjaya untuk dilancarkan.</value>
@@ -893,7 +893,7 @@ Jika tidak, sila laporkan isu pengecualian ini kepada penyelenggara fork ini. JA
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Untuk mengetahui punca masalah ini berlaku dan cara mengatasinya, sila rujuk [artikel bantuan] ini ({0}).
-Periksa sama ada Roblox berfungsi dengan [pelancar asal] ({1}). Jika tidak, ini bermaksud masalah tersebut tidak berkaitan dengan Bubblestrap. Jika ia berfungsi, sila rujuk semula artikel bantuan tersebut.</value>
+Periksa sama ada Roblox berfungsi dengan [pelancar asal] ({1}). Jika tidak, ini bermaksud masalah tersebut tidak berkaitan dengan Horrorstrap. Jika ia berfungsi, sila rujuk semula artikel bantuan tersebut.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Data tidak dapat dimuat kerana ralat pada rangkaian.</value>
@@ -926,11 +926,11 @@ Periksa sama ada Roblox berfungsi dengan [pelancar asal] ({1}). Jika tidak, ini 
     <value>Untuk pelancaran ini, Roblox tidak akan diperiksa untuk kemas kini, dan tiada perubahan kepada mod yang akan diterapkan.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Bubblestrap tidak dapat diteruskan kerana Roblox perlu dipasang atau dikemas kini semula.</value>
+    <value>Horrorstrap tidak dapat diteruskan kerana Roblox perlu dipasang atau dikemas kini semula.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>Bubblestrap telah dipasang di lokasi ini sebelum ini dan masih ada, akan tetapi pemasang tidak dapat menggantikan fail executable lama.
-Sila buang fail Bubblestrap.exe secara manual dari lokasi pemasangan atau cuba mulakan semula sistem anda, dan kemudian cuba semula pemasangan selepas itu.</value>
+    <value>Horrorstrap telah dipasang di lokasi ini sebelum ini dan masih ada, akan tetapi pemasang tidak dapat menggantikan fail executable lama.
+Sila buang fail Horrorstrap.exe secara manual dari lokasi pemasangan atau cuba mulakan semula sistem anda, dan kemudian cuba semula pemasangan selepas itu.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Tidak tersedia</value>
@@ -942,7 +942,7 @@ Sila buang fail Bubblestrap.exe secara manual dari lokasi pemasangan atau cuba m
     <value>Konfigurasi pada parameter aplikasi seperti tingkah laku skala DPI dan [pengoptimumam pada skrin penuh]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>Roblox masih belum dipasang. Sila lancarkan Roblox menggunakan Bubblestrap sekurang-kurangnya sekali sebelum mencuba menggunakan opsyen ini.</value>
+    <value>Roblox masih belum dipasang. Sila lancarkan Roblox menggunakan Horrorstrap sekurang-kurangnya sekali sebelum mencuba menggunakan opsyen ini.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Adakah anda pasti ingin membatalkan pemasangan ini?</value>
@@ -958,10 +958,10 @@ Sila buang fail Bubblestrap.exe secara manual dari lokasi pemasangan atau cuba m
     <value>Ekstrak ikon Roblox ke fail</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Membenarkan anda menggunakan pelbagai ikon Roblox Bubblestrap untuk pintasan anda. [Lihat bagaimana ia berfungsi.]({0})</value>
+    <value>Membenarkan anda menggunakan pelbagai ikon Roblox Horrorstrap untuk pintasan anda. [Lihat bagaimana ia berfungsi.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>Bubblestrap tidak dapat menulis ke Windows Registry, berkemungkinan antivirus sedang mengganggu dan menyebabkan masalah. Sila semak dan pastikan tiada apa-apa yang menghalang operasi Bubblestrap.</value>
+    <value>Horrorstrap tidak dapat menulis ke Windows Registry, berkemungkinan antivirus sedang mengganggu dan menyebabkan masalah. Sila semak dan pastikan tiada apa-apa yang menghalang operasi Horrorstrap.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Set semula semua kepada tetapan asal</value>
@@ -996,7 +996,7 @@ Adakah anda ingin mengaktifkan mod pengujian?</value>
     <value>Tersuai</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>Bubblestrap cuba menaik taraf Roblox tetapi gagal kerana fail Roblox sedang digunakan.
+    <value>Horrorstrap cuba menaik taraf Roblox tetapi gagal kerana fail Roblox sedang digunakan.
 Sila tutup sebarang aplikasi yang mungkin menggunakan fail Roblox, dan cuba lagi.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1006,17 +1006,17 @@ Sila tutup sebarang aplikasi yang mungkin menggunakan fail Roblox, dan cuba lagi
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Eksport</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Kemungkinan ada sesuatu yang menghalang Bubblestrap daripada menyambung ke internet.</value>
+    <value>Kemungkinan ada sesuatu yang menghalang Horrorstrap daripada menyambung ke internet.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>Sambungan anda telah tamat masa, yang mungkin menunjukkan bahawa sambungan internet anda yang lemah atau terdapat sekatan firewall.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>Tukar tetapan penempatan dan pemasangan untuk Roblox &amp; Bubblestrap.</value>
+    <value>Tukar tetapan penempatan dan pemasangan untuk Roblox &amp; Horrorstrap.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Saluran</value>
@@ -1034,7 +1034,7 @@ Sila tutup sebarang aplikasi yang mungkin menggunakan fail Roblox, dan cuba lagi
     <value>Roblox tidak lagi menyokong Windows 7 atau 8.1. Untuk terus bermain Roblox, sila naik taraf ke Windows 10 atau versi yang lebih baharu.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>Mencuba mendapatkan aplikasi Bubblestrap terbaharu...</value>
+    <value>Mencuba mendapatkan aplikasi Horrorstrap terbaharu...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Kosong</value>
@@ -1192,7 +1192,7 @@ Sila tutup sebarang aplikasi yang mungkin menggunakan fail Roblox, dan cuba lagi
   </data>
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Gagal menyediakan bootstrapper tersuai: {0}. Menggunakan tetapan lalai balik kepada {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Tiada tema suai dipilih.</value>
@@ -1259,7 +1259,7 @@ Sila tutup sebarang aplikasi yang mungkin menggunakan fail Roblox, dan cuba lagi
     <value>Edit</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>Perihal Bubblestrap</value>
+    <value>Perihal Horrorstrap</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Masa aktif</value>
@@ -1280,11 +1280,11 @@ Masa aktif: {1}</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Lumpuhkan Pengendali Ranap Roblox</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Dayakan ini untuk memaparkan RPC Discord Bubblestrap tersuai pada profil anda semasa apl dibuka.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>Dayakan ini untuk memaparkan RPC Discord Horrorstrap tersuai pada profil anda semasa apl dibuka.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>RPC Bubblestrap</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
+    <value>RPC Horrorstrap</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Pilih bunyi...</value>
@@ -1368,7 +1368,7 @@ Masa aktif: {1}</value>
     <value>Hash versi</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>Paksa Bubblestrap untuk memuat turun versi daripada cincang tertentu. Tolong jangan ubah jika anda tidak tahu apa yang dilakukan oleh ini.</value>
+    <value>Paksa Horrorstrap untuk memuat turun versi daripada cincang tertentu. Tolong jangan ubah jika anda tidak tahu apa yang dilakukan oleh ini.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Simpan dan Lancarkan</value>
@@ -1397,7 +1397,7 @@ Adakah anda mahu bertukar kepada saluran lalai ({1})?</value>
     <value>Tindakan menukar saluran automatik</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>Roblox atau Bubblestrap mungkin cuba menukar saluran pilihan anda.</value>
+    <value>Roblox atau Horrorstrap mungkin cuba menukar saluran pilihan anda.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Tukar secara automatik</value>
@@ -1425,17 +1425,17 @@ Adakah anda ingin menukar saluran pilihan anda kepada {0}?</value>
     <value>Saluran yang ditentukan sama ada tidak wujud atau peribadi</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>Gagal mengimport tetapan Bubblestrap.
+    <value>Gagal mengimport tetapan Horrorstrap.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Import tetapan daripada Bubblestrap</value>
+    <value>Import tetapan daripada Horrorstrap</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>Pemasangan Bubblestrap tidak dijumpai.</value>
+    <value>Pemasangan Horrorstrap tidak dijumpai.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>Konfigurasikan pilihan yang berkaitan dengan gelagat Bubblestrap itu sendiri.</value>
+    <value>Konfigurasikan pilihan yang berkaitan dengan gelagat Horrorstrap itu sendiri.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Kumpulkan maklumat yang boleh dimuat naik dalam talian untuk menyelesaikan masalah yang anda hadapi.</value>
@@ -1444,13 +1444,13 @@ Adakah anda ingin menukar saluran pilihan anda kepada {0}?</value>
     <value>Konfigurasi tali gelembung</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Semua log Bubblestrap</value>
+    <value>Semua log Horrorstrap</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Lebih bersih</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>Bubblestrap akan mengalih keluar data lama untuk menjimatkan ruang</value>
+    <value>Horrorstrap akan mengalih keluar data lama untuk menjimatkan ruang</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>tidak pernah</value>
@@ -1489,13 +1489,13 @@ Adakah anda ingin menukar saluran pilihan anda kepada {0}?</value>
     <value>Log tali buih</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>Log Bubblestrap akan dipadamkan.</value>
+    <value>Log Horrorstrap akan dipadamkan.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>FastFlags telah dilumpuhkan buat sementara waktu</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>Untuk maklumat lanjut sertai pelayan Bubblestrap Discord</value>
+    <value>Untuk maklumat lanjut sertai pelayan Horrorstrap Discord</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Menunggu data</value>
@@ -1537,7 +1537,7 @@ Adakah anda ingin menukar saluran pilihan anda kepada {0}?</value>
     <value>Tetapan Global</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>Tetapkan tetapan dalam permainan daripada menu Bubblestrap.</value>
+    <value>Tetapkan tetapan dalam permainan daripada menu Horrorstrap.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Ketelusan</value>
@@ -1585,10 +1585,10 @@ Adakah anda ingin menukar saluran pilihan anda kepada {0}?</value>
     <value>Pilih kualiti FRM yang Roblox patut gunakan.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Benarkan Bubblestrap mengakses akaun Roblox anda</value>
+    <value>Benarkan Horrorstrap mengakses akaun Roblox anda</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Berikan akses kepada API Roblox menggunakan kuki pengesahan anda. [Apakah yang akan diakses oleh Bubblestrap?]({0})</value>
+    <value>Berikan akses kepada API Roblox menggunakan kuki pengesahan anda. [Apakah yang akan diakses oleh Horrorstrap?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Pemangkas Memori</value>
@@ -1861,7 +1861,7 @@ Memasang versi terkini sebaliknya.</value>
     <value>Muat turun dan pasang versi Roblox yang telah disiarkan sebelum versi semasa.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Ini adalah orang yang telah membuat sumbangan ketara kepada Bubblestrap, membantu menjadikannya seperti apa adanya.</value>
+    <value>Ini adalah orang yang telah membuat sumbangan ketara kepada Horrorstrap, membantu menjadikannya seperti apa adanya.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>Sembunyikan nama pengguna</value>

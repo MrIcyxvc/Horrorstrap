@@ -14,15 +14,16 @@
         Width="480"
         SizeToContent="Height"
         ResizeMode="NoResize"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"
         WindowStartupLocation="CenterScreen">
-    <ui:UiWindow.Resources>
-        <converters:RangeConverter x:Key="ValidationConverter" From="0" />
-    </ui:UiWindow.Resources>
-    
     <Grid>
+        <Grid.Resources>
+            <converters:RangeConverter x:Key="ValidationConverter" From="0" />
+        </Grid.Resources>
+
         <Grid.RowDefinitions>
+            <RowDefinition Height="0" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />

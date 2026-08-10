@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bootstrapper.AutoUpdateFailed" xml:space="preserve">
-    <value>A Bubblestrap nem tudott automatikusan frissülni a {0} verzióra. Kérjük frissítse manuálisan úgy, hogy letölti és futtatja a webhelyről.</value>
+    <value>A Horrorstrap nem tudott automatikusan frissülni a {0} verzióra. Kérjük frissítse manuálisan úgy, hogy letölti és futtatja a webhelyről.</value>
   </data>
   <data name="Bootstrapper.ConfirmLaunch" xml:space="preserve">
     <value>A Roblox jelenleg fut, és egy másik példány elindítása bezárja azt. Biztos, hogy folytatni akarod az indítást?</value>
@@ -68,13 +68,13 @@
     <value>A Roblox jelenleg nem elérhető. További információkért lásd {0}.</value>
   </data>
   <data name="Dialog.Connectivity.BadConnection" xml:space="preserve">
-    <value>Nem sikerült kapcsolatot létesíteni, ami valószínűleg rossz internetkapcsolatra vagy tűzfalblokkolásra utal. Ha a kapcsolat rendben van, kérjük, győződjön meg róla, hogy a vírusirtója nem blokkolja a Bubblestrap-et.</value>
+    <value>Nem sikerült kapcsolatot létesíteni, ami valószínűleg rossz internetkapcsolatra vagy tűzfalblokkolásra utal. Ha a kapcsolat rendben van, kérjük, győződjön meg róla, hogy a vírusirtója nem blokkolja a Horrorstrap-et.</value>
   </data>
   <data name="Bootstrapper.FirstRunUninstall" xml:space="preserve">
-    <value>Először telepítenie kell Bubblestrap-et az eltávolítás előtt.</value>
+    <value>Először telepítenie kell Horrorstrap-et az eltávolítás előtt.</value>
   </data>
   <data name="Bootstrapper.NotEnoughSpace" xml:space="preserve">
-    <value>A Bubblestrap-nek nincsen elég tárhelye a Roblox telepítéséhez. Kérjük, szabadítson fel lemezterületet, és próbálja újra.</value>
+    <value>A Horrorstrap-nek nincsen elég tárhelye a Roblox telepítéséhez. Kérjük, szabadítson fel lemezterületet, és próbálja újra.</value>
   </data>
   <data name="Bootstrapper.Status.ApplyingModifications" xml:space="preserve">
     <value>Roblox módosítások alkalmazása...</value>
@@ -110,10 +110,10 @@
     <comment>Text for style previews that use text button that says "Cancel"</comment>
   </data>
   <data name="Bootstrapper.SuccessfullyUninstalled" xml:space="preserve">
-    <value>A Bubblestrap sikeresen eltávolításra került</value>
+    <value>A Horrorstrap sikeresen eltávolításra került</value>
   </data>
   <data name="Bootstrapper.Uninstall.RobloxRunning" xml:space="preserve">
-    <value>A Roblox jelenleg fut, de a Bubblestrap eltávolítása előtt be kell zárni. Szeretné bezárni a Robloxot most?</value>
+    <value>A Roblox jelenleg fut, de a Horrorstrap eltávolítása előtt be kell zárni. Szeretné bezárni a Robloxot most?</value>
   </data>
   <data name="Bootstrapper.WMFNotFound" xml:space="preserve">
     <value>A Roblox megköveteli a Windows Media Foundation komponensek használatát. Úgy tűnik, ezek hiányoznak, valószínűleg azért, mert a Windows N kiadását használja. Kérjük, először telepítse őket, majd indítsa el a Robloxot.</value>
@@ -217,21 +217,21 @@ Kattintson további információért</value>
     <value>Csatlakozási hiba</value>
   </data>
   <data name="Dialog.Connectivity.UnableToConnect" xml:space="preserve">
-    <value>A Bubblestrap nem tudott kapcsolódni a {0}-hoz/hez/höz</value>
+    <value>A Horrorstrap nem tudott kapcsolódni a {0}-hoz/hez/höz</value>
     <comment>{0} is the name of a service (i.e. Roblox, GitHub)</comment>
   </data>
   <data name="Dialog.Exception.CopyLogContents" xml:space="preserve">
     <value>Napló tartalmának másolása</value>
   </data>
   <data name="Dialog.Exception.Info.1" xml:space="preserve">
-    <value>Kivétel lépett fel a Bubblestrap futtatása közben</value>
+    <value>Kivétel lépett fel a Horrorstrap futtatása közben</value>
   </data>
   <data name="Dialog.Exception.Info.2" xml:space="preserve">
     <value>Először nézze át a [Bloxstrap Wikit]({0}), mert lehet, hogy a problémáját már megválaszoltuk.
-Ha nem, kérjük, hogy jelentse ezt egy [GitHub problémaként]({1}) a Bubblestrap által készített naplófájllal együtt.</value>
+Ha nem, kérjük, hogy jelentse ezt egy [GitHub problémaként]({1}) a Horrorstrap által készített naplófájllal együtt.</value>
   </data>
   <data name="Dialog.Exception.Title" xml:space="preserve">
-    <value>Bubblestrap kivétel</value>
+    <value>Horrorstrap kivétel</value>
   </data>
   <data name="Common.Custom" xml:space="preserve">
     <value>Saját</value>
@@ -243,10 +243,10 @@ Ha nem, kérjük, hogy jelentse ezt egy [GitHub problémaként]({1}) a Bubblestr
     <value>Késő 2015</value>
   </data>
   <data name="Enums.BootstrapperStyle.ClassicFluentDialog" xml:space="preserve">
-    <value>Bubblestrap (Klasszikus)</value>
+    <value>Horrorstrap (Klasszikus)</value>
   </data>
   <data name="Enums.BootstrapperStyle.FluentAeroDialog" xml:space="preserve">
-    <value>Bubblestrap (Üveg)</value>
+    <value>Horrorstrap (Üveg)</value>
   </data>
   <data name="Enums.BootstrapperStyle.LegacyDialog2008" xml:space="preserve">
     <value>Régi (2008 - 2011)</value>
@@ -300,10 +300,10 @@ Ha nem, kérjük, hogy jelentse ezt egy [GitHub problémaként]({1}) a Bubblestr
     <value>Világos</value>
   </data>
   <data name="InstallChecker.Updated" xml:space="preserve">
-    <value>A Bubblestrap frissítve lett v{0}-ra/re</value>
+    <value>A Horrorstrap frissítve lett v{0}-ra/re</value>
   </data>
   <data name="InstallChecker.VersionDifferentThanInstalled" xml:space="preserve">
-    <value>A Bubblestrap elindított verziója eltér a jelenleg telepített verziótól.
+    <value>A Horrorstrap elindított verziója eltér a jelenleg telepített verziótól.
 Szeretné frissíteni a jelenleg telepített verzióját?</value>
   </data>
   <data name="Menu.About.Contributors" xml:space="preserve">
@@ -343,7 +343,7 @@ Szeretné frissíteni a jelenleg telepített verzióját?</value>
     <value>Hiba bejelentése</value>
   </data>
   <data name="Menu.About.Title" xml:space="preserve">
-    <value>Bubblestrap-ről</value>
+    <value>Horrorstrap-ről</value>
   </data>
   <data name="Menu.About.Version" xml:space="preserve">
     <value>Verzió {0}</value>
@@ -356,7 +356,7 @@ Szeretné frissíteni a jelenleg telepített verzióját?</value>
     <value>Vegye figyelembe, hogy nem minden módosítása fog érvényesülni, amíg nem zárja be Roblox összes feladatát.</value>
   </data>
   <data name="Menu.AlreadyRunning.Title" xml:space="preserve">
-    <value>A Bubblestrap már fut</value>
+    <value>A Horrorstrap már fut</value>
   </data>
   <data name="Menu.Appearance.Bootstrapper.Description" xml:space="preserve">
     <value>A kinézete lehet teljesen más, lehet retró, vagy csak normális Roblox kinézetű.</value>
@@ -383,7 +383,7 @@ Szeretné frissíteni a jelenleg telepített verzióját?</value>
     <value>Név</value>
   </data>
   <data name="Menu.Appearance.Description" xml:space="preserve">
-    <value>Állítsa be a Bubblestrap kinézetét.</value>
+    <value>Állítsa be a Horrorstrap kinézetét.</value>
   </data>
   <data name="Menu.Appearance.Global.Theme.Title" xml:space="preserve">
     <value>Globális Téma</value>
@@ -407,10 +407,10 @@ Szeretné frissíteni a jelenleg telepített verzióját?</value>
     <value>Kinézet</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Description" xml:space="preserve">
-    <value>A Bubblestrap automatikusan ellenőrzi és frissíti magát a Roblox indításakor.</value>
+    <value>A Horrorstrap automatikusan ellenőrzi és frissíti magát a Roblox indításakor.</value>
   </data>
   <data name="Menu.Behaviour.AutoUpdate.Title" xml:space="preserve">
-    <value>Bubblestrap automatikus frissítése</value>
+    <value>Horrorstrap automatikus frissítése</value>
   </data>
   <data name="Menu.Behaviour.ConfirmLaunches.Description" xml:space="preserve">
     <value>Megakadályozza, hogy a meglévő játéka bezárjódjon, amikor véletlenül egy újat indít el.</value>
@@ -419,7 +419,7 @@ Szeretné frissíteni a jelenleg telepített verzióját?</value>
     <value>Kérdezzen rá, amikor egy másik Roblox feladatot indítok el</value>
   </data>
   <data name="Menu.Behaviour.Description" xml:space="preserve">
-    <value>Annak beállítása, hogy a Bubblestrap mit tegyen a Roblox indításakor.</value>
+    <value>Annak beállítása, hogy a Horrorstrap mit tegyen a Roblox indításakor.</value>
   </data>
   <data name="Menu.Behaviour.ForceRobloxReinstall.Description" xml:space="preserve">
     <value>A Roblox a következő induláskor frissen lesz telepítve.</value>
@@ -515,10 +515,10 @@ Biztosan folytatja?</value>
     <value>Ikon fájlok</value>
   </data>
   <data name="Menu.InstallLocation.CantInstall" xml:space="preserve">
-    <value>A Bubblestrap nem telepíthető ide. Kérjük, válasszon másik helyet, vagy térjen vissza az alapértelmezett helyre a visszaállítás gombra kattintva.</value>
+    <value>A Horrorstrap nem telepíthető ide. Kérjük, válasszon másik helyet, vagy térjen vissza az alapértelmezett helyre a visszaállítás gombra kattintva.</value>
   </data>
   <data name="Menu.InstallLocation.NotEmpty" xml:space="preserve">
-    <value>A mappa, amelybe a Bubblestrap telepítését választotta, már létezik, és NEM üres. Erősen ajánlott a Bubblestrap-et saját, független mappába telepíteni.
+    <value>A mappa, amelybe a Horrorstrap telepítését választotta, már létezik, és NEM üres. Erősen ajánlott a Horrorstrap-et saját, független mappába telepíteni.
 A következő helyre történő váltás javasolt:
 {0}
 Szeretne a javasolt helyre váltani?
@@ -529,7 +529,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>Először be kell állítania egy telepítési helyet</value>
   </data>
   <data name="Menu.InstallLocation.NoWritePerms" xml:space="preserve">
-    <value>A Bubblestrap nem rendelkezik írási hozzáféréssel a kiválasztott telepítési helyhez. Kérjük, válasszon másik helyet.</value>
+    <value>A Horrorstrap nem rendelkezik írási hozzáféréssel a kiválasztott telepítési helyhez. Kérjük, válasszon másik helyet.</value>
   </data>
   <data name="Menu.Integrations.ActivityTracking" xml:space="preserve">
     <value>Tevékenység nyomon követése</value>
@@ -580,7 +580,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>Ne lépjen ki az asztali alkalmazásba</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Description" xml:space="preserve">
-    <value>Lehetővé teszi a Bubblestrap számára, hogy felismerje, milyen Roblox játékkal játszol. Bizonyos funkciók megkövetelhetik ezt.</value>
+    <value>Lehetővé teszi a Horrorstrap számára, hogy felismerje, milyen Roblox játékkal játszol. Bizonyos funkciók megkövetelhetik ezt.</value>
   </data>
   <data name="Menu.Integrations.EnableActivityTracking.Title" xml:space="preserve">
     <value>Aktivitáskövetés engedélyezése</value>
@@ -671,7 +671,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>Beállítások mentve!</value>
   </data>
   <data name="Menu.Title" xml:space="preserve">
-    <value>Bubblestrap beállítások</value>
+    <value>Horrorstrap beállítások</value>
   </data>
   <data name="Dialog.LanguageSelector.Header" xml:space="preserve">
     <value>Kívánt nyelv kiválasztása</value>
@@ -692,7 +692,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>Felhasználói felület és Elrendezés</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Title" xml:space="preserve">
-    <value>Fast Flag kezelés engedélyezése a Bubblestrap-nek</value>
+    <value>Fast Flag kezelés engedélyezése a Horrorstrap-nek</value>
   </data>
   <data name="Menu.FastFlags.ManagerEnabled.Description" xml:space="preserve">
     <value>Ha ezt kikapcsolja, bármi, amit itt beállít, nem fog a Roblox-ra hatni.</value>
@@ -701,7 +701,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>Élsimítás minőség (MSAA)</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownload" xml:space="preserve">
-    <value>A Bubblestrap nem tudja letölteni a Roblox-ot</value>
+    <value>A Horrorstrap nem tudja letölteni a Roblox-ot</value>
   </data>
   <data name="Dialog.Connectivity.UnableToDownloadReason" xml:space="preserve">
     <value>A Roblox-ot nem lehet most letölteni. Kérjük, olvassa el a sugóoldalt további információért: {0}</value>
@@ -722,7 +722,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>A(z) '{0}' nem érvényes, mivel az érték csak egy szám lehet</value>
   </data>
   <data name="Logger.NoWriteMode" xml:space="preserve">
-    <value>Ehhez az indításhoz nem fog naplófájl íródni, mert a Bubblestrap nem tud írni a '{0}' mappába</value>
+    <value>Ehhez az indításhoz nem fog naplófájl íródni, mert a Horrorstrap nem tud írni a '{0}' mappába</value>
   </data>
   <data name="Common.Default" xml:space="preserve">
     <value>Alapértelmezett</value>
@@ -737,7 +737,7 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>A '{0}' sor érvénytelen, mivel a place filter nem megfelelően van formázva.</value>
   </data>
   <data name="Installer.Title" xml:space="preserve">
-    <value>Bubblestrap telepítő</value>
+    <value>Horrorstrap telepítő</value>
   </data>
   <data name="Installer.Welcome.Title" xml:space="preserve">
     <value>Üdvözöljük</value>
@@ -756,16 +756,16 @@ A 'Nem' választása figyelmen kívül hagyja ezt a figyelmeztetést, és folyta
     <value>Következő</value>
   </data>
   <data name="Installer.Welcome.MainText" xml:space="preserve">
-    <value>Köszönjük a Bubblestrap letöltését. 
-A Bubblestrap letöltéséhez csak a(z) {0} és a(z) {1} hivatalos oldal áll rendelkezésre, ezért kérjük ellenőrizd, hogy hivatalos forrásból származik-e a letöltés.
-A telepítési folyamat gyors és egyszerű lesz, és a telepítés után a Bubblestrap bármelyik beállítását konfigurálhatja.</value>
+    <value>Köszönjük a Horrorstrap letöltését. 
+A Horrorstrap letöltéséhez csak a(z) {0} és a(z) {1} hivatalos oldal áll rendelkezésre, ezért kérjük ellenőrizd, hogy hivatalos forrásból származik-e a letöltés.
+A telepítési folyamat gyors és egyszerű lesz, és a telepítés után a Horrorstrap bármelyik beállítását konfigurálhatja.</value>
     <comment>{0} and {1} are URLs</comment>
   </data>
   <data name="Installer.Welcome.NextToContinue" xml:space="preserve">
     <value>A folytatáshoz kattintson a 'Tovább' gombra.</value>
   </data>
   <data name="Installer.Welcome.UpdateNotice" xml:space="preserve">
-    <value>A Bubblestrap {0} verzióját próbálja telepíteni, de a legújabb elérhető verzió {1}. Szeretné letölteni?</value>
+    <value>A Horrorstrap {0} verzióját próbálja telepíteni, de a legújabb elérhető verzió {1}. Szeretné letölteni?</value>
   </data>
   <data name="Installer.Install.Location.Title" xml:space="preserve">
     <value>Válassza ki, hogy hova telepítse</value>
@@ -786,13 +786,13 @@ A telepítési folyamat gyors és egyszerű lesz, és a telepítés után a Bubb
     <value>Start menü ikon</value>
   </data>
   <data name="Installer.Completion.Text" xml:space="preserve">
-    <value>A Bubblestrap sikeresen telepítve.
-A Roblox még nem lett telepítve, ez akkor fog megtörténni, amikor először indítod el a Bubblestrap segítségével. Mielőtt azonban ezt megtennéd, érdemes először a Bubblestrap beállításait konfigurálni.
-Továbbá kerülje a „Roblox Player” parancsikon használatát a Roblox elindításához, mivel a Bubblestrap nem fog elindulni a Roblox-szal együtt. Ha a weboldalról való indításkor nem jelenik meg a Bubblestrap, egyszerűen indítsd el a Robloxot a Bubblestrap segítségével egyszer az asztalról, hogy a probléma megoldódjon.
+    <value>A Horrorstrap sikeresen telepítve.
+A Roblox még nem lett telepítve, ez akkor fog megtörténni, amikor először indítod el a Horrorstrap segítségével. Mielőtt azonban ezt megtennéd, érdemes először a Horrorstrap beállításait konfigurálni.
+Továbbá kerülje a „Roblox Player” parancsikon használatát a Roblox elindításához, mivel a Horrorstrap nem fog elindulni a Roblox-szal együtt. Ha a weboldalról való indításkor nem jelenik meg a Horrorstrap, egyszerűen indítsd el a Robloxot a Horrorstrap segítségével egyszer az asztalról, hogy a probléma megoldódjon.
 Mit szeretnél tenni?</value>
   </data>
   <data name="Installer.Completion.Settings.Title" xml:space="preserve">
-    <value>A Bubblestrap beállításainak konfigurálása</value>
+    <value>A Horrorstrap beállításainak konfigurálása</value>
   </data>
   <data name="Installer.Completion.Settings.Description" xml:space="preserve">
     <value>Trükközzön az összes funkcióval, amit kínál</value>
@@ -804,19 +804,19 @@ Mit szeretnél tenni?</value>
     <value>Az asztali alkalmazásba kerülsz, amint minden készen van</value>
   </data>
   <data name="Uninstaller.Title" xml:space="preserve">
-    <value>Bubblestrap eltávolítása</value>
+    <value>Horrorstrap eltávolítása</value>
   </data>
   <data name="Uninstaller.Text" xml:space="preserve">
-    <value>Az eltávolítás eltávolítja a Bubblestrap-et a rendszerből, és automatikusan átállítja az alapértelmezett Roblox indítóprogramot, ha az még telepítve van.
+    <value>Az eltávolítás eltávolítja a Horrorstrap-et a rendszerből, és automatikusan átállítja az alapértelmezett Roblox indítóprogramot, ha az még telepítve van.
 Ha azért távolítod el vagy telepíted újra, mert problémáid vannak a Roblox-al, először olvasd el [ezt a súgóoldalt]({0}).
-Előfordulhat, hogy az eltávolítási folyamat nem képes teljesen kitakarítani magát, ezért előfordulhat, hogy kézzel kell kitakarítani a megmaradt fájlokat, ahová a Bubblestrap telepítve volt.
-A Bubblestrap telepítése a „{1}” helyre történt.</value>
+Előfordulhat, hogy az eltávolítási folyamat nem képes teljesen kitakarítani magát, ezért előfordulhat, hogy kézzel kell kitakarítani a megmaradt fájlokat, ahová a Horrorstrap telepítve volt.
+A Horrorstrap telepítése a „{1}” helyre történt.</value>
   </data>
   <data name="Uninstaller.KeepData.Label" xml:space="preserve">
     <value>Tartsa meg a beállításaimat és modjaimat</value>
   </data>
   <data name="Uninstaller.KeepData.Description" xml:space="preserve">
-    <value>Ezek ott maradnak, ahová a Bubblestrap telepítve volt, és automatikusan visszaállnak egy újratelepítéskor.</value>
+    <value>Ezek ott maradnak, ahová a Horrorstrap telepítve volt, és automatikusan visszaállnak egy újratelepítéskor.</value>
   </data>
   <data name="Uninstaller.Uninstall" xml:space="preserve">
     <value>Eltávolítás</value>
@@ -837,18 +837,18 @@ A Bubblestrap telepítése a „{1}” helyre történt.</value>
     <value>Jelenleg nincs telepítve a WebView2 runtime. Egyes Roblox funkciók nem fognak megfelelően működni nélküle, például az asztali alkalmazás. Szeretnéd most letölteni?</value>
   </data>
   <data name="Dialog.CannotCreateShortcuts" xml:space="preserve">
-    <value>A Bubblestrap nem tudott parancsikonokat létrehozni az Asztal és a Start menü számára. Próbálja meg később létrehozni őket a beállításokon keresztül.</value>
+    <value>A Horrorstrap nem tudott parancsikonokat létrehozni az Asztal és a Start menü számára. Próbálja meg később létrehozni őket a beállításokon keresztül.</value>
   </data>
   <data name="Dialog.Exception.Info.2.Alt" xml:space="preserve">
     <value>Nézd meg először a [Bloxstrap Wiki]({0}) oldalát, hátha már találtak megoldást erre a problémára.
-Ha nem, akkor kérjük, jelentse ezt a kivételt a fork karbantartóinak. NE jelentse ezt a Bubblestrap GitHub issue-jeiben, mivel ez egy nem hivatalos build.</value>
+Ha nem, akkor kérjük, jelentse ezt a kivételt a fork karbantartóinak. NE jelentse ezt a Horrorstrap GitHub issue-jeiben, mivel ez egy nem hivatalos build.</value>
     <comment>"fork" in general means "a variation of" or "a different version of". You can alternatively write the first sentence as "...to the maintainers of this version."</comment>
   </data>
   <data name="Installer.Install.Shortcuts.Description" xml:space="preserve">
     <value>Ezek általános parancsikonok, amelyek egy több választási lehetőséget tartalmazó indítási menüt hoznak létre. Az egyes funkciókhoz tartozó parancsikonok később a beállításokban hozhatók létre.</value>
   </data>
   <data name="Menu.Shortcuts.Description" xml:space="preserve">
-    <value>Annak beállítása, hogy a Bubblestrap könnyen elindítható legyen.</value>
+    <value>Annak beállítása, hogy a Horrorstrap könnyen elindítható legyen.</value>
   </data>
   <data name="Menu.Shortcuts.General.Title" xml:space="preserve">
     <value>Általános</value>
@@ -885,7 +885,7 @@ Ha nem, akkor kérjük, jelentse ezt a kivételt a fork karbantartóinak. NE jel
     <value>El nem mentett módosításai vannak. Biztos, hogy mentés nélkül akarja bezárni?</value>
   </data>
   <data name="InstallChecker.VersionLessThanInstalled" xml:space="preserve">
-    <value>A Bubblestrap elindított verziója régebbi, mint a jelenleg telepített verzió.
+    <value>A Horrorstrap elindított verziója régebbi, mint a jelenleg telepített verzió.
 Problémák léphetnek fel, és a beállításai megváltozhatnak. Ajánlott az újratelepítés.
 Biztos, hogy folytatni szeretné?</value>
   </data>
@@ -897,7 +897,7 @@ Biztos, hogy folytatni szeretné?</value>
   </data>
   <data name="Dialog.PlayerError.HelpInformation" xml:space="preserve">
     <value>Arról, hogy ez miért fordulhat elő, és hogyan lehet megoldani, olvassa el [ezt a súgócikket]({0}).
-Ellenőrizd, hogy a Roblox működik-e az [eredeti indítóprogrammal]({1}). Ha nem, akkor ez nem a Bubblestrap problémája. Ha igen, akkor olvassa el a súgócikket.</value>
+Ellenőrizd, hogy a Roblox működik-e az [eredeti indítóprogrammal]({1}). Ha nem, akkor ez nem a Horrorstrap problémája. Ha igen, akkor olvassa el a súgócikket.</value>
   </data>
   <data name="Common.NetworkError" xml:space="preserve">
     <value>Hálózati hiba miatt nem sikerült betölteni az adatokat.</value>
@@ -930,11 +930,11 @@ Ellenőrizd, hogy a Roblox működik-e az [eredeti indítóprogrammal]({1}). Ha 
     <value>A mostani induláskor a Roblox nem lesz ellenőrizve frissítések szempontjából, és a modok módosításai nem lesznek alkalmazva.</value>
   </data>
   <data name="Dialog.Connectivity.RobloxUpgradeNeeded" xml:space="preserve">
-    <value>Mivel a Robloxot telepíteni vagy frissíteni kell, a Bubblestrap nem tud folytatódni.</value>
+    <value>Mivel a Robloxot telepíteni vagy frissíteni kell, a Horrorstrap nem tud folytatódni.</value>
   </data>
   <data name="Installer.Install.CannotOverwrite" xml:space="preserve">
-    <value>A Bubblestrap már korábban is települt erre a helyre, és még mindig jelen van, azonban a telepítő nem tudja felülírni a régi futtatható fájlt. 
-Kérjük, manuálisan törölje a Bubblestrap.exe fájlt a telepítési helyről, vagy próbálja meg újraindítani a rendszert, majd ezt követően próbálja meg újra a telepítést.</value>
+    <value>A Horrorstrap már korábban is települt erre a helyre, és még mindig jelen van, azonban a telepítő nem tudja felülírni a régi futtatható fájlt. 
+Kérjük, manuálisan törölje a Horrorstrap.exe fájlt a telepítési helyről, vagy próbálja meg újraindítani a rendszert, majd ezt követően próbálja meg újra a telepítést.</value>
   </data>
   <data name="Common.NotAvailable" xml:space="preserve">
     <value>Nem elérhető</value>
@@ -946,7 +946,7 @@ Kérjük, manuálisan törölje a Bubblestrap.exe fájlt a telepítési helyről
     <value>Az alkalmazás paramétereinek konfigurálása, például a DPI-skálázási viselkedés és a [teljes képernyős optimalizálás]({0}).</value>
   </data>
   <data name="Common.RobloxNotInstalled" xml:space="preserve">
-    <value>A Roblox még nem lett telepítve. Kérjük, legalább egyszer indítsa el a Robloxot a Bubblestrap segítségével, mielőtt megpróbálná használni ezt az opciót.</value>
+    <value>A Roblox még nem lett telepítve. Kérjük, legalább egyszer indítsa el a Robloxot a Horrorstrap segítségével, mielőtt megpróbálná használni ezt az opciót.</value>
   </data>
   <data name="Installer.ShouldCancel" xml:space="preserve">
     <value>Biztos, hogy le akarja állítani a telepítést?</value>
@@ -963,10 +963,10 @@ Kérjük, manuálisan törölje a Bubblestrap.exe fájlt a telepítési helyről
     <value>Roblox ikonok átmásolása mappába</value>
   </data>
   <data name="Menu.Shortcuts.ExtractIcons.Description" xml:space="preserve">
-    <value>Lehetővé teszi, hogy a Bubblestrap Roblox ikonok választékát használd a parancsikonokhoz. [Lásd hogyan.]({0})</value>
+    <value>Lehetővé teszi, hogy a Horrorstrap Roblox ikonok választékát használd a parancsikonokhoz. [Lásd hogyan.]({0})</value>
   </data>
   <data name="Dialog.RegistryWriteError" xml:space="preserve">
-    <value>A Bubblestrap nem tud írni a Windows Registry-be. Valószínűleg egy vírusirtó zavarja és problémákat okoz. Kérjük, ellenőrizze, hogy nincs-e valami, ami korlátozná a Bubblestrap működését.</value>
+    <value>A Horrorstrap nem tud írni a Windows Registry-be. Valószínűleg egy vírusirtó zavarja és problémákat okoz. Kérjük, ellenőrizze, hogy nincs-e valami, ami korlátozná a Horrorstrap működését.</value>
   </data>
   <data name="Menu.FastFlags.Reset.Title" xml:space="preserve">
     <value>Minden visszaállítása alapértelmezettbe</value>
@@ -1001,7 +1001,7 @@ Szeretné engedélyezni a teszt üzemmódot?</value>
     <value>Egyéni</value>
   </data>
   <data name="Bootstrapper.FilesInUse" xml:space="preserve">
-    <value>A Bubblestrap megpróbálta frissíteni a Robloxot, de nem tudja, mert a Roblox fájljai még mindig használatban vannak.
+    <value>A Horrorstrap megpróbálta frissíteni a Robloxot, de nem tudja, mert a Roblox fájljai még mindig használatban vannak.
 Kérjük, zárjon be minden olyan alkalmazást, amely a Roblox fájljait használja, és indítsa újra.</value>
     <comment>This is *not* for when Roblox is still running when trying to upgrade. This applies to files being open (i.e. image assets)</comment>
   </data>
@@ -1011,17 +1011,17 @@ Kérjük, zárjon be minden olyan alkalmazást, amely a Roblox fájljait haszná
   </data>
   <data name="Common.Export" xml:space="preserve">
     <value>Exportálás</value>
-    <comment>Currently used under the "Bubblestrap" settings tab for the button to export diagnostic data</comment>
+    <comment>Currently used under the "Horrorstrap" settings tab for the button to export diagnostic data</comment>
   </data>
   <data name="Dialog.Connectivity.Preventing" xml:space="preserve">
-    <value>Valami valószínűleg megakadályozza, hogy a Bubblestrap csatlakozzon az internethez.</value>
+    <value>Valami valószínűleg megakadályozza, hogy a Horrorstrap csatlakozzon az internethez.</value>
   </data>
   <data name="Dialog.Connectivity.TimedOut" xml:space="preserve">
     <value>A kapcsolat megszakadt, ami rossz internetkapcsolatra vagy tűzfalblokkolásra utalhat.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="Menu.Channel.Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value>A Roblox és a Bubblestrap telepítési és beállítási paramétereinek módosítása.</value>
+    <value>A Roblox és a Horrorstrap telepítési és beállítási paramétereinek módosítása.</value>
   </data>
   <data name="Common.Channel" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value>Csatorna</value>
@@ -1039,7 +1039,7 @@ Kérjük, zárjon be minden olyan alkalmazást, amely a Roblox fájljait haszná
     <value>A Roblox már nem támogatja a Windows 7 vagy 8.1 operációs rendszert. A Roblox játék folytatásához kérjük, frissítsen Windows 10-re vagy újabb verzióra.</value>
   </data>
   <data name="Bootstrapper.Status.UpgradingBloxstrap" xml:space="preserve">
-    <value>A legújabb Bubblestrap beszerzése...</value>
+    <value>A legújabb Horrorstrap beszerzése...</value>
   </data>
   <data name="Enums.CustomThemeTemplate.Blank" xml:space="preserve">
     <value>Üres</value>
@@ -1198,7 +1198,7 @@ Kérjük, zárjon be minden olyan alkalmazást, amely a Roblox fájljait haszná
   <data name="CustomTheme.Errors.SetupFailed" xml:space="preserve">
     <value>Sikertelen az egyéni bootstrapper beállítása: {0}.
 Alapértelmezés szerint {1}.</value>
-    <comment>{0} is the error reason, {1} is the theme name (e.g. Bubblestrap (Classic))</comment>
+    <comment>{0} is the error reason, {1} is the theme name (e.g. Horrorstrap (Classic))</comment>
   </data>
   <data name="Menu.Appearance.CustomThemes.NoneSelected" xml:space="preserve">
     <value>Nincs egyéni téma kiválasztva.</value>
@@ -1265,7 +1265,7 @@ Alapértelmezés szerint {1}.</value>
     <value>Módosítás</value>
   </data>
   <data name="About.Title" xml:space="preserve">
-    <value>A Bubblestrapről</value>
+    <value>A Horrorstrapről</value>
   </data>
   <data name="ContextMenu.ServerInformation.Uptime" xml:space="preserve">
     <value>Üzemidő</value>
@@ -1286,11 +1286,11 @@ Alapértelmezés szerint {1}.</value>
   <data name="Menu.Behaviour.CloseCrashHandler.Title" xml:space="preserve">
     <value>Roblox Crash Handler letiltása</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Description" xml:space="preserve">
-    <value>Engedélyezze ezt, hogy az alkalmazás megnyitásakor egy egyéni Bubblestrap Discord RPC jelenjen meg a profilján.</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Description" xml:space="preserve">
+    <value>Engedélyezze ezt, hogy az alkalmazás megnyitásakor egy egyéni Horrorstrap Discord RPC jelenjen meg a profilján.</value>
   </data>
-  <data name="Menu.Integrations.ShowBubblestrapRPC.Title" xml:space="preserve">
-    <value>Bubblestrap RPC</value>
+  <data name="Menu.Integrations.ShowHorrorstrapRPC.Title" xml:space="preserve">
+    <value>Horrorstrap RPC</value>
   </data>
   <data name="Menu.Mods.Misc.CustomDeathSound.Choose" xml:space="preserve">
     <value>Válasszon hangot...</value>
@@ -1374,7 +1374,7 @@ Alapértelmezés szerint {1}.</value>
     <value>Verzió hash</value>
   </data>
   <data name="Menu.Channel.VersionHash.Desription" xml:space="preserve">
-    <value>A Bubblestrap alkalmazásnak egy adott hash-értékből kell letöltenie a verziót. Kérjük, ne módosítsa ezt a beállítást, ha nem tudja, hogy ez mit jelent.</value>
+    <value>A Horrorstrap alkalmazásnak egy adott hash-értékből kell letöltenie a verziót. Kérjük, ne módosítsa ezt a beállítást, ha nem tudja, hogy ez mit jelent.</value>
   </data>
   <data name="Menu.SaveAndLaunch" xml:space="preserve">
     <value>Mentés és indítás</value>
@@ -1403,7 +1403,7 @@ Szeretne átváltani az alapértelmezett csatornára ({1})?</value>
     <value>Automatikus csatornaváltás</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Description" xml:space="preserve">
-    <value>A Roblox vagy a Bubblestrap megpróbálhatja megváltoztatni a preferált csatornádat.</value>
+    <value>A Roblox vagy a Horrorstrap megpróbálhatja megváltoztatni a preferált csatornádat.</value>
   </data>
   <data name="Menu.Channel.ChangeAction.Automatic" xml:space="preserve">
     <value>Automatikus váltás</value>
@@ -1431,32 +1431,32 @@ Szeretnéd {0} csatornára váltani a preferált csatornádat?</value>
     <value>A megadott csatorna vagy nem létezik, vagy privát.</value>
   </data>
   <data name="Installer.FailedToImportSettings" xml:space="preserve">
-    <value>A Bubblestrap beállítások importálása sikertelen.
+    <value>A Horrorstrap beállítások importálása sikertelen.
 {0}</value>
   </data>
   <data name="Installer.ImportSettings" xml:space="preserve">
-    <value>Beállítások importálása a Bubblestrapból</value>
+    <value>Beállítások importálása a Horrorstrapból</value>
   </data>
   <data name="Installer.InstallationNotFound" xml:space="preserve">
-    <value>A Bubblestrap telepítő nem található.</value>
+    <value>A Horrorstrap telepítő nem található.</value>
   </data>
   <data name="Menu.Bloxstrap.Description" xml:space="preserve">
-    <value>A Bubblestrap viselkedésével kapcsolatos beállítások konfigurálása.</value>
+    <value>A Horrorstrap viselkedésével kapcsolatos beállítások konfigurálása.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.Description" xml:space="preserve">
     <value>Gyűjtsön össze olyan információkat, amelyeket online feltölthet a problémája megoldása érdekében.</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportConfig" xml:space="preserve">
-    <value>Bubblestrap konfiguráció</value>
+    <value>Horrorstrap konfiguráció</value>
   </data>
   <data name="Menu.Bloxstrap.ExportData.ExportLogs" xml:space="preserve">
-    <value>Minden Bubblestrap napló</value>
+    <value>Minden Horrorstrap napló</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Title" xml:space="preserve">
     <value>Tisztítószer</value>
   </data>
   <data name="Menu.Bootstrapper.CleanUp.Description" xml:space="preserve">
-    <value>A Bubblestrap eltávolítja a régi adatokat, hogy helyet takarítson meg.</value>
+    <value>A Horrorstrap eltávolítja a régi adatokat, hogy helyet takarítson meg.</value>
   </data>
   <data name="Enums.CleanerOptions.Never" xml:space="preserve">
     <value>Soha</value>
@@ -1492,16 +1492,16 @@ Szeretnéd {0} csatornára váltani a preferált csatornádat?</value>
     <value>A régi naplófájlok törlésre kerülnek.</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Title" xml:space="preserve">
-    <value>Bubblestrap naplófájlok</value>
+    <value>Horrorstrap naplófájlok</value>
   </data>
   <data name="Menu.Bootstrapper.Cleaner.IncludeBloxstrap.Description" xml:space="preserve">
-    <value>A Bubblestrap naplófájlok törlésre kerülnek.</value>
+    <value>A Horrorstrap naplófájlok törlésre kerülnek.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Header" xml:space="preserve">
     <value>A FastFlags funkció ideiglenesen letiltásra került.</value>
   </data>
   <data name="Menu.FastFlagsDisabled.Description" xml:space="preserve">
-    <value>További információkért csatlakozz a Bubblestrap Discord szerverhez.</value>
+    <value>További információkért csatlakozz a Horrorstrap Discord szerverhez.</value>
   </data>
   <data name="Bootstrapper.Status.WaitingForData" xml:space="preserve">
     <value>Adatokra várás</value>
@@ -1543,7 +1543,7 @@ Szeretnéd {0} csatornára váltani a preferált csatornádat?</value>
     <value>Globális beállítások</value>
   </data>
   <data name="Menu.GBSEditor.Description" xml:space="preserve">
-    <value>A játék beállításait a Bubblestrap menüből állíthatod be.</value>
+    <value>A játék beállításait a Horrorstrap menüből állíthatod be.</value>
   </data>
   <data name="Menu.GBSEditor.UITransparency.Title" xml:space="preserve">
     <value>Átláthatóság</value>
@@ -1591,10 +1591,10 @@ Szeretnéd {0} csatornára váltani a preferált csatornádat?</value>
     <value>Válassza ki a Roblox által használni kívánt FRM minőséget.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Title" xml:space="preserve">
-    <value>Engedd meg a Bubblestrap alkalmazásnak, hogy hozzáférjen a Roblox-fiókodhoz.</value>
+    <value>Engedd meg a Horrorstrap alkalmazásnak, hogy hozzáférjen a Roblox-fiókodhoz.</value>
   </data>
   <data name="Menu.Bootstrapper.AllowCookieAccess.Description" xml:space="preserve">
-    <value>Biztosíts hozzáférést a Roblox API-khoz a hitelesítési cookie-d segítségével. [Mire fog hozzáférni a Bubblestrap?]({0})</value>
+    <value>Biztosíts hozzáférést a Roblox API-khoz a hitelesítési cookie-d segítségével. [Mire fog hozzáférni a Horrorstrap?]({0})</value>
   </data>
   <data name="Menu.Behaviour.MemoryTrimmer.Title" xml:space="preserve">
     <value>Memória-vágó</value>
@@ -1864,7 +1864,7 @@ Ehelyett a legújabb verziót telepítem.</value>
     <value>Töltsd le és telepítsd a jelenlegi verziót megelőzően elérhető Roblox-verziót.</value>
   </data>
   <data name="Menu.About.Contributors.Description" xml:space="preserve">
-    <value>Ők azok, akik jelentős mértékben hozzájárultak a Bubblestrap fejlődéséhez, és segítettek abban, hogy a projekt azzá váljon, ami ma.</value>
+    <value>Ők azok, akik jelentős mértékben hozzájárultak a Horrorstrap fejlődéséhez, és segítettek abban, hogy a projekt azzá váljon, ami ma.</value>
   </data>
   <data name="Menu.Integrations.ShowAccountOnProfile.HideUsername.Title" xml:space="preserve">
     <value>Felhasználónév elrejtése</value>

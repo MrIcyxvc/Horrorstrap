@@ -16,11 +16,11 @@
     ExtendsContentIntoTitleBar="True"
     d:DataContext="{d:DesignInstance dmodels:BootstrapperEditorWindowViewModel,
                                      IsDesignTimeCreatable=True}"
-    Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+    Background="{DynamicResource ApplicationBackground}"
     Closing="OnClosing"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -33,7 +33,7 @@
             Grid.Row="0"
             Padding="8"
             ForceShutdown="False"
-            Icon="pack://application:,,,/Bubblestrap.ico"
+            Icon="pack://application:,,,/Horrorstrap.ico"
             MinimizeToTray="False"
             UseSnapLayout="True" />
 

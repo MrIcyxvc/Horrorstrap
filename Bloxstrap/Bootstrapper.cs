@@ -914,9 +914,6 @@ namespace Bloxstrap
 
             _mutex?.ReleaseAsync();
 
-            if (IsStudioLaunch)
-                return;
-
             // lord.... forgive me for this hack.....
             // launch custom integrations now
             foreach (var integration in App.Settings.Prop.CustomIntegrations)
@@ -961,7 +958,8 @@ namespace Bloxstrap
                 {
                     ProcessId = _appPid,
                     LogFile = logFileName,
-                    AutoclosePids = autoclosePids
+                    AutoclosePids = autoclosePids,
+                    IsStudio = IsStudioLaunch
                 };
 
                 string watcherDataArg = Convert.ToBase64String(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(watcherData)));
@@ -1052,7 +1050,7 @@ namespace Bloxstrap
             // i don't like this, but there isn't much better way of doing it /shrug
             if (Process.GetProcessesByName(App.ProjectName).Length > 1)
             {
-                App.Logger.WriteLine(LOG_IDENT, $"More than one Bubblestrap instance running, aborting update check");
+                App.Logger.WriteLine(LOG_IDENT, $"More than one {App.ProjectName} instance running, aborting update check");
                 return false;
             }
 
@@ -1086,7 +1084,7 @@ namespace Bloxstrap
             try
             {
 #if DEBUG_UPDATER
-                string downloadLocation = Path.Combine(Paths.TempUpdates, "Bubblestrap.exe");
+                string downloadLocation = Path.Combine(Paths.TempUpdates, $"{App.ProjectName}.exe");
 
                 Directory.CreateDirectory(Paths.TempUpdates);
 
@@ -1391,7 +1389,6 @@ namespace Bloxstrap
             {
                 SetStatus(Strings.Bootstrapper_Status_CancelUpgrade);
                 App.Logger.WriteLine(LOG_IDENT, "Upgrading disabled, cancelling the upgrade.");
-                Thread.Sleep(2000);
             }
 
             if (CancelUpgrade && !Directory.Exists(_latestVersionDirectory))

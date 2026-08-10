@@ -56,8 +56,13 @@ namespace Bloxstrap.Integrations
 
         public bool IsDisposed = false;
 
-        public ActivityWatcher(string? logFile = null)
+        public DateTime SessionStartTime { get; private set; } = DateTime.MinValue;
+
+        public bool IsStudio { get; private set; } = false;
+
+        public ActivityWatcher(bool isStudio = false, string? logFile = null)
         {
+            IsStudio = isStudio;
             if (!String.IsNullOrEmpty(logFile))
                 LogLocation = logFile;
         }
@@ -94,11 +99,12 @@ namespace Bloxstrap.Integrations
 
                 while (true)
                 {
+                    string logNameFilter = IsStudio ? "Studio" : "Player";
                     logFileInfo = new DirectoryInfo(logDirectory)
-                        .GetFiles()
-                        .Where(x => x.Name.Contains("Player", StringComparison.OrdinalIgnoreCase) && x.CreationTime <= DateTime.Now)
-                        .OrderByDescending(x => x.CreationTime)
-                        .First();
+                            .GetFiles()
+                            .Where(x => x.Name.Contains(logNameFilter, StringComparison.OrdinalIgnoreCase) && x.CreationTime <= DateTime.Now)
+                            .OrderByDescending(x => x.CreationTime)
+                            .First();
 
                     if (logFileInfo.CreationTime.AddSeconds(15) > DateTime.Now)
                         break;
@@ -118,6 +124,7 @@ namespace Bloxstrap.Integrations
 
             var logFileStream = logFileInfo.Open(FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
 
+            SessionStartTime = DateTime.Now;
             App.Logger.WriteLine(LOG_IDENT, $"Opened {LogLocation}");
             _ = RunMemoryTrimmer();
 

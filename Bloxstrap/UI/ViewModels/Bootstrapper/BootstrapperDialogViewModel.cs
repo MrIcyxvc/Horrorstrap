@@ -22,7 +22,18 @@ namespace Bloxstrap.UI.ViewModels.Bootstrapper
         public TaskbarItemProgressState TaskbarProgressState { get; set; } = TaskbarItemProgressState.Indeterminate;
         public double TaskbarProgressValue { get; set; } = 0;
 
-        public bool CancelEnabled { get; set; } = false;
+        private bool _cancelEnabled = false;
+        public bool CancelEnabled
+        {
+            get => _cancelEnabled;
+            set
+            {
+                _cancelEnabled = value;
+                OnPropertyChanged(nameof(CancelEnabled));
+                OnPropertyChanged(nameof(CancelButtonVisibility));
+            }
+        }
+
         public Visibility CancelButtonVisibility => CancelEnabled ? Visibility.Visible : Visibility.Collapsed;
 
         [Obsolete("Do not use this! This is for the designer only.", true)]

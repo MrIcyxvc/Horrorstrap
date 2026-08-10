@@ -6,7 +6,7 @@ namespace Bloxstrap.Utility
     {
         private static GenericTriState _loadStatus = GenericTriState.Unknown;
 
-        public static void Create(string exePath, string exeArgs, string lnkPath, bool overwrite = false)
+        public static void Create(string exePath, string exeArgs, string lnkPath, bool overwrite = false, string? iconPath = null)
         {
             const string LOG_IDENT = "Shortcut::Create";
 
@@ -15,7 +15,7 @@ namespace Bloxstrap.Utility
 
             try
             {
-                ShellLink.Shortcut.CreateShortcut(exePath, exeArgs, exePath, 0).WriteToFile(lnkPath);
+                ShellLink.Shortcut.CreateShortcut(exePath, exeArgs, iconPath ?? exePath, 0).WriteToFile(lnkPath);
 
                 if (_loadStatus != GenericTriState.Successful)
                     _loadStatus = GenericTriState.Successful;

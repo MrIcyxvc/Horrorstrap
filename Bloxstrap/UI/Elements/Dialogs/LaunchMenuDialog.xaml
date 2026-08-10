@@ -9,23 +9,23 @@
         xmlns:models="clr-namespace:Bloxstrap.UI.ViewModels"
         xmlns:resources="clr-namespace:Bloxstrap.Resources"
         mc:Ignorable="d"
-        Title="Bubblestrap"
+        Title="Horrorstrap"
         MinWidth="0"
         MinHeight="0"
         Width="580"
         SizeToContent="Height"
         ResizeMode="NoResize"
-        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        Background="{DynamicResource ApplicationBackground}"
         ExtendsContentIntoTitleBar="True"
         WindowBackdropType="Mica"             
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource ApplicationBackground}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" ShowMinimize="False" ShowMaximize="False" Title="Bubblestrap" Icon="pack://application:,,,/Bubblestrap.ico" CanMaximize="False" KeyboardNavigation.TabNavigation="None" />
+        <ui:TitleBar Grid.Row="0" Grid.ColumnSpan="2" Padding="8" ShowMinimize="False" ShowMaximize="False" Title="Horrorstrap" Icon="pack://application:,,,/Horrorstrap.ico" CanMaximize="False" KeyboardNavigation.TabNavigation="None" />
 
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -45,16 +45,16 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Image Grid.Column="0" Width="64" Height="64" Source="pack://application:,,,/Bubblestrap.ico" RenderOptions.BitmapScalingMode="HighQuality" />
+                    <Image Grid.Column="0" Width="64" Height="64" Source="pack://application:,,,/Horrorstrap.ico" RenderOptions.BitmapScalingMode="HighQuality" />
                     <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center">
-                        <TextBlock x:Name="LaunchTitle" Text="Bubblestrap" FontSize="24" FontWeight="SemiBold" />
+                        <TextBlock x:Name="LaunchTitle" Text="Horrorstrap" FontSize="24" FontWeight="SemiBold" />
                         <TextBlock Text="{Binding Version, Mode=OneTime}" VerticalAlignment="Bottom" FontSize="12" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
                     </StackPanel>
                 </Grid>
 
                 <StackPanel Grid.Row="1" HorizontalAlignment="Center">
                     <ui:Hyperlink Icon="QuestionCircle48" Content="{x:Static resources:Strings.About_Title}" Margin="0,0,0,8" Command="{Binding LaunchAboutCommand, Mode=OneTime}" HorizontalAlignment="Center" />
-                    <ui:Hyperlink Icon="Chat48" Content="{x:Static resources:Strings.LaunchMenu_Discord}" NavigateUri="https://discord.gg/VTKQCSwPvU" HorizontalAlignment="Center" />
+                    <ui:Hyperlink Icon="Chat48" Content="{x:Static resources:Strings.LaunchMenu_Discord}" NavigateUri="https://discord.gg/Y9TPgwvaQ5" HorizontalAlignment="Center" />
                 </StackPanel>
             </Grid>
 

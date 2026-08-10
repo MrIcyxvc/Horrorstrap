@@ -68,6 +68,7 @@ namespace Bloxstrap
                 try
                 {
                     File.Copy(Paths.Process, Paths.Application, true);
+                    File.Copy(Path.Combine(AppContext.BaseDirectory, "Horrorstrap.ico"), Path.Combine(Paths.Base, "Horrorstrap.ico"), true);
                 }
                 catch (Exception ex)
                 {
@@ -107,16 +108,18 @@ namespace Bloxstrap
             // studio can be implicitly registered when it's first launched manually
             WindowsRegistry.RegisterPlayer();
 
+            string iconPath = Path.Combine(Paths.Base, "Horrorstrap.ico");
+
             if (CreateDesktopShortcuts)
-                Shortcut.Create(Paths.Application, "", DesktopShortcut, overwrite: true);
+                Shortcut.Create(Paths.Application, "", DesktopShortcut, overwrite: true, iconPath);
 
             if (CreateStartMenuShortcuts)
-                Shortcut.Create(Paths.Application, "", StartMenuShortcut, overwrite: true);
+                Shortcut.Create(Paths.Application, "", StartMenuShortcut, overwrite: true, iconPath);
 
             if (ImportSettings)
             {
                 // we dont have to worry about directories messing up
-                // if something doesnt exist Bubblestrap will recreate the file/directory
+                // if something doesnt exist Horrorstrap will recreate the file/directory
                 try
                 {
                     ImportSettingsFromFishstrap();

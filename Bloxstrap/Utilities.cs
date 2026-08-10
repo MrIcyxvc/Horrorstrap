@@ -1,10 +1,18 @@
 ﻿using Bloxstrap.AppData;
 using System.ComponentModel;
+using System.Security.Principal;
 
 namespace Bloxstrap
 {
     static class Utilities
     {
+        public static bool IsAdmin()
+        {
+            using var identity = WindowsIdentity.GetCurrent();
+            var principal = new WindowsPrincipal(identity);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
+        }
+
         public static void ShellExecute(string website)
         {
             try

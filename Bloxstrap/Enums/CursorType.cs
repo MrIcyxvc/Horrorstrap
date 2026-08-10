@@ -10,6 +10,27 @@
         From2006,
 
         [EnumSort(Order = 2)]
-        From2013
+        From2013,
+
+        [EnumSort(Order = 4)]
+        BlackAndWhiteDot,
+
+        [EnumSort(Order = 5)]
+        PurpleCross,
+
+        [EnumSort(Order = 6)]
+        CleanCursor,
+
+        [EnumSort(Order = 7)]
+        DotCursor,
+
+        [EnumSort(Order = 8)]
+        FPSCursor,
+
+        [EnumSort(Order = 9)]
+        StoofsCursor,
+
+        [EnumSort(Order = 10)]
+        WhiteDotCursor
     }
 }

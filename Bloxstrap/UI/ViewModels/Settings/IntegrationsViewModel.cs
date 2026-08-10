@@ -108,18 +108,18 @@ namespace Bloxstrap.UI.ViewModels.Settings
             }
         }
 
-        public bool ShowUsingBubblestrapRPC
+        public bool ShowUsingHorrorstrapRPC
         {
-            get => App.Settings.Prop.ShowUsingBubblestrapRPC;
+            get => App.Settings.Prop.ShowUsingHorrorstrapRPC;
             set
             {
-                App.Settings.Prop.ShowUsingBubblestrapRPC = value;
+                App.Settings.Prop.ShowUsingHorrorstrapRPC = value;
 
                 if (value)
                 {
                     if (App.BubbleRPC == null)
                     {
-                        App.BubbleRPC = new BubblestrapRichPresence();
+                        App.BubbleRPC = new HorrorstraptrapRichPresence();
                         App.BubbleRPC.SetPage("Integration");
                     }
                 }

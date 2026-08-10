@@ -19,7 +19,7 @@
 
         <controls:OptionControl 
             Header="{x:Static resources:Strings.Menu_Bootstrapper_AllowCookieAccess_Title}"
-            Description="{Binding Source={x:Static resources:Strings.Menu_Bootstrapper_AllowCookieAccess_Description}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://github.com/ItzBloxxy/Bubblestrap/wiki/What-will-Bubblestrap-access-with-your-account%3F'}">
+            Description="{Binding Source={x:Static resources:Strings.Menu_Bootstrapper_AllowCookieAccess_Description}, Converter={StaticResource StringFormatConverter}, ConverterParameter='https://github.com/MrIcyxvc/Horrorstrap/wiki/What-will-Horrorstrap-access-with-your-account%3F'}">
             <StackPanel Orientation="Horizontal">
                 <ui:SymbolIcon Symbol="Warning20" Margin="0,2,8,0" Foreground="Orange">
                     <ui:SymbolIcon.Style>
@@ -86,7 +86,7 @@
             <ui:ToggleSwitch IsChecked="{Binding BackgroundUpdates, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <ui:CardExpander Grid.Row="1" Margin="0,8,0,0" IsExpanded="True">
+        <ui:CardExpander Grid.Row="1" Margin="0,8,0,0" IsExpanded="False">
             <ui:CardExpander.Header>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -125,7 +125,7 @@
             </StackPanel>
         </ui:CardExpander>
 
-        <ui:CardExpander Grid.Row="1" Margin="0,8,0,0" IsExpanded="True">
+        <ui:CardExpander Grid.Row="1" Margin="0,8,0,0" IsExpanded="False">
             <ui:CardExpander.Header>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -164,7 +164,7 @@
                 <controls:OptionControl 
     Header="{x:Static resources:Strings.Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Title}"
     Description="{x:Static resources:Strings.Menu_Bootstrapper_Cleaner_IncludeBloxstrap_Description}">
-                    <ui:ToggleSwitch IsChecked="{Binding CleanerBubblestrap, Mode=TwoWay}" />
+                    <ui:ToggleSwitch IsChecked="{Binding CleanerHorrorstrap, Mode=TwoWay}" />
                 </controls:OptionControl>
             </StackPanel>
         </ui:CardExpander>
