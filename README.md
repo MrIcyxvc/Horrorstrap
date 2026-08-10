@@ -1,7 +1,7 @@
 <div align="center">
 
   <img
-    src="https://kommodo.ai/i/Fnbpcr02MhdnxFjtFUyt"
+    src="Bloxstrap/Horrorstrap.ico"
     width="1320"
     alt="Horrorstrap"
   />
@@ -24,7 +24,7 @@
 > Horrorstrap is currently under active development. Some features may change or break between releases.
 
 <p align="center">
-  <img src="YOUR_HORRORSTRAP_LOGO_URL" width="300" alt="Horrorstrap Logo">
+  <img src="Bloxstrap/Horrorstrap.ico" width="300" alt="Horrorstrap Logo">
 </p>
 
 Horrorstrap is a third-party Roblox bootstrapper focused on **performance, customization, and additional tools** for Windows.
