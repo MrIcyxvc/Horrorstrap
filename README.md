@@ -154,7 +154,7 @@ If you want to build Horrorstrap yourself, you can clone the repository and buil
 
 - Windows 10 or later
 - Git
-- .NET SDK 10.0 or later
+- .NET 9 Desktop Runtime x64 or later
 - Visual Studio or Visual Studio Code
 
 ## Clone the Repository
