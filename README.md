@@ -136,7 +136,7 @@ If you'd like to build Horrorstrap from source, follow the steps below.
 - Windows 10 or later (x64)
 - [Git](https://git-scm.com/)
 - [.NET 9 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) with C# extensions
+- [Visual Studio 20226](https://visualstudio.microsoft.com/) with C# extensions
 
 ## Build Instructions
 
