@@ -1,7 +1,7 @@
 <div align="center">
 
   <img
-    src="YOUR_HORRORSTRAP_BANNER_URL"
+    src="https://canva.link/jxio44ddmuz7hqh"
     width="1320"
     alt="Horrorstrap"
   />
