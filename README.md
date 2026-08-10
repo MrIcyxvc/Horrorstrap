@@ -1,10 +1,14 @@
 <div align="center">
 
+  <p align="center">
   <img
     src="Bloxstrap/Horrorstrap.ico"
     width="400"
     alt="Horrorstrap"
   />
+  <br>
+  <span style="color: black; font-size: 28px; font-weight: bold;">Horrorstrap</span>
+</p>
 
   <br/><br/>
 
