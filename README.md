@@ -1,24 +1,34 @@
 <div align="center">
 
   <p align="center">
-  <img
-    src="Bloxstrap/Horrorstrap.ico"
-    width="400"
-    alt="Horrorstrap"
-  />
-  <br>
-  <span style="font-size: 28px; font-weight: bold;">Horrorstrap</span>
-</p>
+    <img
+      src="Bloxstrap/Horrorstrap.ico"
+      width="400"
+      alt="Horrorstrap"
+    />
+    <br>
+    <strong>Horrorstrap</strong>
+  </p>
 
   <br/><br/>
 
-  [![Latest Release][badge-version]][releases]
-  [![Stars][badge-stars]][stargazers]
-  [![License][badge-license]][license]
-  [![Downloads][badge-downloads]][releases]
+  <a href="https://github.com/MrIcyxvc/Horror/releases">
+    <img src="https://img.shields.io/github/v/release/MrIcyxvc/Horror?label=RELEASE&labelColor=55585e&color=45b853&style=flat-square" alt="Release">
+  </a>
+  <a href="https://github.com/MrIcyxvc/Horror/stargazers">
+    <img src="https://img.shields.io/github/stars/MrIcyxvc/Horror?label=STARS&labelColor=55585e&color=f5a623&style=flat-square" alt="Stars">
+  </a>
+  <a href="https://github.com/MrIcyxvc/Horror/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MrIcyxvc/Horror?label=LICENSE&labelColor=55585e&color=3b9eea&style=flat-square" alt="License">
+  </a>
+  <a href="https://github.com/MrIcyxvc/Horror/releases/latest">
+    <img src="https://img.shields.io/github/downloads/MrIcyxvc/Horror/latest/total?label=DOWNLOADS%40LATEST&labelColor=55585e&color=e91e63&style=flat-square" alt="Latest Downloads">
+  </a>
+  <a href="https://github.com/MrIcyxvc/Horror/releases">
+    <img src="https://img.shields.io/github/downloads/MrIcyxvc/Horror/total?label=DOWNLOADS&labelColor=55585e&color=9c27b0&style=flat-square" alt="Downloads">
+  </a>
 
 </div>
-
 > [!CAUTION]
 > **Only download Horrorstrap from the official GitHub repository or official Horrorstrap website.**
 >
