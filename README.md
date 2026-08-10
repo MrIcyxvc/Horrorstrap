@@ -7,7 +7,7 @@
     alt="Horrorstrap"
   />
   <br>
-  <span style="color: black; font-size: 28px; font-weight: bold;">Horrorstrap</span>
+  <span style="font-size: 28px; font-weight: bold;">Horrorstrap</span>
 </p>
 
   <br/><br/>
