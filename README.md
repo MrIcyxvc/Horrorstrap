@@ -48,110 +48,99 @@
 ---
 
 > [!IMPORTANT]
-> Horrorstrap is currently under active development. Features, settings, and behavior may change between releases.
+> **Horrorstrap is currently under active development.** Features, settings, and behavior may change between releases. Always refer to the latest documentation.
+
+---
 
 # 🎃 About
 
-**Horrorstrap** is a third-party Roblox bootstrapper for Windows focused on **performance, customization, configuration, and additional tools**.
+**Horrorstrap** is a third-party Roblox bootstrapper for Windows designed to provide enhanced **performance**, **deep customization**, and **advanced configuration tools** beyond the default Roblox experience.
 
-Horrorstrap provides a modern interface for managing Roblox-related settings alongside optional Windows optimizations and utilities.
+Whether you're a casual player looking for smoother gameplay or a power user who wants granular control over system and Roblox settings, Horrorstrap offers a modern, user-friendly interface to manage it all.
 
-The project is designed to provide a simple experience while giving users more control over how Roblox and their system are configured.
-
-> **Windows 10 and later are currently supported.**
+> ✅ **Supported OS:** Windows 10 and later (x64).
 
 ---
 
 # ✨ Features
 
-## 🎮 Roblox
-
-- Roblox bootstrapper
-- Fast Roblox launching
-- Roblox launch options
-- Multi-instance support
-- Roblox configuration management
-- Custom Roblox settings
+## 🎮 Roblox Core
+- Fast, lightweight Roblox bootstrapper
+- Launch Roblox with custom parameters
+- Multi-instance support for multiple accounts
 - Roblox version management
-- Roblox cache management
+- Cache management and cleanup tools
 
-## ⚡ Performance
-
-- FPS optimization options
-- Roblox performance tweaks
-- Network and ping tweaks
-- Windows performance tweaks
-- Configurable performance settings
-- System optimization options
-- CPU-related optimization options
-- Memory optimization options
+## ⚡ Performance Tweaks
+- FPS unlocking and optimization
+- Network and ping optimizations
+- Windows performance enhancements
+- CPU and memory optimization options
+- Toggleable performance profiles
 
 ## 🎨 Customization
+- Dark mode interface
+- Custom themes and appearance settings
+- Application layout customization
+- Roblox client customization options
 
-- Custom themes
-- Dark interface
-- Custom application appearance
-- Roblox customization
-- Configurable application settings
-- Horrorstrap customization options
+## 🔧 Advanced Tools
+- Built-in FFlag editor and manager
+- Roblox configuration utility
+- System optimization toolkit
+- Settings import/export
 
-## 🔧 Tools
-
-- FFlag configuration
-- FFlag editor
-- Roblox configuration tools
-- Cache management
-- Version management
-- Configuration management
-- Additional Roblox utilities
-
-## 🖥️ Windows
-
-- Windows performance tweaks
-- RAM optimization
-- Storage tweaks
-- USB tweaks
-- Keyboard and mouse tweaks
-- Power configuration
-- System configuration options
+## 🖥️ Windows Integration
+- System performance tuning
+- RAM and storage optimization
+- USB, keyboard, and mouse tweaks
+- Power plan configuration
 
 ---
 
 # 📥 Installation
 
-## Download
+## Download the Latest Release
 
-The easiest way to install Horrorstrap is through the latest release.
+The easiest way to get started with Horrorstrap is to download the latest stable release from the official repository.
 
-**[Download the latest release](https://github.com/MrIcyxvc/Horrorstrap/releases/latest)**
+### 🔗 **[Download Horrorstrap](https://github.com/MrIcyxvc/Horrorstrap/releases/latest)**
 
-Download the installer or release package and follow the installation instructions.
-
-After installation, Horrorstrap can be launched from the **Start Menu** or desktop shortcut.
+After downloading, run the installer and follow the on-screen instructions. Once installed, you can launch Horrorstrap from the **Start Menu** or via the desktop shortcut.
 
 > [!TIP]
-> We recommend using the latest stable release from the official Horrorstrap repository.
+> Always use the latest stable version from the official repository to ensure compatibility and security.
 
-### ⚠️ Avoid Unofficial Builds
+---
 
-Only download Horrorstrap from the official repository.
+### ⚠️ Important Security Notice
 
-Avoid downloading modified executables from unknown websites, Discord servers, file-sharing sites, or other unofficial sources.
+**Only download Horrorstrap from the official GitHub repository.**
+
+Avoid downloading executables or modified versions from:
+- Unofficial websites
+- Discord servers
+- File-sharing platforms
+- Any other unverified sources
+
+These may contain malicious code or outdated features.
 
 ---
 
 # 🛠️ Building From Source
 
-If you want to build Horrorstrap yourself, you can clone the repository and build it using the .NET SDK.
+If you'd like to build Horrorstrap from source, follow the steps below.
 
-## Requirements
+## Prerequisites
 
-- Windows 10 or later
-- Git
-- .NET 9 Desktop Runtime x64 or later
-- Visual Studio or Visual Studio Code
+- Windows 10 or later (x64)
+- [Git](https://git-scm.com/)
+- [.NET 9 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) with C# extensions
 
-## Clone the Repository
+## Build Instructions
+
+1. **Clone the repository**
 
 ```powershell
 git clone https://github.com/MrIcyxvc/Horrorstrap.git
