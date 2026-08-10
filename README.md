@@ -1,53 +1,13 @@
-<div align="center">
-
-  <p align="center">
-    <img
-      src="Bloxstrap/Horrorstrap.ico"
-      width="400"
-      alt="Horrorstrap"
-    />
-    <br>
-    <strong>Horrorstrap</strong>
-  </p>
-
-  <br/><br/>
-
-  <a href="https://github.com/MrIcyxvc/Horror/releases">
-    <img src="https://img.shields.io/github/v/release/MrIcyxvc/Horror?label=RELEASE&labelColor=55585e&color=45b853&style=flat-square" alt="Release">
-  </a>
-  <a href="https://github.com/MrIcyxvc/Horror/stargazers">
-    <img src="https://img.shields.io/github/stars/MrIcyxvc/Horror?label=STARS&labelColor=55585e&color=f5a623&style=flat-square" alt="Stars">
-  </a>
-  <a href="https://github.com/MrIcyxvc/Horror/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/MrIcyxvc/Horror?label=LICENSE&labelColor=55585e&color=3b9eea&style=flat-square" alt="License">
-  </a>
-  <a href="https://github.com/MrIcyxvc/Horror/releases/latest">
-    <img src="https://img.shields.io/github/downloads/MrIcyxvc/Horror/latest/total?label=DOWNLOADS%40LATEST&labelColor=55585e&color=e91e63&style=flat-square" alt="Latest Downloads">
-  </a>
-  <a href="https://github.com/MrIcyxvc/Horror/releases">
-    <img src="https://img.shields.io/github/downloads/MrIcyxvc/Horror/total?label=DOWNLOADS&labelColor=55585e&color=9c27b0&style=flat-square" alt="Downloads">
-  </a>
-
-</div>
-> [!CAUTION]
-> **Only download Horrorstrap from the official GitHub repository or official Horrorstrap website.**
->
-> Do not download Horrorstrap from unofficial websites, videos, or file-sharing links.
-
 > [!IMPORTANT]
-> Horrorstrap is currently under active development. Some features may change or break between releases.
+> Horrorstrap is currently under active development. Features, settings, and behavior may change between releases.
 
-<p align="center">
-  <img src="Bloxstrap/Horrorstrap.ico" width="300" alt="Horrorstrap Logo">
-</p>
+Horrorstrap is a third-party Roblox bootstrapper for Windows focused on **performance, customization, and additional tools**.
 
-Horrorstrap is a third-party Roblox bootstrapper focused on **performance, customization, and additional tools** for Windows.
-
-It provides a collection of Roblox-related settings and tweaks through a simple, modern interface.
+It provides a collection of Roblox and Windows settings, optimizations, and utilities through a simple, modern interface.
 
 > **Windows 10 and later are currently supported.**
 
-Having a problem or found a bug?
+Have a problem or found a bug?
 
 👉 **[Open an issue](https://github.com/MrIcyxvc/Horrorstrap/issues)**
 
@@ -57,20 +17,19 @@ Having a problem or found a bug?
 
 ### Q: Is Horrorstrap safe?
 
-**A:** Horrorstrap is open source, meaning the source code can be inspected by anyone.  
-For your security, always download releases from the official repository.
+**A:** Horrorstrap is open source, allowing anyone to inspect its source code. For your security, always download Horrorstrap from the **official GitHub repository** and avoid unofficial builds.
 
-### Q: Can using Horrorstrap get my Roblox account banned?
+### Q: Can Horrorstrap get my Roblox account banned?
 
-**A:** Horrorstrap does not modify Roblox game code or inject code into Roblox experiences. However, Roblox can change its policies at any time, so use third-party software at your own discretion.
+**A:** Horrorstrap does not modify Roblox game code or inject code into Roblox experiences. However, Roblox may change its policies at any time. Use third-party software at your own discretion.
 
 ### Q: What operating systems are supported?
 
-**A:** Horrorstrap currently targets **Windows 10 and later**.
+**A:** Horrorstrap currently supports **Windows 10 and later**.
 
 ### Q: Is Horrorstrap free?
 
-**A:** Yes. Horrorstrap is free and open source.
+**A:** Yes. Horrorstrap is **free and open source**.
 
 ---
 
@@ -84,16 +43,18 @@ For your security, always download releases from the official repository.
 - Roblox configuration management
 - Fast Roblox launching
 - Custom Roblox settings
+- Roblox version management
 
 ### ⚡ Performance
 
-- FPS tweaks
-- Network / ping tweaks
+- FPS optimization
+- Network and ping tweaks
 - Windows performance tweaks
 - Roblox optimization options
 - Configurable performance settings
+- System optimization options
 
-### 🛠️ Customization
+### 🎨 Customization
 
 - Custom themes
 - Dark UI
@@ -115,7 +76,7 @@ For your security, always download releases from the official repository.
 - RAM optimization options
 - Storage tweaks
 - USB tweaks
-- Keyboard & mouse tweaks
+- Keyboard and mouse tweaks
 - Power configuration
 
 ---
@@ -127,11 +88,17 @@ Download the **[latest release][releases]** and run the installer.
 After installation, launch **Horrorstrap** from the Start Menu or desktop shortcut.
 
 > [!TIP]
-> We recommend downloading the latest stable release rather than unofficial builds.
+> We recommend downloading the latest stable release instead of unofficial or modified builds.
 
-### Build from source
+## Building from Source
 
-Clone the repository:
+### Requirements
+
+- Windows 10 or later
+- .NET SDK 10.0 or later
+- Git
+
+### Clone the Repository
 
 ```powershell
 git clone https://github.com/MrIcyxvc/Horrorstrap.git
